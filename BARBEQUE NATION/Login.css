@@ -1,0 +1,295 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@1,900&family=Rampart+One&family=Rubik:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    /* color: #565360; */
+    font-family: sans-serif;
+}
+*::selection
+{
+    background-color: orangered;
+    color: #fff;
+}
+
+body
+{
+    background-color: rgba(0,0,0,0.4);
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ->->->->->| Login -> START |<-<-<-<-<- */
+
+/* ==========| Main -> START |========== */
+main
+{
+    /* width: 23%; */
+    width: 360px;
+    height: 550px;
+    background-color: white;
+    border-radius: 20px;
+}
+/* --------------- Header -> START --------------- */
+header
+{
+    width: 100%;
+    height: 120px;
+    /* background-color: lightblue; */
+    text-align: center;
+    position: relative;
+}
+header img
+{
+    margin-top: 20px;
+}
+header i
+{
+    font-size: 25px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+/* --------------- Header -> END --------------- */
+
+
+/* ---------- Heading -> START ---------- */
+#heading
+{
+    width: 100%;
+    height: 50px;
+    /* background-color: lightsalmon; */
+    text-align: center;
+    font-size: 24px;
+    font-family: nunito sans,sans-serif;
+    font-weight: 700;
+}
+/* ---------- Heading -> END ---------- */
+
+
+/* ---------- Name & Mobile Section -> START  ---------- */
+section
+{
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+}
+article
+{
+    width: 74%;
+    height: inherit;
+    margin: 0 13%;
+    /* background-color: yellow; */
+}
+article form
+{
+    width: 100%;
+    height: inherit;
+    /* background-color: yellowgreen; */
+}
+#Name-Section
+{
+    width: 100%;
+    height: inherit;
+}
+
+article form p
+{
+    height: 18px;
+    margin-top: 20px;
+    /* background-color: yellow; */
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+article form #Name-Section aside
+{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+}
+article form #Mobile-Section aside
+{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    border-radius: 50px;
+    display: flex;
+}
+.left-selection
+{
+    width: 20%;
+    height: 45px;
+}
+.left-selection select
+{
+    width: 100%;
+    height: inherit;
+    background-color: rgba(150,98,87,.1);
+    border: none;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 14px;
+}
+.left-selection select:focus
+{
+    outline: none;
+}
+
+.right-input
+{
+    width: 80%;
+    height: 45px;
+    /* background-color: rgba(150,98,87,.1); */
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.right-input input
+{
+    width: 100%;
+    height: inherit;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border: none;
+    background-color: rgba(150,98,87,.1);
+    accent-color: red;
+    font-size: 16px;
+}
+.right-input input:focus
+{
+    outline: none;
+    accent-color: orangered;
+    padding-left: 10px;
+}
+
+input[type=submit]
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: #ff6301;
+    color: #fff;
+    font-size: 15px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+/* >>>>>| JQuery Functions -> START |<<<<< */
+
+#Name-Section
+{
+    display: none;
+}
+
+
+/* >>>>>| JQuery Functions -> END |<<<<< */
+
+
+
+/* .right-input input:valid input[type=submit]
+{
+    background-color: #ff6301;
+} */
+
+/* ---------- Name & Mobile Section -> END  ---------- */
+
+
+/* ---------- Sign Up -> START ---------- */
+#Sign-Up-In
+{
+    width: 100%;
+    height: 20px;
+    margin: 8% 0 0 0;
+    /* background-color: lightcyan; */
+}
+
+#Sign_Up-para
+{
+    font-size: 12px;
+    font-weight: lighter;
+    display: flex;
+    position: relative;
+    /* display: none; */
+}
+#Sign_Up-para #Sign-Up
+{
+    color: rgb(0, 151, 210);
+    cursor: pointer;
+    font-size: 13px;
+    text-shadow: 0 0 0.5px rgb(0, 151, 210);
+    position: absolute;
+    right: 85px;
+}
+
+#Sign_In-para
+{
+    font-size: 12px;
+    font-weight: lighter;
+    display: flex;
+    position: relative;
+    display: none;
+}
+#Sign_In-para #Sign-In
+{
+    color: rgb(0, 151, 210);
+    cursor: pointer;
+    font-size: 13px;
+    text-shadow: 0 0 0.5px rgb(0, 151, 210);
+    position: absolute;
+    right: 80px;
+    top: 0px;
+}
+/* ---------- Sign Up -> END ---------- */
+
+#Fb-Google-Icons
+{
+    width: 100%;
+    /* height: 40px; */
+    margin-top: 15%;
+    /* background-color: lightcyan; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#Fb-Google-Icons i
+{
+    /* background-color: red; */
+    padding: 10px 30px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+}
+#Fb-Google-Icons i:first-child
+{
+    color: rgb(0, 165, 231);
+}
+#Fb-Google-Icons i:last-child
+{
+    color: green;
+    margin-left: -30px;
+}
+
+#Fb-Google-Icons i:hover
+{
+    cursor: pointer;
+}
+
+
+
+/* ==========| Main -> END |========== */
+
+/* ->->->->->| Login -> END |<-<-<-<-<- */

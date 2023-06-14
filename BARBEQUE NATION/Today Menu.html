@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="Today Menu.css">
+    <link rel="stylesheet" href="MQ Today Menu (Mobile).css">
+    <link rel="icon" href="img/bbq-logo-theme.svg">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <title> Today's Menu </title>
+</head>
+<body>
+    
+
+
+        
+
+
+
+    <!-- ====================== HEADER -> Start ====================== -->
+    <header>
+        <section id="header">
+            <!-- --------------- Header Logo --------------- -->
+            <div class="logo">
+                <!-- <a href="http://127.0.0.1:5502/Home%20Page%20of%20Barbeque%20Nation/Home%20Page%20of%20Barbeque.html"> -->
+                <a href="Home Page of Barbeque.html">
+                    <img src="img/Logo.svg" alt="">
+                </a>
+            </div>
+            <!-- --------------- Header Search Box --------------- -->
+            <div class="search-header">
+                <div class="main-search-haeder">
+                    <span class="material-symbols-outlined"> location_on </span>
+                    <h6><a href="#"> Lido Mall Mg Roa... </a></h6>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <!-- --------------- Header Navbar ---------------  -->
+            <div class="navbar">
+                <div class="nav"><a href="Happiness Card of Header.html"> HAPPINESS CARD </a></div>
+                <div class="nav"><a href="Whats on BBQN.html"> WHAT'S ON BBQN </a></div>
+                <div class="nav"><a href="Today Menu.html"> TODAY'S MENU </a></div>
+                <div class="nav"><a href="Smiles.html"> SMILES </a></div>
+                <div class="nav"><a href="Delivery-Takeaway.html"> Delivery/Takeaway </a></div>
+                <div class="new"><a href="Delivery-Takeaway.html"> New </a></div>
+                <!-- <div class="nav"><a href="http://127.0.0.1:5502/Happiness%20Card/Happiness%20Card%20of%20Header.html"> HAPPINESS CARD </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Whats%20on%20BBQN/Whats%20on%20BBQN.html"> WHAT'S ON BBQN </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Today%20Menu/Today%20Menu.html"> TODAY'S MENU </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Smiles/Smiles.html"> SMILES </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Delivery%20-%20Takeaway/Delivery-Takeaway.html"> Delivery/Takeaway </a></div>
+                <div class="new"><a href="http://127.0.0.1:5502/Delivery%20-%20Takeaway/Delivery-Takeaway.html"> New </a></div> -->
+            </div>
+            <!-- --------------- Header Login --------------- -->
+            <div class="login-part">
+                <div class="login">
+                    <!-- <div class="login-text"><a href="http://127.0.0.1:5502/Login/Login.html"> Login  </a></div> -->
+                    <div class="login-text"><a href="Login.html"> Login </a></div>
+                    <div class="login-icon">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </div>
+                </div>
+                <!-- --------------- Notification ---------------  -->
+                <div class="bell">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                    </a>
+                    <div class="notifications-count"> 0 </div>
+                </div>
+                <!-- >>>>>>>>>>| Notification Hide Section -> START |<<<<<<<<<< -->
+                <section id="notifications">
+                    <div id="close-icon">
+                        <a href="#">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                    </div>
+                    <div id="no-notification">
+                        Currently there are no notifications.
+                    </div>
+                </section>
+                <!-- >>>>>>>>>>| Notification Hide Section -> END |<<<<<<<<<< -->
+                <!-- --------------- Shopping Cart ---------------  -->
+                <div class="cart">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+                    <div class="item-of-cart"> 0 </div>
+                </div>
+
+                <!-- >>>>>>>>>>| Cart Hide Section -> START |<<<<<<<<<< -->
+                <section id="cart-click">
+                    <div id="cart-head">
+                        <h3>
+                            You have no items in your cart
+                        </h3>
+                        <div id="icon">
+                            <a href="#">
+                                <i class="fa-solid fa-xmark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- >>>>>>>>>>| Cart Hide Section -> END |<<<<<<<<<< -->
+
+                <!-- --------------- 9 Dot Menu --------------- -->
+                <div class="dot-9">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            apps
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <!-- ====================== Header -> END ====================== -->
+        </section>
+
+
+
+        <!-- >>>>>>>>>>| 9 Dot All Menu List Hide -> START |<<<<<<<<<< -->
+        <section id="All-Menu-main">
+
+            <section id="All-Menu-Header">
+                <div id="All-Menu-Header-Logo">
+                    <a href="Home Page of Barbeque.html">
+                        <img id="Home_Page" src="img/Logo.svg" alt="">
+                    </a>
+                </div>
+                <div id="All-Menu-Header-close">
+                    <a href="#">
+                        <i id="close" class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </section>
+
+            <section id="All-List-bg">
+                <img src="img/bbq-small.svg" alt="">
+
+                <section id="All-List">
+                    <ul>
+                        <li><a href="Home Page of Barbeque.html"> Home </a></li>
+                        <!-- <li><a href="C:\Users\Jainish\OneDrive\Desktop\Project-1 of Html & Css from TOPS\Project from Heet sir\Front-End\Barbeque Nation\Smiles\Smiles.html"> Smiles </a></li> -->
+                        <li><a href="Smiles.html">Smiles </a></li>
+                        <li><a href="#"> Corporate Enquiry </a></li>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="#"> News </a></li>
+                        <li><a href="#"> Media Covrage </a></li>
+
+                        <li><a href="Delivery-Takeaway.html"> Delivery/Takeway </a></li>
+                        <li><a href="#"> Blog </a></li>
+                        <li><a href="#"> Barbeque Nation Partnership </a></li>
+                        <li><a href="Today Menu.html"> Today's Menu </a></li>
+                        <li><a href="#"> Careers </a></li>
+                        <li><a href="#"> Investor Realtions </a></li>
+
+                        <li><a href="Whats on BBQN.html"> What's in BBQN </a></li>
+                        <li><a href="#"> FAQ </a></li>
+                    </ul>
+                </section>
+            </section>
+
+            <section id="All-List-Icons">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </section>
+        </section>
+        <!-- >>>>>>>>>>| 9 Dot All Menu List Hide -> END |<<<<<<<<<< -->
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ====================== HEADER (480px) -> START ====================== -->
+    <section id="Header-480">
+        <section id="Top-Header-480">
+
+            <!-- ---------- Top Header LOGO -> START ----------  -->
+            <section id="T-H-480-Logo">
+                <a href="Home Page of Barbeque.html">
+                    <div id="T-H-480-Logo-Img"></div>
+                </a>
+            </section>
+            <!-- ---------- Top Header LOGO -> END ----------  -->
+
+            <!-- ---------- Top Header Location List -> START ---------- -->
+            <section id="T-H-Location">
+                <i id="T-H-Location-icon" class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="JP Nagar, Bengal...">
+            </section>
+            <!-- >>>>>>>>>>| T-H Location List CLICK -> START |<<<<<<<<<< -->
+
+            <section id="T-H-Location-List-main">
+                <section id="T-H-Location-List">
+                    JP Nagar
+                    <i class="fa-solid fa-chevron-down"></i>
+                </section>
+
+                <section id="T-H-Location-Area-List">
+
+                    <input type="text" id="search-area">
+
+                    <div id="list-of-area">
+                        <!-- <select name="" id=""> -->
+                        <optgroup label="Andhra Pradesh">
+                            <option> Kadapa </option>
+                        </optgroup>
+                        <optgroup label="Bengaluru">
+                            <option value=""> Indiranagar </option>
+                            <option value=""> Lido Mall Mg Road </option>
+                            <option value=""> Koramangala 1st Block </option>
+                            <option value=""> JP Nagar </option>
+                            <option value=""> ITPL, Whitefield </option>
+                            <option value=""> Electronic City </option>
+                            <option value=""> Kalyan Nagar </option>
+                            <option value=""> Rajaji Nagar </option>
+                            <option value=""> Yelahanka </option>
+                            <option value=""> Virginia Mall, Whitefield </option>
+                            <option value=""> Sarjapur Road </option>
+                            <option value=""> Kanakpura Road </option>
+                            <option value=""> Koramangala 7th Block </option>
+                            <option value=""> Phoenix Market City </option>
+                            <option value=""> Nexus Shantiniketan, Whitefield </option>
+                            <option value=""> Bhartiya Mall of Bengaluru </option>
+                            <option value=""> Lulu Global Mall, Rajajinagar </option>
+                        </optgroup>
+                        <optgroup label="Mumbai">
+                            <option value=""> Sector 5, Nerul </option>
+                            <option value=""> Sector 11, Belapur </option>
+                            <option value=""> Atria Mall, Worli </option>
+                            <option value=""> Kurla, Pheonix </option>
+                            <option value=""> Metro Junction Mall, Kalyan </option>
+                            <option value=""> R Mall - Mulund </option>
+                            <option value=""> Hill Road, Bandra West </option>
+                            <option value=""> Rosa Vista, Ghodbunder Road </option>
+                            <option value=""> Orion Mall, Panvel </option>
+                            <option value=""> Korum Mall Thane </option>
+                            <option value=""> YK Nagar, Virar West </option>
+                            <option value=""> Vashi </option>
+                            <option value=""> Phoenix Marketcity, Kurla West </option>
+                            <option value=""> Growels Mall, kandivali </option>
+                            <option value=""> Kharghar(Delivery) </option>
+                            <option value=""> Kohinoor Square, Dadar </option>
+                            <option value=""> Trade Centre, BKC </option>
+                            <option value=""> Fun Republic Lokhandwala Mumbai </option>
+                            <option value=""> Times Sqaure, Sakinaka </option>
+                        </optgroup>
+                        <!-- </select> -->
+                    </div>
+                </section>
+
+                <section id="T-H-Near_by-Location">
+                    <i id="T-H-Near_by_Location-icon" class="fa-solid fa-location-crosshairs"></i>
+                    <a href="#"> Near By Location <br> <span> Using GPS </span> </a>
+                    <!-- <span> Using GPS </span> -->
+                </section>
+            </section>
+            <!-- >>>>>>>>>>| T-H Location List CLICK -> END |<<<<<<<<<< -->
+
+            <!-- ---------- Top Header Location List -> END ---------- -->
+
+            <!-- ---------- Top Header Delivery -> START ---------- -->
+            <section id="T-H-Delivery">
+                <a href="Delivery-Takeaway.html">
+                    <div id="T-H-BG-Img"></div>
+                </a>
+            </section>
+            <!-- ---------- Top Header Delivery -> END ---------- -->
+
+            <!-- ---------- Top Header Cart -> START ---------- -->
+            <section id="T-H-Cart">
+                <!-- <a href="#"> -->
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <!-- </a> -->
+                <div id="Added-Into-Cart"> 0 </div>
+            </section>
+            <!-- ---------- Top Header Cart -> END ---------- -->
+
+            <!-- ---------- Top Header Toggle Menu (Bar) -> START ---------- -->
+            <section id="T-H-Toggle-Menu">
+                <i class="fa-solid fa-bars"></i>
+            </section>
+
+            <section id="T-H-Toggle-Menu-List">
+
+                <section id="T-H-Toggle-Menu-List-Header">
+                    <div id="T-H-Toggle-Menu-List-Header-login">
+                        <a href="Login.html"><span> Login </span></a>
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </div>
+                    <div id="T-H-Toggle-Menu-List-Header-Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </section>
+
+                <section id="T-H-Toggle-Menu-List-Lists">
+                    <ul>
+                        <li><a href="Home Page of Barbeque.html"> Home </a></li>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="Delivery-Takeaway.html"> Delivery/Takeaway </a></li>
+                        <li><a href="Today Menu.html"> Today's Menu </a></li>
+                        <li><a href="Happiness Card of Header.html"> Happiness Card </a></li>
+                        <li><a href="Whats on BBQN.html"> What's on BBQN </a></li>
+                        <li><a href="Smiles.html"> Smiles </a></li>
+                        <li><a href="#"> News </a></li>
+                        <li><a href="#"> Blog </a></li>
+                        <li><a href="#"> Careers </a></li>
+                        <li><a href="#"> Contact Us </a></li>
+                        <li><a href="#"> FAQ </a></li>
+                        <li><a href="#"> Corporate Enquiry </a></li>
+                        <li><a href="#"> Media Coverage </a></li>
+                        <li><a href="#"> Barbeque Nation Partnership </a></li>
+                        <li><a href="#"> Investor Relations </a></li>
+                    </ul>
+                </section>
+
+            </section>
+            <!-- ---------- Top Header Toggle Menu (Bar) -> END ---------- -->
+        </section>
+
+        <section id="Bottom-Header-480">
+
+            <section id="B-H-Delivery-Takeaway">
+                <div id="B-H-Delivery-Takeaway-Top">
+                    <a href="Delivery-Takeaway.html"><div id="B-H-D-T-Top-BG-Img"> </div></a>
+                    <a href="Delivery-Takeaway.html"><span> NEW </span></a>
+                </div>
+                <div id="B-H-Delivery-Takeaway-Bottom">
+                    <a href="Delivery-Takeaway.html"> delivery/takeaway </a>
+                </div>
+            </section>
+
+            <section id="B-H-Login">
+                <a href="Login.html"> <div> Login </div> </a>
+                <a href="Login.html">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                </a>
+            </section>
+
+            <section id="B-H-Reserve-Table">
+                <div id="B-H-Reserve-Table-Top">
+                    <a href="#">
+                        <div id="B-H-R-T-Top-BG-Img"> </div>
+                    </a>
+                </div>
+                <div id="B-H-Reserve-Table-Bottom">
+                    <a href="#"> reserve table </a>
+                </div>
+            </section>
+
+        </section>
+    </section>
+    <!-- ====================== HEADER (480px) -> END ====================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ->->->->->->->| Banner -> START |<-<-<-<-<-<-<- -->
+<main>
+
+    <div id="main-left">
+        <div id="main-left-heading">
+            Restaurant in <br> Lido Mall Mg Road
+        </div>
+
+        <section id="main-left-bottom">
+            <div id="share">
+                <a href="#">
+                    <i class="fa-solid fa-share-nodes"></i>
+                    <span> SHARE </span>
+                </a>
+            </div>
+            <div id="direction">
+                <a href="#">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> Direction </span>
+                </a>
+            </div>
+            <div id="Four-Icons">
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </div>
+        </section>
+    </div>
+
+</main>
+<!-- ->->->->->->->| Banner -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+
+
+
+
+
+
+<!-- ->->->->->->->| Navigation -> START |<-<-<-<-<-<-<- -->
+<nav>
+    <ul>
+        <li><a href="#Overview"> Overview </a></li>
+        <li><a href="#menu"> Menu </a></li>
+        <li><a href="#"> Offers & Promotions </a></li>
+        <li><a href="#gallery"> Gallery </a></li>
+        <li><a href="#whats_on_BBQN-main"> About Restaurants </a></li>
+    </ul>
+</nav>
+<!-- ->->->->->->->| Navigation -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+
+
+
+
+
+
+<!-- ->->->->->->->| Overviw -> START |<-<-<-<-<-<-<- -->
+<article id="Overview">
+    <h1> Overview </h1>
+    <div id="A-R-D">
+        <div id="address">
+            <div id="A-R-D-title">
+                <i class="fa-solid fa-location-dot"></i>
+                Address
+            </div>
+            <div id="A-R-D-para">
+                1/4, Ground Floor, Lido Mall, Swami Vivekananda  
+                Road, Halasuru, Bengaluru, Karnataka 560008,  
+                India
+            </div>
+        </div>
+        <div id="restaurant_info">
+            <div id="A-R-D-title">
+                <i class="fa-solid fa-phone"></i>
+                Restaurants info
+            </div>
+            <div id="A-R-D-para">
+                7090757135 <br>
+                feedback@barbequenation.com
+            </div>
+        </div>
+        <div id="opening_hours">
+            <div id="A-R-D-title">
+                <i class="fa-sharp fa-solid fa-clock"></i>
+                Opening hours
+            </div>
+            <div id="A-R-D-para">
+                12:00 pm to 04:00 pm <br>
+                06:30 pm to 11:00 pm
+            </div>
+        </div>
+    </div>
+
+    <h1 class="amenities-title"> Amenities </h1>
+    <div id="amenities-main">
+        <div id="amenities">
+            <img class="amenities-img" src="img/Today Menu - High Chair.png" alt="">
+            <h5> Hight Chair </h5>
+        </div>
+        <div id="amenities">
+            <img class="amenities-img" src="img/Today Menu - Parking.png" alt="">
+            <h5> Parking </h5>
+        </div>
+        <div id="amenities">
+            <img class="amenities-img" src="img/Today Menu - Lift.png" alt="">
+            <h5> Lift </h5>
+        </div>
+        <div id="amenities">
+            <img class="amenities-img" src="img/Today Menu - Alcoholic beverages.png" alt="">
+            <h5> Alcoholic Beverages </h5>
+        </div>
+    </div>
+
+</article>
+<!-- ->->->->->->->| Overviw -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+
+
+
+
+
+
+<!-- ->->->->->->->| Menu -> START |<-<-<-<-<-<-<- -->
+
+<aside id="Menu">
+    <h1> Menu </h1>
+
+    <div id="menu-big-images">
+        <a href="#">
+            <img src="img/Today Menu - Menu - Mango.jpg" title="Mango mania KA" alt="">
+
+        </a>
+        <a href="#">
+            <img src="img/Today Menu - Menu - Price List.jpg" title="Barbeque Nation Menu">
+        </a>
+        <div class="Menu-Big-Img-1">
+            <div> 7 PHOTOS </div>
+        </div>
+    </div>
+    <div id="menu-small-images">
+        <a href="#">
+            <img src="img/Today Menu - Menu - Signature Mocktails.jpg" title="Barbeque Nation Menu">
+            <img src="img/Today Menu - Menu - Non Alcoholic Beer.jpg" title="Barbeque Nation Menu">
+        </a>
+    </div>
+</aside>
+
+<div id="border-bottom"></div>
+<!-- ->->->->->->->| Menu -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+
+
+
+
+
+
+<!-- ->->->->->->->| Gallery -> START |<-<-<-<-<-<-<- -->
+<div id="gallery">
+
+    <h1> Gallery </h1>
+
+    <div id="gallery-images">
+        <img class="gallery-img" src="img/Today Menu - Gallery - Left Top.webp" title="Barbeque Nation">
+        <img class="gallery-img" src="img/Today Menu - Gallery - Rigth Top.webp" title="Barbeque Nation">
+        <img class="gallery-img" src="img/Today Menu - Gallery - Left Bottom.webp" title="Barbeque Nation">
+        <img class="gallery-img" src="img/Today Menu - Gallery - Right Bottom.webp" title="Barbeque Nation">
+    </div>
+
+    <div id="Gallery-images-480-MQ">
+        <div>
+            8 PHOTOS
+        </div>
+    </div>
+
+</div>
+<!-- ->->->->->->->| Gallery -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+
+
+
+
+
+
+<!-- ->->->->->->->| What's on BBQN -> START |<-<-<-<-<-<-<- -->
+
+
+    <!-- ->->->->->->->| What's On BBQN -> START |<-<-<-<-<-<-<- -->
+
+    <section id="whats_on_BBQN-main">
+        <section id="whats_on_BBQN-sub">
+
+            <div id="Whats_on_BBQN-title"> 
+                <div id="Whats_on_BBQN-title-left">
+                    Whats's On BBQN
+                </div>
+                <div id="Whats_on_BBQN-title-right">
+                    VIEW ALL &nbsp;
+                    <!-- <span> → </span> -->
+                    <i class="fa-solid fa-arrow-right"></i> &nbsp;
+                </div>
+            </div>
+
+            <section id="Whats_on_BBQN-All-Cards">
+
+                <div id="Whats_on_BBQN-card">    
+                    <img src="img//Mango Season items.jpg" class="Whats_on_BBQN-image" alt="">
+
+                    <div class="Whats_on_BBQN-image-On-Hover">
+                        <h3> Mango Mania </h3>
+                        <h4> Indulge your love for Mangoes </h4>
+                        <h5> With a wide variety of Mango <br> delicacies. </h5>
+                        <div id="read_more-btn">
+                            <a href="#">
+                                READ MORE &nbsp; 
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Whats_on_BBQN-card">    
+                    <img src="img/Happy Mon-Tue offer.jpg" class="Whats_on_BBQN-image" alt="">
+
+                    <div class="Whats_on_BBQN-image-On-Hover">
+                        <h3> Happy Monday Tuesday </h3>
+                        <h4> Happy </h4>
+                        <h5> Monday Tuesday </h5>
+                        <div id="read_more-btn">
+                            <a href="#">
+                                READ MORE &nbsp; 
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Whats_on_BBQN-card">    
+                    <img src="img/Referal  - Teaser banner_v3.jpg" class="Whats_on_BBQN-image" alt="">
+
+                    <div class="Whats_on_BBQN-image-On-Hover">
+                        <h3> Refer a Friend </h3>
+                        <h4> Refer a Friend and earn Rs 100. </h4>
+                        <h5>
+                            Earn Smiles coins worth Rs 100 on <br>
+                            every successful referall. 1 Smaile Coin <br>
+                            = 1 Re.
+                        </h5>
+                        <div id="read_more-btn">
+                            <a href="#">
+                                READ MORE &nbsp; 
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Whats_on_BBQN-card">    
+                    <img src="img/Today Menu and - to Whats on BBQN - Summer Cooler.webp" class="Whats_on_BBQN-image" alt="">
+
+                    <div class="Whats_on_BBQN-image-On-Hover">
+                        <h3> Summer Cooler </h3>
+                        <h4> Summer </h4>
+                        <h5> Cooler </h5>
+                        <div id="read_more-btn">
+                            <a href="#">
+                                READ MORE &nbsp; 
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+            <section id="Slider-Dots">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </section>
+
+        </section>
+    </section>
+    <!-- ->->->->->->->| What's On BBQN -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+
+
+    
+
+<!-- ->->->->->->->| Footer -> START |<-<-<-<-<-<-<- -->
+
+    
+<!-- ================================================================= -->
+<!-- ==================== Footer -> START ==================== -->
+<footer>
+    <section id="footer-main">
+        
+        <div id="footer-left">
+                <div id="footer-menu">
+                    <div id="footer-menu-list">
+                        <a href="#"> OUR STORY </a>
+                        <a href="#"> NEWS </a>
+                        <a href="Happiness Card of Header.html"> HAPPINESS CARD </a>
+                        <a href="#"> CAREERS </a>
+                        <a href="#"> FAQ </a>
+                        <a href="#"> INVESTOR RELATIONS </a>
+                        <a href="#"> BARBEQUE NATION PARTNERSHIP </a>
+                    </div>
+                    <div id="footer-menu-list">
+                        <a href="#"> LOCATIONS </a>
+                        <a href="#"> BLOG </a>
+                        <a href="Whats on BBQN.html"> WHAT'S ON BBQN </a>
+                        <a href="#"> CONTACT US </a>
+                        <a href="#"> CORPORATE ENQUIRY </a>
+                        <a href="#"> MEDIA COVRAGE </a>
+                        <a href="#"> NUTRAITION INFORMATION </a>
+                    </div>
+                    <div id="footer-menu-contact">
+                        <a> REACH US </a>
+                        <a> Call Us </a>
+                        <a href="#"> 08069028721 </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer-right">
+                <div id="download-text">
+                    DOWNLOAD THE APP
+                </div>
+                <a href="#">
+                    <img class="download-app-store" src="img/Download Appstore.webp" alt="">
+                </a>
+                <a href="#">
+                    <img class="download-play-store" src="img/googleplay.webp" alt="">
+                </a>
+            </div>
+            
+        </section>
+        
+        <section id="footer-bottom">
+            <section id="footer-bottom-main">
+                
+                <a href="Home Page of Barbeque.html">
+                    <img class="footer-logo" src="img/Logo.svg" alt="">
+                </a>
+                <div id="copyright">
+                    &copy; 2019 Barbeque Nation Hospitiality Ltd.
+                </div>
+                <div id="footer-links">
+                    <a href="#"> Terms & Condition </a>
+                    <a href="#"> Privacy Policy </a>
+                </div>
+                <div id="footer-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                
+            </section>
+        </section>
+    </footer>
+    <!-- ==================== Footer -> END ==================== -->
+    <!-- ================================================================= -->
+
+    <!-- ->->->->->->->| Footer -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+<script>
+    
+    // <!-- >>>>>>>>>>| JQuery Header -> START |<<<<<<<<<< -->
+
+    // -------------------------------------------------
+       // Notification Bell Show & Hide
+       $(document).ready(function () {
+           $(".bell").click(function () {
+               $("#notifications").fadeToggle(300)
+           })
+           $(".fa-xmark").click(function () {
+               $("#notifications").fadeOut()                
+           })
+       })
+       // -------------------------------------------------
+
+
+
+
+
+       // -------------------------------------------------
+       // Cart Show & Hide
+       $(document).ready(function () {
+           $(".cart").click(function () {
+               $("#cart-click").fadeToggle()                
+           })            
+           $(".fa-xmark").click(function () {
+               $("#cart-click").fadeOut()                
+           })
+
+           $(".cart").click(function () {
+               $("body").css({"background-color": "rgba(0,0,0,0.4)"})
+           })
+       })
+       // -------------------------------------------------
+       
+       
+       
+       
+
+       // -------------------------------------------------
+       // 9 Dot All Menu List Show & Hide
+       $(document).ready(function () {
+           $(".dot-9").click(function () {
+               $("#All-Menu-main").slideDown(1000)                
+           })      
+                
+           $("#close").click(function () {
+                $("#All-Menu-main").slideUp(1000)
+           })
+       })
+        // -------------------------------------------------
+
+
+        
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    For Mobile Media Query (480px) -> START <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// ========================================
+// Header ma Search Area Show Karavva
+// ----------------------------------------
+$(document).ready(function () {
+   $("#T-H-Location").click(function () {
+       $("#T-H-Location-List-main").toggle()
+   })
+   
+})
+// ========================================
+
+// ========================================
+// List Menu CLICK karta Lists Show thaay
+// ----------------------------------------
+$(document).ready(function () {
+   $("#T-H-Location-List").click(function () {
+       $("#T-H-Location-Area-List").toggle()
+   })
+   // $("#T-H-Location-List").click(function () {
+   //     $("#T-H-Location-List i").toggle().css({"transform": "rotate(180deg)","padding-left": "200px"})
+   // })
+})
+// ========================================
+
+// ========================================
+// Area name Search Karta Shortlisting thaay
+// ----------------------------------------
+$(document).ready(function () {
+   $("#search-area").on("keyup", function () {
+    var list = $(this).val().toLowerCase();
+   $("#list-of-area optgroup option").filter(function () {
+       $(this).toggle($(this).text().toLowerCase().indexOf(list)>-1)
+   })
+   })
+})
+// ========================================
+
+// ========================================
+// 
+// ----------------------------------------
+$(document).ready(function () {
+   $("#T-H-Near_by-Location").click(function () {
+       alert("Please allow access to your location for us to get nearest branch")
+   })
+})
+// =======================================
+
+// ======================================= 
+// ---------------------------------------
+$(document).ready(function () {
+   $("#T-H-Toggle-Menu > .fa-bars").click(function () {
+       $("#T-H-Toggle-Menu-List").fadeToggle()
+   })
+   $("#T-H-Toggle-Menu-List-Header-Close > .fa-xmark").click(function () {
+       $("#T-H-Toggle-Menu-List").fadeToggle()
+   })
+})
+// =======================================
+
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    For Mobile Media Query (480px) -> END <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// <!-- >>>>>>>>>>| JQuery Header -> END |<<<<<<<<<< -->
+   
+
+</script>
+
+
+
+
+</body>
+</html>
+
+<!-- ->->->->->->->|  |<-<-<-<-<-<-<- -->
+
+<!-- 
+    font-family: 'Rubik', sans-serif;   
+    font-weight: 900;
+ -->
+
+<!-- 
+    <i class="fa-solid fa-arrow-right"></i>
+ -->
+
+ <!-- 
+    background-color: #ea5607d8;
+  -->
+  <!-- 
+    /* color: #565360; -> Dark */ 
+    /* color: #908E9B; -> Light*/
+   -->

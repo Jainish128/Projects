@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="icon" href="img/bbq-logo-theme.svg">
+    <link rel="stylesheet" href="Happiness Card of Header.css">
+    <link rel="stylesheet" href="MQ Happiness Card (Mobile).css">
+    <link rel="stylesheet" href="MQ Happiness Card (Tablet-1).css">
+    <link rel="stylesheet" href="MQ Happiness Card (Tablet-2).css">
+    <link rel="stylesheet" href="MQ Happiness Card (sm PC) .css">
+
+    <script src="Happiness Card of Header.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <title> Vouchers Search | Barbeque Nation </title>
+</head>
+<body>
+
+
+
+    
+    <!-- ====================== HEADER -> Start ====================== -->
+    <header>
+        <section id="header">
+            <!-- --------------- Header Logo --------------- -->
+            <div class="logo">
+                <!-- <a href="http://127.0.0.1:5502/Home%20Page%20of%20Barbeque%20Nation/Home%20Page%20of%20Barbeque.html"> -->
+                <a href="Home Page of Barbeque.html">
+                    <img src="img/Logo.svg" alt="">
+                </a>
+            </div>
+            <!-- --------------- Header Search Box --------------- -->
+            <div class="search-header">
+                <div class="main-search-haeder">
+                    <span class="material-symbols-outlined"> location_on </span>
+                    <h6><a href="#"> Lido Mall Mg Roa... </a></h6>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+            </div>
+            <!-- --------------- Header Navbar ---------------  -->
+            <div class="navbar">
+                <div class="nav"><a href="Happiness Card of Header.html"> HAPPINESS CARD </a></div>
+                <div class="nav"><a href="Whats on BBQN.html"> WHAT'S ON BBQN </a></div>
+                <div class="nav"><a href="Today Menu.html"> TODAY'S MENU </a></div>
+                <div class="nav"><a href="Smiles.html"> SMILES </a></div>
+                <div class="nav"><a href="Delivery-Takeaway.html"> Delivery/Takeaway </a></div>
+                <div class="new"><a href="Delivery-Takeaway.html"> New </a></div>
+                <!-- <div class="nav"><a href="http://127.0.0.1:5502/Happiness%20Card/Happiness%20Card%20of%20Header.html"> HAPPINESS CARD </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Whats%20on%20BBQN/Whats%20on%20BBQN.html"> WHAT'S ON BBQN </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Today%20Menu/Today%20Menu.html"> TODAY'S MENU </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Smiles/Smiles.html"> SMILES </a></div>
+                <div class="nav"><a href="http://127.0.0.1:5502/Delivery%20-%20Takeaway/Delivery-Takeaway.html"> Delivery/Takeaway </a></div>
+                <div class="new"><a href="http://127.0.0.1:5502/Delivery%20-%20Takeaway/Delivery-Takeaway.html"> New </a></div> -->
+            </div>
+            <!-- --------------- Header Login --------------- -->
+            <div class="login-part">
+                <div class="login">
+                    <!-- <div class="login-text"><a href="http://127.0.0.1:5502/Login/Login.html"> Login  </a></div> -->
+                    <div class="login-text"><a href="Login.html"> Login </a></div>
+                    <div class="login-icon">
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </div>
+                </div>
+                <!-- --------------- Notification ---------------  -->
+                <div class="bell">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            notifications
+                        </span>
+                    </a>
+                    <div class="notifications-count"> 0 </div>
+                </div>
+                <!-- >>>>>>>>>>| Notification Hide Section -> START |<<<<<<<<<< -->
+                <section id="notifications">
+                    <div id="close-icon">
+                        <a href="#">
+                            <i class="fa-solid fa-xmark"></i>
+                        </a>
+                    </div>
+                    <div id="no-notification">
+                        Currently there are no notifications.
+                    </div>
+                </section>
+                <!-- >>>>>>>>>>| Notification Hide Section -> END |<<<<<<<<<< -->
+                <!-- --------------- Shopping Cart ---------------  -->
+                <div class="cart">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            shopping_cart
+                        </span>
+                    </a>
+                    <div class="item-of-cart"> 0 </div>
+                </div>
+
+                <!-- >>>>>>>>>>| Cart Hide Section -> START |<<<<<<<<<< -->
+                <section id="cart-click">
+                    <div id="cart-head">
+                        <h3>
+                            You have no items in your cart
+                        </h3>
+                        <div id="icon">
+                            <a href="#">
+                                <i class="fa-solid fa-xmark"></i>
+                            </a>
+                        </div>
+                    </div>
+                </section>
+                <!-- >>>>>>>>>>| Cart Hide Section -> END |<<<<<<<<<< -->
+
+                <!-- --------------- 9 Dot Menu --------------- -->
+                <div class="dot-9">
+                    <a href="#">
+                        <span class="material-symbols-outlined">
+                            apps
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <!-- ====================== Header -> END ====================== -->
+        </section>
+
+
+
+        <!-- >>>>>>>>>>| 9 Dot All Menu List Hide -> START |<<<<<<<<<< -->
+        <section id="All-Menu-main">
+
+            <section id="All-Menu-Header">
+                <div id="All-Menu-Header-Logo">
+                    <a href="Home Page of Barbeque.html">
+                        <img id="Home_Page" src="img/Logo.svg" alt="">
+                    </a>
+                </div>
+                <div id="All-Menu-Header-close">
+                    <a href="#">
+                        <i id="close" class="fa-solid fa-xmark"></i>
+                    </a>
+                </div>
+            </section>
+
+            <section id="All-List-bg">
+                <img src="img/bbq-small.svg" alt="">
+
+                <section id="All-List">
+                    <ul>
+                        <li><a href="Home Page of Barbeque.html"> Home </a></li>
+                        <!-- <li><a href="C:\Users\Jainish\OneDrive\Desktop\Project-1 of Html & Css from TOPS\Project from Heet sir\Front-End\Barbeque Nation\Smiles\Smiles.html"> Smiles </a></li> -->
+                        <li><a href="Smiles.html">Smiles </a></li>
+                        <li><a href="#"> Corporate Enquiry </a></li>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="#"> News </a></li>
+                        <li><a href="#"> Media Covrage </a></li>
+
+                        <li><a href="Delivery-Takeaway.html"> Delivery/Takeway </a></li>
+                        <li><a href="#"> Blog </a></li>
+                        <li><a href="#"> Barbeque Nation Partnership </a></li>
+                        <li><a href="Today Menu.html"> Today's Menu </a></li>
+                        <li><a href="#"> Careers </a></li>
+                        <li><a href="#"> Investor Realtions </a></li>
+
+                        <li><a href="Whats on BBQN.html"> What's in BBQN </a></li>
+                        <li><a href="#"> FAQ </a></li>
+                    </ul>
+                </section>
+            </section>
+
+            <section id="All-List-Icons">
+                <a href="#">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-youtube"></i>
+                </a>
+            </section>
+        </section>
+        <!-- >>>>>>>>>>| 9 Dot All Menu List Hide -> END |<<<<<<<<<< -->
+    </header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ====================== HEADER (480px) -> START ====================== -->
+    <section id="Header-480">
+        <section id="Top-Header-480">
+
+            <!-- ---------- Top Header LOGO -> START ----------  -->
+            <section id="T-H-480-Logo">
+                <a href="Home Page of Barbeque.html">
+                    <div id="T-H-480-Logo-Img"></div>
+                </a>
+            </section>
+            <!-- ---------- Top Header LOGO -> END ----------  -->
+
+            <!-- ---------- Top Header Location List -> START ---------- -->
+            <section id="T-H-Location">
+                <i id="T-H-Location-icon" class="fa-solid fa-location-dot"></i>
+                <input type="text" placeholder="JP Nagar, Bengal...">
+            </section>
+            <!-- >>>>>>>>>>| T-H Location List CLICK -> START |<<<<<<<<<< -->
+
+            <section id="T-H-Location-List-main">
+                <section id="T-H-Location-List">
+                    JP Nagar
+                    <i class="fa-solid fa-chevron-down"></i>
+                </section>
+
+                <section id="T-H-Location-Area-List">
+
+                    <input type="text" id="search-area">
+
+                    <div id="list-of-area">
+                        <!-- <select name="" id=""> -->
+                        <optgroup label="Andhra Pradesh">
+                            <option> Kadapa </option>
+                        </optgroup>
+                        <optgroup label="Bengaluru">
+                            <option value=""> Indiranagar </option>
+                            <option value=""> Lido Mall Mg Road </option>
+                            <option value=""> Koramangala 1st Block </option>
+                            <option value=""> JP Nagar </option>
+                            <option value=""> ITPL, Whitefield </option>
+                            <option value=""> Electronic City </option>
+                            <option value=""> Kalyan Nagar </option>
+                            <option value=""> Rajaji Nagar </option>
+                            <option value=""> Yelahanka </option>
+                            <option value=""> Virginia Mall, Whitefield </option>
+                            <option value=""> Sarjapur Road </option>
+                            <option value=""> Kanakpura Road </option>
+                            <option value=""> Koramangala 7th Block </option>
+                            <option value=""> Phoenix Market City </option>
+                            <option value=""> Nexus Shantiniketan, Whitefield </option>
+                            <option value=""> Bhartiya Mall of Bengaluru </option>
+                            <option value=""> Lulu Global Mall, Rajajinagar </option>
+                        </optgroup>
+                        <optgroup label="Mumbai">
+                            <option value=""> Sector 5, Nerul </option>
+                            <option value=""> Sector 11, Belapur </option>
+                            <option value=""> Atria Mall, Worli </option>
+                            <option value=""> Kurla, Pheonix </option>
+                            <option value=""> Metro Junction Mall, Kalyan </option>
+                            <option value=""> R Mall - Mulund </option>
+                            <option value=""> Hill Road, Bandra West </option>
+                            <option value=""> Rosa Vista, Ghodbunder Road </option>
+                            <option value=""> Orion Mall, Panvel </option>
+                            <option value=""> Korum Mall Thane </option>
+                            <option value=""> YK Nagar, Virar West </option>
+                            <option value=""> Vashi </option>
+                            <option value=""> Phoenix Marketcity, Kurla West </option>
+                            <option value=""> Growels Mall, kandivali </option>
+                            <option value=""> Kharghar(Delivery) </option>
+                            <option value=""> Kohinoor Square, Dadar </option>
+                            <option value=""> Trade Centre, BKC </option>
+                            <option value=""> Fun Republic Lokhandwala Mumbai </option>
+                            <option value=""> Times Sqaure, Sakinaka </option>
+                        </optgroup>
+                        <!-- </select> -->
+                    </div>
+                </section>
+
+                <section id="T-H-Near_by-Location">
+                    <i id="T-H-Near_by_Location-icon" class="fa-solid fa-location-crosshairs"></i>
+                    <a href="#"> Near By Location <br> <span> Using GPS </span> </a>
+                    <!-- <span> Using GPS </span> -->
+                </section>
+            </section>
+            <!-- >>>>>>>>>>| T-H Location List CLICK -> END |<<<<<<<<<< -->
+
+            <!-- ---------- Top Header Location List -> END ---------- -->
+
+            <!-- ---------- Top Header Delivery -> START ---------- -->
+            <section id="T-H-Delivery">
+                <a href="Delivery-Takeaway.html">
+                    <div id="T-H-BG-Img"></div>
+                </a>
+            </section>
+            <!-- ---------- Top Header Delivery -> END ---------- -->
+
+            <!-- ---------- Top Header Cart -> START ---------- -->
+            <section id="T-H-Cart">
+                <!-- <a href="#"> -->
+                <span class="material-symbols-outlined">
+                    shopping_cart
+                </span>
+                <!-- </a> -->
+                <div id="Added-Into-Cart"> 0 </div>
+            </section>
+            <!-- ---------- Top Header Cart -> END ---------- -->
+
+            <!-- ---------- Top Header Toggle Menu (Bar) -> START ---------- -->
+            <section id="T-H-Toggle-Menu">
+                <i class="fa-solid fa-bars"></i>
+            </section>
+
+            <section id="T-H-Toggle-Menu-List">
+
+                <section id="T-H-Toggle-Menu-List-Header">
+                    <div id="T-H-Toggle-Menu-List-Header-login">
+                        <a href="Login.html"><span> Login </span></a>
+                        <span class="material-symbols-outlined">
+                            account_circle
+                        </span>
+                    </div>
+                    <div id="T-H-Toggle-Menu-List-Header-Close">
+                        <i class="fa-solid fa-xmark"></i>
+                    </div>
+                </section>
+
+                <section id="T-H-Toggle-Menu-List-Lists">
+                    <ul>
+                        <li><a href="Home Page of Barbeque.html"> Home </a></li>
+                        <li><a href="#"> About Us </a></li>
+                        <li><a href="Delivery-Takeaway.html"> Delivery/Takeaway </a></li>
+                        <li><a href="Today Menu.html"> Today's Menu </a></li>
+                        <li><a href="Happiness Card of Header.html"> Happiness Card </a></li>
+                        <li><a href="Whats on BBQN.html"> What's on BBQN </a></li>
+                        <li><a href="Smiles.html"> Smiles </a></li>
+                        <li><a href="#"> News </a></li>
+                        <li><a href="#"> Blog </a></li>
+                        <li><a href="#"> Careers </a></li>
+                        <li><a href="#"> Contact Us </a></li>
+                        <li><a href="#"> FAQ </a></li>
+                        <li><a href="#"> Corporate Enquiry </a></li>
+                        <li><a href="#"> Media Coverage </a></li>
+                        <li><a href="#"> Barbeque Nation Partnership </a></li>
+                        <li><a href="#"> Investor Relations </a></li>
+                    </ul>
+                </section>
+
+            </section>
+            <!-- ---------- Top Header Toggle Menu (Bar) -> END ---------- -->
+        </section>
+
+        <section id="Bottom-Header-480">
+
+            <section id="B-H-Delivery-Takeaway">
+                <div id="B-H-Delivery-Takeaway-Top">
+                    <a href="Delivery-Takeaway.html"><div id="B-H-D-T-Top-BG-Img"> </div></a>
+                    <a href="Delivery-Takeaway.html"><span> NEW </span></a>
+                </div>
+                <div id="B-H-Delivery-Takeaway-Bottom">
+                    <a href="Delivery-Takeaway.html"> delivery/takeaway </a>
+                </div>
+            </section>
+
+            <section id="B-H-Login">
+                <a href="Login.html"> <div> Login </div> </a>
+                <a href="Login.html">
+                    <span class="material-symbols-outlined">
+                        account_circle
+                    </span>
+                </a>
+            </section>
+
+            <section id="B-H-Reserve-Table">
+                <div id="B-H-Reserve-Table-Top">
+                    <a href="#">
+                        <div id="B-H-R-T-Top-BG-Img"> </div>
+                    </a>
+                </div>
+                <div id="B-H-Reserve-Table-Bottom">
+                    <a href="#"> reserve table </a>
+                </div>
+            </section>
+
+        </section>
+    </section>
+    <!-- ====================== HEADER (480px) -> END ====================== -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- ================= Happiness Card MAIN -> START ================= -->
+    <section id="H-C-main">
+    <!-- ============ Happiness Card SUB -> START ============ -->
+        <section id="H-C-sub">
+
+            <!-- ---------- Home / Hapiness Card -> START ---------- -->
+            <div id="H-C-heading-page">
+                <a href="#"> Home / </a> Happiness card
+            </div>
+            <!-- ---------- Home / Hapiness Card -> END ---------- -->
+
+            <!-- ----- Filter - H-C for U - Sort by -> START ----- -->
+
+            <div id="F-H_C_For_U-Sort_by">
+
+                <div id="filter">
+                    
+                    <div class="filter-title"> FILTER </div>
+                    <div id="clear_all">
+                        <a href="#"> CLEAR ALL </a>
+                    </div>    
+                    <div class="filter-price"> PRICE </div>
+                    <div id="filter-price-range">
+                        <input type="range">
+                    </div>
+
+                    <div id="filter-location">
+                        <span> LOCATION </span>
+                        <div id="filter-select-country">
+                            <form action="">
+                                <select id="filter-select">  
+                                    <option value=""> Select a Country </option>
+                                    <option value=""> India </option>
+                                    <option value=""> Malaysia </option>
+                                    <option value=""> Oman </option>
+                                    <option value=""> UAE </option>
+                                </select>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="filter-places">
+                        <form action="">
+
+                            <input class="check-area" type="checkbox"> Abu Dhabi <br>
+                            <input type="checkbox"> Agra <br>
+                            <input type="checkbox"> Ahmedabad <br>
+                            <input type="checkbox"> Ambala <br>
+                            <input type="checkbox"> Amravati <br>
+                            <input type="checkbox"> Amritsar <br>
+                            <input type="checkbox"> Anand <br>
+                            <input type="checkbox"> Asansol <br>
+                            <input type="checkbox"> Aurangbad <br>
+                            <input type="checkbox"> Bareilly <br>
+                            <input type="checkbox"> Bathinda <br>
+                            <input type="checkbox"> Belgaum <br>
+                            <input type="checkbox"> Bengaluru <br>
+                            <input type="checkbox"> Bhopal <br>
+                            <input type="checkbox"> Bhubaneswar <br>
+                            <input type="checkbox"> Bilaspur <br>
+                            <input type="checkbox"> Chandigarh <br>
+                            <input type="checkbox"> Chennai <br>
+                            <input type="checkbox"> Coimbatore <br>
+                            <input type="checkbox"> Cuttack <br>
+                            <input type="checkbox"> Dehradun <br>
+                            <input type="checkbox"> Dubai <br>
+                            <input type="checkbox"> Durgapur <br>
+                            <input type="checkbox"> Erode <br>
+                            <input type="checkbox"> Faridabad <br>
+                            <input type="checkbox"> Ghaziabad <br>
+                            <input type="checkbox"> Goa <br>
+                            <input type="checkbox"> Gorakhpur <br>
+
+                            <input type="checkbox"> Guntur <br>
+                            <input type="checkbox"> Gurugram <br>
+                            <input type="checkbox"> Guwahati <br>
+                            <input type="checkbox"> Hisar <br>
+                            <input type="checkbox"> Hubli <br>
+                            <input type="checkbox"> Hyderabad <br>
+                            <input type="checkbox"> Indore <br>
+                            <input type="checkbox"> Jabalpur <br>
+                            <input type="checkbox"> Jaipur <br>
+                            <input type="checkbox"> Jalandhar <br>
+                            <input type="checkbox"> Jammu <br>
+
+                            <input type="checkbox"> Kakinada <br>
+                            <input type="checkbox"> Kanpur <br>
+                            <input type="checkbox"> Karnal <br>
+                            <input type="checkbox"> Kochi <br>
+                            <input type="checkbox"> Kolhapur <br>
+                            <input type="checkbox"> Kolkata <br>
+                            <input type="checkbox"> Kota <br>
+                            <input type="checkbox"> Kuala Lumpur <br>
+                            <input type="checkbox"> Lucknow <br>
+                            <input type="checkbox"> Ludhiana <br>
+                            <input type="checkbox"> Madurai <br>
+
+                            <input type="checkbox"> Madurai <br>
+                            <input type="checkbox"> Mangalore <br>
+                            <input type="checkbox"> Manipal <br>
+                            <input type="checkbox"> Meerut <br>
+                            <input type="checkbox"> Mohali <br>
+                            <input type="checkbox"> Mumbai <br>
+                            <input type="checkbox"> Muscat <br>
+                            <input type="checkbox"> Mysore <br>
+                            <input type="checkbox"> Nagpur <br>
+                            <input type="checkbox"> Nashik <br>
+                            <input type="checkbox"> Nellore <br>
+                            <input type="checkbox"> New Delhi <br>
+
+                            <input type="checkbox"> Noida <br>
+                            <input type="checkbox"> Pathankot <br>
+                            <input type="checkbox"> Patiala <br>
+                            <input type="checkbox"> Patna <br>
+                            <input type="checkbox"> Pindicherry <br>
+                            <input type="checkbox"> Prayagraj <br>
+                            <input type="checkbox"> Pune <br>
+                            <input type="checkbox"> Raipur <br>
+                            <input type="checkbox"> Rajkot <br>
+                            <input type="checkbox"> Ranchi <br>
+                            <input type="checkbox"> Salem <br>
+
+                            <input type="checkbox"> Siliguri <br>
+                            <input type="checkbox"> Surat <br>
+                            <input type="checkbox"> Thrissur <br>
+                            <input type="checkbox"> Tirupati <br>
+                            <input type="checkbox"> Tirpur <br>
+                            <input type="checkbox"> Trichy <br>
+                            <input type="checkbox"> Trivandrum <br>
+                            <input type="checkbox"> Udaipur <br>
+                            <input type="checkbox"> Vadodara <br>
+                            <input type="checkbox"> Varanasi <br>
+                            <input type="checkbox"> Vellore <br>
+
+                            <input type="checkbox"> Vijayawada <br>
+                            <input type="checkbox"> Visakhapatnam <br>
+                            <input type="checkbox"> Zirakpur <br>
+                        </form>
+                    </div>
+
+                    <div id="filter-branch">
+                        <div class="filter-branch-title">
+                            BRANCH
+                        </div>
+
+                        <div id="filter-branch-select">
+                            <form action="">
+                                <input type="checkbox"> 93 Avenue Mall, Fatima <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nagar <br>
+                                <input type="checkbox"> Acropolis Mall, East <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kolkata Township <br>
+                                <input type="checkbox"> Ahluwalias Great Mall, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; DCM Rd <br>
+                                <input type="checkbox"> AL BARSHA <br>
+                                <input type="checkbox"> Alcazar Mall, Jubilee Hills <br>
+                                <input type="checkbox"> AL KARAMA <br>
+                                <input type="checkbox"> AL WAHDA MALL <br>
+                                <input type="checkbox"> Amanora <br>
+                                <input type="checkbox"> Ambience Mall, Sector 24 <br>
+                                <input type="checkbox"> Ampa Skywalk Mall <br>
+                                <input type="checkbox"> Anna Salai, Kosapet <br>
+                                <input type="checkbox"> Atria Mall, Worli <br>
+                                <input type="checkbox"> Bangalore Atmosfire <br>
+                                <input type="checkbox"> Banjara Hills <br>
+                                <input type="checkbox"> Barbeque Nation Kuala <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Lumpur <br>
+                                <input type="checkbox"> Bhartiya Mall of Bengaluru <br>
+                                <input type="checkbox"> Bhawanipore(Delivery) <br>
+                                <input type="checkbox"> Block A, Rajouri Garden <br>
+                                <input type="checkbox"> Boring Road(Delivery) <br>
+                                <input type="checkbox"> Bussy Street <br>
+                                <input type="checkbox"> Caculo Mall, Panaji <br>
+                                <input type="checkbox"> Celebration Mall, Bhuwana <br>
+                                <input type="checkbox"> Central Cinemas <br>
+                                <input type="checkbox"> Centro Mall, MG Road <br>
+                                <input type="checkbox"> Chembur (Delivery) <br>
+                                <input type="checkbox"> Cine Mall, Race Course <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> City Center, Untwadi <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> City Centre <br>
+                                <input type="checkbox"> City Mall, Civil Lines <br>
+                                <input type="checkbox"> City Plaza Building, Abids <br>
+                                <input type="checkbox"> Clover Hill Plaza, NIBM <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Community Centre, Vivek <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Vihar <br>
+                                <input type="checkbox"> Connaught Place <br>
+                                <input type="checkbox"> Cosmos Mall <br>
+                                <input type="checkbox"> Crown Interiorz Mall, Sec-<br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 35 <br>
+                                <input type="checkbox"> Crystall Mall, Kalawad <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Curo Highstreet Mall, 66 Ft <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rd <br>
+                                <input type="checkbox"> Cuttack <br>
+                                <input type="checkbox"> DALMA MALL <br>
+                                <input type="checkbox"> Dhillon Plaza, Chattbir <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Dhole Patil(Delivery) <br>
+                                <input type="checkbox"> Diamond Plaza, jessore <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> DLF Porur <br>
+                                <input type="checkbox"> DN Regalia Mall, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Patrapada <br>
+                                <input type="checkbox"> Downtown 44, NH-44 <br>
+                                <input type="checkbox"> Durga Infinity Mall, Bailey <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rd <br>
+                                <input type="checkbox"> EDM MALL KAUSHAMBI <br>
+                                <input type="checkbox"> Electronic City <br>
+                                <input type="checkbox"> Elpro Mall, MG Road <br>
+                                <input type="checkbox"> Emaya Mall, Paschim Vihar <br>
+                                <input type="checkbox"> Eminet Mall, Red Square <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mkt <br>
+                                <input type="checkbox"> Eros Mall, Sector 20A <br>
+                                <input type="checkbox"> Eternity Mall, Amravati <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Ferozpur Road <br>
+                                <input type="checkbox"> Forum Sujana Mall, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kukatpally <br>
+                                <input type="checkbox"> Fun Republic Lokhandwala <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mumbai <br>
+                                <input type="checkbox"> Fun Republic Mall <br>
+                                <input type="checkbox"> Gaur Central Mall, Raj <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nagar <br>
+                                <input type="checkbox"> Gaur City Mall, Sector 4 <br>
+                                <input type="checkbox"> Gopalan Mall JP Nagar <br>
+                                <input type="checkbox"> Grand Highstreet <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Mall, Hinjewadi <br>
+                                <input type="checkbox"> Grand Mall, Sector 28 <br>
+                                <input type="checkbox"> Greater Noida Sec Beta 2 <br>
+                                <input type="checkbox"> Growels Mall, Kandivali <br>
+                                <input type="checkbox"> GSM Mall Miyapur <br>
+                                <input type="checkbox"> Guwahati- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Anuradha(Delivery) <br>
+                                <input type="checkbox"> Habitat Mall, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Jayalakshmipuram <br>
+                                <input type="checkbox"> Hill Road, Bandra West <br>
+                                <input type="checkbox"> Hotel Savoy Suites, Sector <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 16 <br>
+                                <input type="checkbox"> Inco Chowk <br>
+                                <input type="checkbox"> Indiranagar <br>
+                                <input type="checkbox"> ITPL, Whitefield <br>
+                                <input type="checkbox"> Jagat Mall, Gorakhpur <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Jangpura <br>
+                                <input type="checkbox"> Jessore Road, Barasat <br>
+                                <input type="checkbox"> JHV Mall, The Mall Road <br>
+                                <input type="checkbox"> JP Nagar <br>
+                                <input type="checkbox"> Kacheripady, MG Road <br>
+                                <input type="checkbox"> Kakkanad, Airport Road <br>
+                                <input type="checkbox"> Kalyani Nagar <br>
+                                <input type="checkbox"> Kalyan Nagar <br>
+                                <input type="checkbox"> Kalyan Nagar(Delivery) <br>
+                                <input type="checkbox"> Kanakpura Road <br>
+                                <input type="checkbox"> Khalasi Line, Swaroop <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nagar <br>
+                                <input type="checkbox"> Kharadi(Delivery) <br>
+                                <input type="checkbox"> Kharghar(Delivery) <br>
+                                <input type="checkbox"> KNK Road, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nungambakkam <br>
+                                <input type="checkbox"> Kohinoor Square, Dadar <br>
+                                <input type="checkbox"> Kompally <br>
+                                <input type="checkbox"> Kondapur <br>
+                                <input type="checkbox"> Koramangala 1st Block <br>
+                                <input type="checkbox"> Koramangala 7th Block <br>
+                                <input type="checkbox"> Korum Mall(Delivery) <br>
+                                <input type="checkbox"> Korum Mall Thane <br>
+                                <input type="checkbox"> Kothapet <br>
+                                <input type="checkbox"> Kurla,, Pheonix <br>
+                                <input type="checkbox"> Lachit Nagar <br>
+                                <input type="checkbox"> Lake Mall, Kalighat <br>
+                                <input type="checkbox"> Lakshmipuram Main <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Rd, Ashok Ngr <br>
+                                <input type="checkbox"> Laxmi Nagar <br>
+                                <input type="checkbox"> Lido Mall, Mg Road <br>
+                                <input type="checkbox"> M3M IFC, Sector 66 <br>
+                                <input type="checkbox"> Madhurawada <br>
+                                <input type="checkbox"> Magneto Mall, Jivan Vihar <br>
+                                <input type="checkbox"> Mak Mall, Kankanady <br>
+                                <input type="checkbox"> Mall Road <br>
+                                <input type="checkbox"> Mall Road, Civil Lines <br>
+                                <input type="checkbox"> Manghalam Towers, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Reynolds Rd <br>
+                                <input type="checkbox"> Max Building, Circular <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Metro Junction Mall, Kalyan <br>
+                                <input type="checkbox"> Metropolitan(Delivery) <br>
+                                <input type="checkbox"> Millenium Mall, KK Nagar <br>
+                                <input type="checkbox"> MI Road <br>
+                                <input type="checkbox"> Mittal City Mall <br>
+                                <input type="checkbox"> Model Town <br>
+                                <input type="checkbox"> Municipal Office Road, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Noyyal <br>
+                                <input type="checkbox"> Nanakramguda Road, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Gachibowli <br>
+                                <input type="checkbox"> Netaji Subhash <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Place, Pitampura <br>
+                                <input type="checkbox"> New Bel Road(Delivery) <br>
+                                <input type="checkbox"> New Friends Colony <br>
+                                <input type="checkbox"> New Market <br>
+                                <input type="checkbox"> New Town, Rajarhat <br>
+                                <input type="checkbox"> Nexus Mall <br>
+                                <input type="checkbox"> Nexus <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Shantiniketan, Whitefield <br>
+                                <input type="checkbox"> Noida-63(Delivery) <br>
+                                <input type="checkbox"> NVR Central, Grand Trunk <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> OMAN AVENUES MALL <br>
+                                <input type="checkbox"> Omr <br>
+                                <input type="checkbox"> One Mall, Fraser Road <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Area <br>
+                                <input type="checkbox"> Orion Mall, Panvel <br>
+                                <input type="checkbox"> Palam Vihar <br>
+                                <input type="checkbox"> Panachamootil Square <br>
+                                <input type="checkbox"> Panchsheel Colony, Garh <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Paradise Circle, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Secunderabad <br>
+                                <input type="checkbox"> Paras One33 Mall <br>
+                                <input type="checkbox"> Park Street <br>
+                                <input type="checkbox"> Parle Point, Athwa <br>
+                                <input type="checkbox"> Phoenix Market City <br>
+                                <input type="checkbox"> Phoeinx Marketcity, Kurla <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; West <br>
+                                <input type="checkbox"> Pithapuram Road, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kakinada <br>
+                                <input type="checkbox"> Prahlad Nagar <br>
+                                <input type="checkbox"> Prozone Mall <br>
+                                <input type="checkbox"> Rainbow Road, Model <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Town <br>
+                                <input type="checkbox"> Rajaji Nagar <br>
+                                <input type="checkbox"> Rajpur Road <br>
+                                <input type="checkbox"> Rampur Garden, Civil Lines <br>
+                                <input type="checkbox"> Rao Mall <br>
+                                <input type="checkbox"> R Deccan Mall, JM Road <br>
+                                <input type="checkbox"> River Side Mall, Gomti <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nagar <br>
+                                <input type="checkbox"> R Mall -Mulund <br>
+                                <input type="checkbox"> RMZ Azure, Hebbal <br>
+                                <input type="checkbox"> Rohtas Summit, Gomti <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nagar <br>
+                                <input type="checkbox"> Rosa Vista, Ghodbunder <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Rukmani Colony, AS Rao <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Nagar <br>
+                                <input type="checkbox"> RV Square, Greater <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Kailash <br>
+                                <input type="checkbox"> Sachivalya Marg <br>
+                                <input type="checkbox"> Saral Xperia Mall, Sky <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Forest <br>
+                                <input type="checkbox"> Sarjapur Road <br>
+                                <input type="checkbox"> Satya One Complex <br>
+                                <input type="checkbox"> Savoy Greens, GT Road <br>
+                                <input type="checkbox"> Sayaji Hotel <br>
+                                <input type="checkbox"> Sayaji Hotel, Wakad <br>
+                                <input type="checkbox"> SBT Khader Basha <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Towers, Gajuwaka <br>
+                                <input type="checkbox"> Sector 1, Mahape <br>
+                                <input type="checkbox"> Sector 5, Nerul <br>
+                                <input type="checkbox"> Sector 5, Salt Lake <br>
+                                <input type="checkbox"> Sector 6, DLF Saket <br>
+                                <input type="checkbox"> Sector 10, Rohini <br>
+                                <input type="checkbox"> Sector 11, Belapur <br>
+                                <input type="checkbox"> Sector 26 <br>
+                                <input type="checkbox"> Sector 56(Delivery) <br>
+                                <input type="checkbox"> Sector 59 <br>
+                                <input type="checkbox"> Sector C, Vasant Kunj <br>
+                                <input type="checkbox"> Sector E, Aliganj <br>
+                                <input type="checkbox"> Selex Mall, East Fort <br>
+                                <input type="checkbox"> Sentrum Mall, Kanayapur <br>
+                                <input type="checkbox"> Sevoke Road <br>
+                                <input type="checkbox"> Sharda College Road <br>
+                                <input type="checkbox"> Shushant Lok(D) <br>
+                                <input type="checkbox"> Sohna Road <br>
+                                <input type="checkbox"> Square Mall, Civil Lines <br>
+                                <input type="checkbox"> SS Omnia Mall, Sector 62  <br>
+                                <input type="checkbox"> STV Nagar <br>
+                                <input type="checkbox"> Tamanna Arcade <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Ambedkar Rd <br>
+                                <input type="checkbox"> Tapadia City Center <br>
+                                <input type="checkbox"> Thane <br>
+                                <input type="checkbox"> The Grand Mall Velachery <br>
+                                <input type="checkbox"> TI Mall, MG Road <br>
+                                <input type="checkbox"> Times Square, Sakinaka <br>
+                                <input type="checkbox"> T Nagar Bazullah Road <br>
+                                <input type="checkbox"> Tonk Road <br>
+                                <input type="checkbox"> Toscano Koramangala <br>
+                                <input type="checkbox"> Town Hall <br>
+                                <input type="checkbox"> Trade Centre, BKC <br>
+                                <input type="checkbox"> Udeshna Building <br>
+                                <input type="checkbox"> Unity Mall, Janakpuri <br>
+                                <input type="checkbox"> Urban Estate, Phase 2 <br>
+                                <input type="checkbox"> Vadapalani <br>
+                                <input type="checkbox"> Vashi <br>
+                                <input type="checkbox"> Veeras Vega <br>
+                                <input type="checkbox"> Vegas Mall, Sec-14, <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Dwarka <br>
+                                <input type="checkbox"> Venkatagiri Plaza, Gokul <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Road <br>
+                                <input type="checkbox"> Virasha STC, Gulmohar <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Colony <br>
+                                <input type="checkbox"> Virginia Mall, Whitefield <br>
+                                <input type="checkbox"> Vithal Udyognagar Anand <br>
+                                <input type="checkbox"> Vizag <br>
+                                <input type="checkbox"> Wadala(Delivery) <br>
+                                <input type="checkbox"> Walatair Road Vizag <br>
+                                <input type="checkbox"> Westend Mall, Aundh <br>
+                                <input type="checkbox"> Whitefield(Delivery) <br>
+                                <input type="checkbox"> Yelahanka <br>
+                                <input type="checkbox"> YK Nagar, Virar West <br>
+                                <input type="checkbox"> Z Square Mall, MG Road <br>
+                                <input type="checkbox"> Phoeinx Mall, LDA Colony<br>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="filter-treat_type">
+                        <div class="filter-treat_type-title">
+                            TREAT TYPE
+                        </div>
+                        <div id="filter-treat_type-D_L">    
+                            <form action="">
+                                <input type="checkbox"> DINNER <br>
+                                <input type="checkbox"> LUNCH
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="filter-food_classfication">
+                        <div class="filter-food_classfication-title">
+                            FOOD CLASSIFICATION
+                        </div>
+                        <div id="filter-food_classfication-N_V">    
+                            <form action="">
+                                <input type="checkbox"> NONVEG <br>
+                                <input type="checkbox"> VEG
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="filter-days_of_week">
+                        <div class="filter-days_of_week-title">
+                            DAYS OF WEEK
+                        </div>
+                        <div id="filter-days_of_week-days">    
+                            <form action="">
+                                <input type="checkbox"> FRIDAY <br>
+                                <input type="checkbox"> MONDAY <br>
+                                <input type="checkbox"> SATURDAY <br>
+                                <input type="checkbox"> SUNDAY <br>
+                                <input type="checkbox"> THURSDAY <br>
+                                <input type="checkbox"> TUESDAY <br>
+                                <input type="checkbox"> WEDNESDAY <br>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div id="filter-vouchers_type">
+                        <div class="filter-vouchers_type-title">
+                            VOUCHER TYPE
+                        </div>
+                        <div id="filter-vouchers_type-days">    
+                            <form action="">
+                                <input type="checkbox"> REGULAR 
+                            </form>
+                        </div>
+                    </div>
+
+                    <section id="MQ-480-fixed-btn">
+                        <button id="Apply">
+                            Apply
+                        </button>
+                        <button id="Cancel">
+                            Cancel
+                        </button>
+                    </section>
+                    
+                </div>
+                <!-- ----- Filter - H-C for U - Sort by -> END ----- -->
+
+
+
+
+
+
+
+
+
+
+                <!-- ---------- Happiness Card For You -> START ---------- -->
+                
+                <div id="H_C_F_Y">
+                    <div class="H_C_F_Y-head">
+                        <div class="H_C_F_Y-title">
+                            Happiness card for you
+                        </div>
+                        <div class="H_C_F_Y-sort_by_you">
+                            <div id="sort_by">
+                                <button>
+                                    <span> Sort by : </span> Relevance
+                                    <select>
+                                        <option> Relevance </option>
+                                        <option> Price (Low to High) </option>
+                                        <option> Price (High to Low) </option>
+                                    </select>
+                                </button>
+                            </div>
+                        </div>
+
+                        <div id="H_C_F_Y-MQ-480-Icons">
+                            <div id="H_C_F_Y-MQ-480-Icons-Filter"></div>
+                            <div id="H_C_F_Y-MQ-480-Icons-Sort-High-Price"></div>
+                        </div>
+                    </div>
+                    
+                    
+                    <!-- ---------- Happiness All Cards -> START ---------- -->
+                    <div id="H-C-All">  
+
+                        <div id="H-C-Card-orange">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card- Treat for Twelve
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹9,900
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-orange">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card- Treat for Eight
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹6,800
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-black">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹10,000
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-black">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹5,000
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-black">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹2,500
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-black">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹1,000
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-orange">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card- Treat for Two
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹1,800
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-orange">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card- Treat for Four
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹3,600
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+
+                        <div id="H-C-Card-orange">
+                            <div class="H-C-Card-title">
+                                Hapiness Gift Card- Treat for Three
+                            </div>
+                            <div class="H-C-Card-price">
+                                ₹2,400
+                            </div>
+                            <button id="H-C-Card-Add_to_Cart-btn">
+                                ADD TO CART
+                            </button>
+                            <a href="#" id="H-C-Card-More_Info"> 
+                                MORE INFO 
+                            </a>
+                        </div>
+                        
+
+
+
+
+                    </div>
+                    <!-- ---------- Happiness All Cards -> END ---------- -->
+                
+                </div>
+        
+                <!-- ---------- Happiness Card For You -> END ---------- -->
+
+            </div>
+
+        </section>
+    <!-- ============ Happiness Card SUB -> END ============ -->
+    </section>
+    <!-- ================= Happiness Card  MAIN -> END ================= -->
+
+
+
+
+
+
+
+
+
+
+    <!-- ================= How to Reedem -> START ================= -->
+
+    <div id="how_to_reedem-main">
+        <div id="how_to_reedem-sub">
+
+            <div class="H_T_R-heading">
+                How to Reedem
+            </div>
+
+            <div class="H_T_R-process">
+
+                <div class="H_T_R-process-part">
+                    <div class="H_T_R-process-part-logo">
+                        <div class="H_T_R-image">
+                            <img src="img/click.svg">
+                        </div>
+                    </div>
+                    <div class="H_T_R-process-part-title">
+                        1. Selection                        
+                    </div>
+                    <div class="H_T_R-process-part-para">
+                        The Barbeque Nation Happiness <br> 
+                        Card comes in multiple <br> 
+                        denominations. Please select the one <br>
+                        that fits your requirement and <br> 
+                        budget.
+                    </div>
+                </div>
+
+                <div class="H_T_R-process-part">
+                    <div class="H_T_R-process-part-logo">
+                        <div class="H_T_R-image">
+                            <img src="img/wallet.svg">
+                        </div>
+                    </div>
+                    <div class="H_T_R-process-part-title">
+                        2. Payment Mode                        
+                    </div>
+                    <div class="H_T_R-process-part-para">
+                        It’s extremely simple to buy the <br> 
+                        Happiness Card that you desire. We <br>
+                        have multiple payment models <br> 
+                        available on the app: you can choose <br> 
+                        to pay through your Debit/Credit <br> 
+                        Card, Netbanking, UPI Transfers or <br> 
+                        payment wallets.
+                    </div>
+                </div>
+
+                <div class="H_T_R-process-part">
+                    <div class="H_T_R-process-part-logo">
+                        <div class="H_T_R-image">
+                            <img src="img/voucher.svg">
+                        </div>
+                    </div>
+                    <div class="H_T_R-process-part-title">
+                        3. Voucher Details                        
+                    </div>
+                    <div class="H_T_R-process-part-para">
+                        Once your payment is successful, the <br> 
+                        voucher details will reflect on your <br>
+                        profile automatically. You can use the <br>
+                        voucher code the next time you make <br>
+                        your reservation/booking through our <br>
+                        app.
+                    </div>
+                </div>
+
+                <div class="H_T_R-process-part">
+                    <div class="H_T_R-process-part-logo">
+                        <div class="H_T_R-image">
+                            <img src="img/credit-card.svg">
+                        </div>
+                    </div>
+                    <div class="H_T_R-process-part-title">
+                        4. Make Payment                        
+                    </div>
+                    <div class="H_T_R-process-part-para">
+                        In order to make your table booking, <br>
+                        you will have to make the payment in <br>
+                        advance. While doing so, you can use <br>
+                        the voucher code or the Happiness <br>
+                        Card that you have purchased.
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="H_T_R-or">
+                Or
+            </div>
+
+            <div class="R-F-outlet">
+                You Can Reedem It From Outlet
+            </div>
+
+        </div>
+    </div>
+
+    <!-- ================= How to Reedem -> END ================= -->
+
+    
+<!-- ->->->->->->->| Footer -> START |<-<-<-<-<-<-<- -->
+
+    
+<!-- ================================================================= -->
+<!-- ==================== Footer -> START ==================== -->
+<footer>
+    <section id="footer-main">
+        
+        <div id="footer-left">
+                <div id="footer-menu">
+                    <div id="footer-menu-list">
+                        <a href="#"> OUR STORY </a>
+                        <a href="#"> NEWS </a>
+                        <a href="Happiness Card of Header.html"> HAPPINESS CARD </a>
+                        <a href="#"> CAREERS </a>
+                        <a href="#"> FAQ </a>
+                        <a href="#"> INVESTOR RELATIONS </a>
+                        <a href="#"> BARBEQUE NATION PARTNERSHIP </a>
+                    </div>
+                    <div id="footer-menu-list">
+                        <a href="#"> LOCATIONS </a>
+                        <a href="#"> BLOG </a>
+                        <a href="Whats on BBQN.html"> WHAT'S ON BBQN </a>
+                        <a href="#"> CONTACT US </a>
+                        <a href="#"> CORPORATE ENQUIRY </a>
+                        <a href="#"> MEDIA COVRAGE </a>
+                        <a href="#"> NUTRAITION INFORMATION </a>
+                    </div>
+                    <div id="footer-menu-contact">
+                        <a> REACH US </a>
+                        <a> Call Us </a>
+                        <a href="#"> 08069028721 </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="footer-right">
+                <div id="download-text">
+                    DOWNLOAD THE APP
+                </div>
+                <a href="#">
+                    <img class="download-app-store" src="img/Download Appstore.webp" alt="">
+                </a>
+                <a href="#">
+                    <img class="download-play-store" src="img/googleplay.webp" alt="">
+                </a>
+            </div>
+            
+        </section>
+        
+        <section id="footer-bottom">
+            <section id="footer-bottom-main">
+                
+                <a href="Home Page of Barbeque.html">
+                    <img class="footer-logo" src="img/Logo.svg" alt="">
+                </a>
+                <div id="copyright">
+                    &copy; 2019 Barbeque Nation Hospitiality Ltd.
+                </div>
+                <div id="footer-links">
+                    <a href="#"> Terms & Condition </a>
+                    <a href="#"> Privacy Policy </a>
+                </div>
+                <div id="footer-icons">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+                </div>
+                
+            </section>
+        </section>
+    </footer>
+    <!-- ==================== Footer -> END ==================== -->
+    <!-- ================================================================= -->
+
+    <!-- ->->->->->->->| Footer -> END |<-<-<-<-<-<-<- -->
+
+
+
+
+
+
+
+
+
+
+
+<!-- >>>>>>>>>>| Jquery Script -> START |<<<<<<<<<< -->
+<script>
+    
+    $(document).ready(function () {
+        $("#H_C_F_Y-MQ-480-Icons-Filter").click(function () {
+            $("#H-C-heading-page").hide()
+            $("#H_C_F_Y").hide()
+            $("#how_to_reedem-main").hide()
+            $("#filter").show()
+        })
+        $("#MQ-480-fixed-btn #Cancel").click(function () {
+            $("#filter").hide()
+            $("#H-C-heading-page").show()
+            $("#H_C_F_Y").show()
+            $("#how_to_reedem-main").show()
+        })
+        // For Back
+        $("#MQ-480-fixed-btn #Apply").click(function () {
+            $("#filter").hide()
+            $("#H-C-heading-page").show()
+            $("#H_C_F_Y").show()
+            $("#how_to_reedem-main").show()
+        })
+    })
+
+
+// <!-- >>>>>>>>>>| JQuery Header -> START |<<<<<<<<<< -->
+
+     // -------------------------------------------------
+        // Notification Bell Show & Hide
+        $(document).ready(function () {
+            $(".bell").click(function () {
+                $("#notifications").fadeToggle(300)
+            })
+            $(".fa-xmark").click(function () {
+                $("#notifications").fadeOut()                
+            })
+        })
+        // -------------------------------------------------
+
+
+
+
+
+        // -------------------------------------------------
+        // Cart Show & Hide
+        $(document).ready(function () {
+            $(".cart").click(function () {
+                $("#cart-click").fadeToggle()                
+            })            
+            $(".fa-xmark").click(function () {
+                $("#cart-click").fadeOut()                
+            })
+
+            $(".cart").click(function () {
+                $("body").css({"background-color": "rgba(0,0,0,0.4)"})
+            })
+        })
+        // -------------------------------------------------
+        
+        
+        
+        
+
+        // -------------------------------------------------
+        // 9 Dot All Menu List Show & Hide
+        $(document).ready(function () {
+            $(".dot-9").click(function () {
+                $("#All-Menu-main").slideDown(1000)                
+            })      
+                 
+            $("#close").click(function () {
+                 $("#All-Menu-main").slideUp(1000)
+            })
+        })
+         // -------------------------------------------------
+
+
+         
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    For Mobile Media Query (480px) -> START <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// ========================================
+// Header ma Search Area Show Karavva
+// ----------------------------------------
+$(document).ready(function () {
+    $("#T-H-Location").click(function () {
+        $("#T-H-Location-List-main").toggle()
+    })
+    
+})
+// ========================================
+
+// ========================================
+// List Menu CLICK karta Lists Show thaay
+// ----------------------------------------
+$(document).ready(function () {
+    $("#T-H-Location-List").click(function () {
+        $("#T-H-Location-Area-List").toggle()
+    })
+    // $("#T-H-Location-List").click(function () {
+    //     $("#T-H-Location-List i").toggle().css({"transform": "rotate(180deg)","padding-left": "200px"})
+    // })
+})
+// ========================================
+
+// ========================================
+// Area name Search Karta Shortlisting thaay
+// ----------------------------------------
+$(document).ready(function () {
+    $("#search-area").on("keyup", function () {
+     var list = $(this).val().toLowerCase();
+    $("#list-of-area optgroup option").filter(function () {
+        $(this).toggle($(this).text().toLowerCase().indexOf(list)>-1)
+    })
+    })
+})
+// ========================================
+
+// ========================================
+// 
+// ----------------------------------------
+$(document).ready(function () {
+    $("#T-H-Near_by-Location").click(function () {
+        alert("Please allow access to your location for us to get nearest branch")
+    })
+})
+// =======================================
+
+// ======================================= 
+// ---------------------------------------
+$(document).ready(function () {
+    $("#T-H-Toggle-Menu > .fa-bars").click(function () {
+        $("#T-H-Toggle-Menu-List").fadeToggle()
+    })
+    $("#T-H-Toggle-Menu-List-Header-Close > .fa-xmark").click(function () {
+        $("#T-H-Toggle-Menu-List").fadeToggle()
+    })
+})
+// =======================================
+
+
+
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>    For Mobile Media Query (480px) -> END <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+// <!-- >>>>>>>>>>| JQuery Header -> END |<<<<<<<<<< -->
+    
+</script>
+<!-- >>>>>>>>>>| Jquery Script -> END |<<<<<<<<<< -->
+
+
+    
+</body>
+</html>
+
+<!-- 
+    font-family: 'Rubik', sans-serif;
+ -->

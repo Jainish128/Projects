@@ -1,0 +1,2634 @@
+@media (min-width: 769px) and (max-width: 1024px) 
+{
+
+
+
+    
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&family=Montserrat:ital,wght@1,900&family=Rampart+One&family=Rubik:wght@300&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+    /* color: #565360; */
+    font-family: sans-serif;
+}
+*::selection
+{
+    background-color: orangered;
+    color: #fff;
+}
+
+
+/* ========== HEADER -> START ========== */
+header
+{
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    box-shadow: 0 0 10px black;
+
+    display: none;
+}
+#header
+{
+    width: 80%;
+    height: inherit;
+    margin: 0px 10%;
+    background-color: white;
+    /* Inline ma Show Karavva */
+    display: flex;
+}
+/* ---------- Header Logo ----------  */
+.logo
+{
+    width: 10%;
+    height: 90px;
+    /* background-color: lavender; */
+}
+.logo img
+{
+    width: 90%;
+    height: 70px;
+    margin: 10px 5%;
+}
+/* ---------- Header Search Box ----------  */
+.search-header
+{
+    width: 19%;
+    height: 90px;
+    /* background-color: lightgoldenrodyellow; */
+}
+.main-search-haeder
+{
+    width: 70%;
+    height: 40px;
+    margin: 25px 15%;
+    /* Inline ma Show Karavva */
+    display: flex;
+    /* background-color: lightblue; */
+}
+
+.main-search-haeder .material-symbols-outlined 
+{
+    width: 12%;
+    height: 40px;
+    /* background-color: lavender; */
+    color: orangered;
+    font-size: 16px;
+    font-weight: 300;
+    /* Height ma Center Show Karvva */
+    line-height: 40px;
+}
+.main-search-haeder h6
+{
+    width: 76%;
+    height: 40px;
+    line-height: 40px;
+    /* Text ne Center Ma Show Karvva */
+    text-align: center;
+    /* background-color: lightcyan; */
+    font-family: arial;
+    font-size: 14px;
+    font-weight: lighter;
+    opacity: 0.7;
+}
+.main-search-haeder i
+{
+    width: 12%;
+    height: 40px;
+    /* background-color: red; */
+    font-size: 15px;
+    color: orangered;
+    line-height: 40px;
+    /* Icon ne Center Ma Show Karvva */
+    text-align: center;
+}
+/* ---------- Header Navbar ---------- */
+.navbar
+{
+    width: 50%;
+    height: 90px;
+    /* background-color: aqua; */
+    display: flex;
+}
+.navbar .nav 
+{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 39px 20px 39px 4px;
+    /* line-height: 90px; */
+}
+.navbar .nav a
+{
+    color: #333;;
+}
+.navbar .nav a:hover
+{
+    color: orangered;
+}
+.navbar .nav:nth-child(5)
+{
+    width: 130px;
+    height: 30px;
+    margin-top: 30px;
+    background-color: #fc4412;
+    font-size: 13px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    position: relative;
+}
+.navbar .nav:nth-child(5) a
+{
+    color: #fff;
+}
+.navbar .nav:nth-child(5):hover
+{
+    background-color: rgb(220, 60, 0);
+}
+
+.navbar .new:last-child
+{
+    width: 45px;
+    height: 20px;
+    background-color: whitesmoke;
+    /* background-color: whitesmoke; */
+    box-shadow: 0px 0px 1px black;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    right: 425px;
+    top: 17px;
+}
+.navbar .new:last-child a
+{
+    color: #e74c3c;
+    font-size: 13px;
+    font-weight: 600;
+}
+/* ---------- Header Login ---------- */
+.login-part
+{
+    width: 21%;
+    height: 90px;
+    /* background-color: lightgray; */
+    display: flex;
+}
+/* ---------- Login ----------  */
+.login
+{
+    width: 46%;
+    height: 90px;
+    /* background-color: lavender; */
+    display: flex;
+}
+.login .login-text
+{
+    margin-left: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 90px;
+}
+.login .login-icon span
+{
+    font-size: 25px;
+    font-weight: 300;
+    line-height: 90px;
+    margin-left: 5px;
+}
+
+/* >>>>>>>>>>| LOGIN -> END |<<<<<<<<<<  */
+/* >>>>>>>>>>| LOGIN -> END |<<<<<<<<<<  */
+
+/* ---------- bell ---------- */
+.bell
+{
+    width: 18%;
+    height: 90px;
+    display: flex;
+    /* background-color: lavenderblush; */
+    padding-left: 10px;
+}
+.bell span
+{
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: 300;
+    position: relative;
+}
+.notifications-count
+{
+    width: 15px;
+    height: 15px;
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 15px;
+    color: aliceblue;
+    font-size: 12px;
+    position: absolute;
+    top: 31px;
+    right: 250px;
+}
+
+/* ===== Notification -> START ===== */
+#notifications
+{
+    width: 23%;
+    height: 420px;
+    background-color: white;
+    box-shadow: 0 0 10px silver;
+    border-radius: 10px;
+    overflow-y: scroll;
+    display: none;
+    position: absolute;
+    right: 170px;
+    top: 90px;
+}
+#close-icon
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellowgreen; */
+    text-align: right;
+}
+#close-icon i
+{
+    font-size: 20px;
+    padding: 5px 10px 5px 0;
+}
+
+#no-notification
+{
+    width: 100%;
+    height: 50px;
+    /* background-color: yellow; */
+    font-family: 'Rubik', sans-serif;   
+    font-weight: 900;
+    font-size: 14px;
+    padding: 5px 0 0 25px;
+}
+/* ===== Notification -> END ===== */
+
+/* ---------- Shooping Cart ----------  */
+.cart
+{
+    width: 18%;
+    height: 90px;
+    display: flex;
+    /* background-color: lavender; */
+    padding-left: 10px;
+}
+.cart span
+{
+    line-height: 90px;
+    font-size: 27px;
+    font-weight: 300;
+    position: relative;
+}
+.item-of-cart
+{
+    width: 15px;
+    height: 15px;
+    background-color: orangered;
+    border: none;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 15px;
+    color: aliceblue;
+    font-size: 12px;
+    position: absolute;
+    top: 28px;
+    right: 205px;
+}
+
+/* ========== Cart -> START ========== */
+#cart-click
+{
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    /* box-shadow: 0 0 10px silver; */
+    display: none;
+    position: absolute;
+    right: 0;
+}
+#cart-head
+{
+    width: 100%;
+    height: 90px;
+    /* background-color: yellowgreen;   */
+    display: flex;
+}
+#cart-head h3
+{
+    width: 70%;
+    height: inherit;
+    /* background-color: red; */
+    text-transform: uppercase;
+    line-height: 90px;
+    font-size: 15px;
+    padding-left: 25px;
+}
+#cart-head #icon
+{
+    width: 30%;
+    height: inherit;
+    /* background-color: yellow; */
+    text-align: center;
+    line-height: 90px;
+    font-size: 20px;
+}
+/* ========== Cart -> END ========== */
+
+
+/* ---------- 9 Dot Menu ---------- */
+.dot-9
+{
+    width: 18%;
+    height: 90px;
+    display: flex;
+    /* background-color: lavenderblush; */
+    padding-left: 10px;
+}
+.dot-9 span
+{
+    line-height: 90px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+/*>>>>>|9 Dot All Menu List -> START|<<<<<*/
+#All-Menu-main
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    margin-top: -90px;
+    display: none;
+    position: absolute;
+    z-index: 2;
+}
+
+#All-Menu-Header
+{
+    width: 76%;
+    height: 100px;
+    margin: 0 12%;
+    /* background-color: white; */
+    display: flex;
+}
+#All-Menu-Header-Logo
+{
+    width: 90%;
+    height: inherit;
+    /* background-color: lightblue; */
+}
+#All-Menu-Header-Logo img
+{
+    padding: 10px 0px;
+}
+
+#All-Menu-Header-close
+{
+    width: 10%;
+    height: inherit;
+    /* background-color: yellow; */
+    text-align: right;
+    line-height: 110px;
+}
+#All-Menu-Header-close i
+{
+    font-size: 35px;
+    color: #555;
+}
+
+
+#All-List-bg    
+{
+    width: 60%;
+    height: 450px;
+    margin: 50px 20% 0 20%;
+    /* background-color: yellowgreen; */
+    position: relative;
+}
+#All-List-bg img
+{
+    width: 100%;
+    height: inherit;
+    opacity: 0.1;
+}
+#All-List
+{
+    width: 100%;
+    height: inherit;
+    /* background-color: yellowgreen; */
+    position: absolute;
+    top: 0;
+}
+
+#All-List ul
+{
+    width: 100%;
+    height: inherit;
+    /* background-color: yellow; */
+    display: flex;
+    flex-wrap: wrap;
+}
+#All-List ul li
+{
+    width: 33%;
+    height: 40px;
+    /* background-color: lightblue; */
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+}
+#All-List ul li:first-child a
+{
+    color: orangered;
+    border-bottom: 2px solid orangered;
+    padding-bottom: 5px;
+}
+#All-List ul li a:hover
+{
+    color: orangered;
+    transition: 0.3s ease;
+}
+#All-List-Icons
+{
+    width: 14%;
+    height: 100px;
+    margin: 25px 43% 25px 43%;
+    /* background-color: lightskyblue; */
+    line-height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+#All-List-Icons i
+{
+    font-size: 25px;
+    color: #d19772;
+}
+#All-List-Icons i:hover
+{
+    color: orangered;
+}
+/*>>>>>| 9 Dot All Menu List -> END |<<<<<*/
+
+
+/* ========== Header Close ========== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+/* ========== Header (480px) -> START ========== */
+#Header-480
+{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 5px silver;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+    display: block;
+}
+/* ----- Top Header 480 -> START ----- */
+#Top-Header-480
+{
+    width: 90%;
+    height: inherit;
+    margin: 0 5%;
+    /* background-color: yellowgreen; */
+    display: flex;
+}
+
+/* ----- Top Header Logo -> START ----- */
+#T-H-480-Logo
+{
+    width: 15%;
+    height: inherit;
+    /* background-color: green; */
+    position: relative;
+}
+#T-H-480-Logo-Img
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: green; */
+    background: url(img/bbq-logo-theme.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 15px;
+}
+#T-H-480-Logo-Img:hover
+{
+    cursor: pointer;
+}
+/* ----- Top Header Logo -> END ----- */
+
+/* ----- T-H-Location -> START ----- */
+#T-H-Location
+{
+    width: 40%;
+    height: inherit;
+    /* background-color: lightblue; */
+}
+#T-H-Location-icon
+{
+    width: 10%;
+    height: 20px;
+    /* background-color: red; */
+    color: #e74c3c;
+    font-size: 14px;
+}
+
+#T-H-Location input
+{
+    width: 85%;
+    height: 30px;
+    margin: 20px 0 20px 0;
+    font-size: 14px;
+    background: url(img/Dropdown.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 14px;
+    border: none;
+}
+#T-H-Location-List input:focus
+{
+    outline: none;
+    caret-color: #e74c3c;
+}
+
+/* ----- T-H-Location List -> START ----- */
+#T-H-Location-List-main
+{
+    width: 80%;
+    height: 450px;
+    background-color: white;
+    box-shadow: 0 0 5px silver;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+
+    display: none;
+}
+#T-H-Location-List
+{
+    width: 84%;
+    height: 35px;
+    margin: 8% 8% 5% 8%;
+    background-color: white;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #e74c3c;
+    padding: 0px 5px 0 15px;
+    line-height: 35px;
+    font-size: 14px;
+    font-weight: bold;
+}
+#T-H-Location-List i
+{
+    padding-left: 220px;
+    font-size: 14px;
+    color: #e74c3c;
+    transform: rotate(0deg);
+}
+/* ----- T-H-Location-Area-List -> START ----- */
+#T-H-Location-Area-List
+{
+    width: 84%;
+    height: 330px;
+    margin: 5% 8%;
+    background-color: white;
+    box-shadow: 0 0 10px silver; 
+    position: absolute;
+    top: 65px;
+    z-index: 1;
+    display: none;
+}
+#search-area
+{
+    width: 94%;
+    height: 25px;
+    margin: 15px 3% 10px 3%;
+    /* background-color: yellow; */
+    border: none;
+    border-bottom: 1px solid #fc4412;
+    background: url(img/Search\ bar\ Image.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 20px;
+}
+#search-area:focus
+{
+    outline: none;
+    caret-color: #e74c3c;
+    font-size: 16px;
+    padding-right: 25px;
+}
+#list-of-area
+{
+    width: 94%;
+    height: 270px;
+    margin: 10px 3% 0 3%;
+    /* background-color: #fff; */
+    overflow: scroll;
+    /* overflow-x: scroll; */
+}
+#list-of-area optgroup
+{
+    /* width: 100%; */
+    /* height: 30px; */
+    background-color: #fff;
+    line-height: 25px;
+}
+#list-of-area optgroup option
+{
+    width: 100%;
+    height: 30px;
+    padding: 0px 15px;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+#list-of-area optgroup option:hover
+{
+    background-color: rgba(255, 68, 0, 0.5);
+}
+
+
+/* ----- T-H-Location-Area-List -> END ----- */
+
+
+/* ----- T-H-Near_by-Location -> START ----- */
+#T-H-Near_by-Location
+{
+    width: 84%;
+    height: 60px;
+    margin: 0 8%;
+    background-color: white;
+    box-shadow: 0 0 5px silver;
+    position: relative;
+    top: 0;
+    left: 0;
+    /* display: none; */
+}
+#T-H-Near_by-Location:hover
+{
+    cursor: pointer;
+}
+#T-H-Near_by_Location-icon
+{
+    width: 10%;
+    height: inherit;
+    /* background-color: yellow; */
+    font-size: 18px;
+    color: #555;
+    padding: 15px 5px
+}
+#T-H-Near_by-Location a
+{
+    color: #e74c3c;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -0.7px;
+    position: absolute;
+    top: 10px;
+    left: 40px;
+}
+#T-H-Near_by-Location a span
+{
+    color: #999;
+    font-size: 11px;
+    font-weight: lighter;
+    position: absolute;
+    top: 20px;
+}
+/* ----- T-H-Near_by-Location -> END ----- */
+/* ----- T-H-Location List -> END ----- */
+
+/* ----- T-H-Delivery -> START ----- */
+#T-H-Delivery
+{
+    width: 20%;
+    height: inherit;
+    /* background-color: lightskyblue; */
+}
+#T-H-BG-Img
+{
+    width: 40%;
+    height: 30px;
+    margin: 25px 30% 10px 30%;
+    /* background-color: red; */
+    background: url(img/delivery\ Boy.svg);
+    background-repeat: no-repeat;
+    background-size: 25px;
+}
+/* ----- T-H-Delivery -> END ----- */
+
+/* ----- T-H-Cart -> START ----- */
+#T-H-Cart
+{
+    width: 15%;
+    height: inherit;
+    background-color: transparent;
+    /* display: inline-flex; */
+    position: relative;
+}
+#T-H-Cart span
+{
+    font-size: 28px;
+    padding-left: 30%;
+    line-height: 70px;
+}
+#Added-Into-Cart
+{
+    width: 15px;
+    height: 15px;
+    background-color: orangered;
+    color: #fff;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 50%;
+    font-size: 12px;
+    position: absolute;
+    top: 25%;
+    /* left: 0; */
+    right: 45%;
+}
+/* ----- T-H-Cart -> END ----- */
+
+/* ----- T-H-Toggle-Menu -> START ----- */
+#T-H-Toggle-Menu
+{
+    width: 10%;
+    height: inherit;
+    /* background-color: yellowgreen; */
+    text-align: center;
+    line-height: 70px;
+    font-size: 25px;
+
+
+}
+
+#T-H-Toggle-Menu-List
+{
+    width: 75%;
+    height: 100vh;
+    background-color: #fff;
+    box-shadow: 0 0 10px silver;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* transition: 0.7 ease; */
+    display: none;
+}
+
+#T-H-Toggle-Menu-List-Header
+{
+    width: 85%;
+    height: 11vh;
+    /* height: 90px; */
+    margin: 0 5% 0 10%;
+    border-bottom: 1px solid #ddd;
+    /* background-color: #d19772; */
+    display: flex;
+}
+#T-H-Toggle-Menu-List-Header-login 
+{
+    width: 30%;
+    height: inherit;
+    /* background-color: red; */
+    position: relative;
+}
+#T-H-Toggle-Menu-List-Header-login span:first-child
+{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #444;
+    position: absolute;
+    top: 50px;
+}
+#T-H-Toggle-Menu-List-Header-login span:last-child
+{
+    font-size: 22px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #444;
+    position: absolute;
+    top: 48px;
+    left: 50px;
+}
+
+#T-H-Toggle-Menu-List-Header-Close
+{
+    width: 15%;
+    height: inherit;
+    margin: 0 0 0 55%;
+    /* background-color: burlywood; */
+    line-height: 120px;
+    text-align: right;
+}
+#T-H-Toggle-Menu-List-Header-Close i
+{
+    font-size: 35px;
+}
+
+#T-H-Toggle-Menu-List-Lists
+{
+    width: 85%;
+    height: 80vh;
+    margin: 20px 5% 0 10%;
+    /* background-color: darkorange; */
+}
+#T-H-Toggle-Menu-List-Lists ul
+{
+    width: 100%;
+    height: 100%;
+}
+#T-H-Toggle-Menu-List-Lists > ul > li
+{
+    width: 100%;
+    height: 5vh;
+    font-size: 16px;
+}
+#T-H-Toggle-Menu-List-Lists > ul > li:first-child a
+{
+    color: #e74c3c;
+    border-bottom: 1px solid #e74c3c;
+    padding-bottom: 5px;
+}
+#T-H-Toggle-Menu-List-Lists > ul > li:hover a
+{
+    color: #e74c3c;
+    border-bottom: 1px solid #e74c3c;
+    padding-bottom: 5px;
+}
+/* ----- T-H-Toggle-Menu -> END ----- */
+/* ----- Top Header 480 -> END ----- */
+
+
+
+
+
+
+
+
+/*===== Bottom Header 480 -> START =====*/
+#Bottom-Header-480
+{
+    width: 94%;
+    height: 70px;
+    background-color: #fff;
+    box-shadow: 0 0 5px silver;
+    border-radius: 2px;
+    display: flex;
+    margin: 80vh 3% 0 3%;
+    /* position: relative; */
+    /* top: 80vh; */
+    /* left: 3%; */
+    /* right: 3%; */
+    position: fixed;
+    z-index: 10;
+}
+
+#B-H-Delivery-Takeaway
+{
+    width: 26%;
+    height: inherit;
+    margin: 0 0 0 10%;
+    /* background-color: yellow; */
+    /* border-right: 1px solid #ddd; */
+}
+#B-H-Delivery-Takeaway-Top
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: lightblue; */
+    position: relative;
+}
+#B-H-D-T-Top-BG-Img
+{
+    width: 30%;
+    height: inherit;
+    /* background-color: red; */
+    background: url(img/delivery\ Boy.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    position: absolute;
+    top: 10px;
+    left: 20%;
+}
+#B-H-Delivery-Takeaway-Bottom
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellowgreen; */
+    color: #111;
+    font-size: 9px;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+#B-H-Delivery-Takeaway-Top span
+{
+    background-color: #fff;
+    color: #e74c3c;
+    font-size: 10px;
+    border-radius: 50px;
+    padding: 2px 5px;
+    box-shadow: 0 5px 10px silver;
+    position: absolute;
+    top: 18px;
+    left: 50%;
+    right: 20%;
+}
+
+#B-H-Login
+{
+    width: 26%;
+    height: inherit;
+    /* background-color: #d19772; */
+    text-align: center;
+    display: flex;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+#B-H-Login div
+{
+    font-size: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 70px;
+    padding-left: 20px;
+}
+#B-H-Login span
+{
+    width: 25%;
+    height: inherit;
+    /* background-color: green; */
+    line-height: 70px;
+}
+
+
+#B-H-Reserve-Table
+{
+    width: 38%;
+    height: inherit;
+    margin: 0;
+    /* background-color: yellow; */
+    /* border-right: 1px solid #ddd; */
+}
+#B-H-Reserve-Table-Top
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: lightblue; */
+    position: relative;
+}
+#B-H-R-T-Top-BG-Img
+{
+    width: 30%;
+    height: inherit;
+    /* background-color: red; */
+    background: url(img/Table-Reserve\ Small\ Icon.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 5px;
+    left: 40%;
+}
+#B-H-Reserve-Table-Bottom
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellowgreen; */
+    color: #111;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    text-transform: uppercase;
+}
+
+/* ===== Bottom Header 480 -> END ===== */
+/* ========== Header (480x) -> END ========== */
+
+
+
+
+
+   
+
+
+
+
+
+#main-banner
+{
+    width: 100%;
+    height: 620px;
+    margin: 0;
+    background-color: lightcyan;
+    background: url(img/Main\ Header\ Banner\ Img.jpg);
+}
+/* --------------- Banner --------------- */
+.banner
+{
+    width: 100%;
+    height: 600px;
+}
+.bann img
+{
+    width: 100%;
+    height: inherit;
+    position: relative;
+}
+/* --------------- On Image --------------- */
+.on-image
+{
+    width: 94%;
+    height: 500px;
+    margin: 0 3%;
+    /* background-color: orange; */
+    display: flex;
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+/* ---------- image-left-sec ----------  */
+/* .image-left-text
+{
+    width: 55%;
+    height: 200px;
+    background-color: red;
+    margin-top: 160px;
+}
+.image-left-text h4
+{
+    font-size: 70px;
+    color: azure;
+    font-weight: 700;
+    font-family: verdana;
+} */
+
+.auto-img-change
+{
+    width: 100%;
+    height: 500px;
+    /* background-color: yellow; */
+    border: none;
+    border-radius: 25px;
+    /* background: url(img/Referal\ -\ Hero\ banner_v3.jpg); */
+
+    animation-name: Img-Change;
+    animation-duration: 40s;
+    animation-iteration-count: infinite;
+}
+@keyframes Img-Change 
+{
+    0%
+    {
+        background: url(img/Referal\ -\ Hero\ banner_v3.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    25%
+    {
+        background: url(img/Inidas\ best_Herobanner_0.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }    
+    50%
+    {
+        background: url(img/Smiles\ -\ Hero\ banner.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    75%
+    {
+        background: url(img/Kids\ -\ Hero\ banner.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    100%
+    {
+        background: url(img/BIB\ WEB\ Hero\ banner.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+/* .auto-img-change img
+{
+    width: 100%;
+    height: 490px;
+    border-radius: 25px;
+    background: url(img/Referal\ \ -\ Teaser\ banner_v3.jpg);
+} */
+
+/* ---------- image-right-sec ---------- */
+.image-right-sec
+{
+    width: 30%;
+    height: 500px;
+    margin-left: 4%;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+
+    display: none;
+}
+/* --------------- Heading --------------- */
+.heading
+{
+    width: 84%;
+    height: 30px;
+    margin: 50px 8% 20px 8%;
+    /* background-color: yellow; */
+    font-size: 25px;
+    font-weight: 600;
+}
+/* --------------- Para --------------- */
+.para
+{
+    width: 84%;
+    height: 60px;
+    margin: 0% 8%;
+    /* background-color: lightblue; */
+    font-size: 17px;
+    opacity: 0.9;
+    line-height: 30px;
+}
+/* ---------- Location ---------- */
+.location
+{
+    width: 84%;
+    height: 15px;
+    margin: 20px 8% 0px 8%;
+    /* background-color: lightgrey; */
+    font-size: 13px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+/* ---------- Search-Location ---------- */
+.serach-location
+{
+    width: 84%;
+    height: 40px;
+    margin: 10px 8%;
+    /* background-color: lightskyblue; */
+}
+.serach-location input
+{
+    width: 100%;
+    height: 40px;
+
+    font-size: 15px;
+    font-weight: 600;
+    color: #2c3e50;
+    border: none;
+    border-bottom: 1px solid #e67e22;
+}
+.serach-location input:focus
+{
+    outline: none;
+}
+.serach-location input::placeholder
+{
+    font-size: 15px;
+}
+.search-location:hover .location-list
+{
+    /* visibility: visible; */
+    display: block;
+}
+/* --- Location-List on Hover/Click --- */
+.location-list
+{
+    width: 84%;
+    height: 300px;
+    margin: 0px 8%;
+    display: none;
+    /* visibility: hidden; */
+    background-color: lightcyan;
+    border: none;
+    border-radius: 5px;
+}
+.type-searching-location
+{
+    width: 92%;
+    height: 60px;
+    margin: 10px 4%;
+    background-color: lightblue;
+}
+.type-searching-location input
+{
+    width: 100%;
+    height: 30px;
+    margin: 15px 0%;
+    font-size: 15px;
+    /* Input na BG ma Search Logo Maate */
+    background: url(img/search_FILL0_wght400_GRAD0_opsz48.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* Bottom Border Karva Maate */
+    border: none;
+    border-bottom: 1px solid #e67e22;
+}
+.type-searching-location input:focus
+{
+    outline: none;
+}
+.type-searching-location input::placeholder
+{
+    font-size: 20px;
+}
+/* --------- list-of-location --------- */
+.list-of-location
+{
+    width: 92%;
+    height: 230px;
+    margin: 0px 4%;
+    background-color: whitesmoke;
+}
+.list-of-location select
+{
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+}
+.list-of-location select option
+{
+    width: 100%;
+    height: 30px;
+    font-size: 15px;
+}
+.list-of-location select option:hover a
+{
+    background-color: orange;
+}
+.main-city-area
+{
+    color: black;
+    font-weight: 600;
+    padding-left: 0px;
+}
+/* ----------- Date Section ----------- */
+.date
+{
+    width: 84%;
+    height: 70px;
+    margin: 0px 8%;
+    /* background-color: aquamarine; */
+}
+.date h5
+{
+    width: 100%;
+    height: 15px;
+    /* background-color: red; */
+    font-weight: 500;
+    font-size: 15px;
+}
+.days-select
+{
+    display: flex;
+}
+.today
+{
+    width: 60px;
+    height: 30px;
+    margin: 10px 10px 10px 0px;
+    background-color: rgba(255,98,1,.19);
+    color: #364044;
+    border: 1px solid rgba(255,98,1,.19);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.tomorrow
+{
+    width: 85px;
+    height: 30px;
+    margin: 10px 10px 10px 0px;
+    /* background-color: rgba(255,98,1,.19); */
+    color: #364044;
+    border: 1px solid rgba(255,98,1,.19);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.days-select input
+{
+    width: 130px;
+    height: 30px;
+    margin: 10px 0px 10px 15px;
+    border: none;
+    border-bottom: 1px solid orangered;
+}
+/* ----------- Date Section ----------- */
+.session
+{
+    width: 84%;
+    height: 70px;
+    margin: 10px 8%;
+    /* background-color: aquamarine; */
+}
+.session h5
+{
+    width: 100%;
+    height: 15px;
+    /* background-color: red; */
+    font-weight: 500;
+    font-size: 15px;
+}
+.session h5 span
+{
+    margin-left: 120px;
+    font-size: 14px;
+}
+.session-select
+{
+    display: flex;
+}
+.Lunch
+{
+    width: 60px;
+    height: 30px;
+    margin: 10px 10px 10px 0px;
+    /* background-color: rgba(255,98,1,.19); */
+    color: #364044;
+    border: 1px solid rgba(255,98,1,.19);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.Dinner
+{
+    width: 70px;
+    height: 30px;
+    margin: 10px 10px 10px 0px;
+    /* background-color: rgba(255,98,1,.19); */
+    color: #364044;
+    border: 1px solid rgba(255,98,1,.19);
+    border-radius: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: 600;
+}
+.select-time
+{
+    width: 130px;
+    height: 30px;
+    margin: 10px 0px 10px 30px;
+    /* background-color: lightblue; */
+    border-bottom: 1px solid orangered;
+    display: flex;
+}
+.select-time .fast
+{
+    width: 15%;
+    height: 30px;
+    /* background-color: white; */
+}
+.select-time .fast img
+{
+    width: 100%;
+    height: 20px;
+    margin-top: 5px;
+}
+.select-time span
+{
+    width: 70%;
+    height: 30px;
+    /* background-color: lavender; */
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
+    line-height: 30px;
+}
+.select-time .up-down
+{
+    width: 15%;
+    height: 30px;
+    /* background-color: white; */
+}
+.select-time .up-down img
+{
+    width: 80%;
+    height: 20px;
+    margin: 5px 10%;
+}
+/* ----- RESERVE TABLE ANIMATION  ----- */
+.reserve-table
+{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+    margin-left: 140px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+
+    animation: over-color 1s linear infinite alternate;
+}
+@keyframes over-color 
+{
+    from
+    {
+        outline: 0px solid rgba(255, 68, 0, 0.3);
+    }    
+    to
+    {
+        outline: 20px solid rgba(255, 68, 0, 0.3);
+    }
+}
+.reserve-table-photo
+{
+    width: 100px;
+    height: 60px;
+    /* background-color: red; */
+}
+.reserve-table .reserve-table-photo img
+{
+    width: 100px;
+    height: 60px;
+}
+.reserve-table h6
+{
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 13px;
+    color: aliceblue;
+}
+
+
+
+
+
+
+
+
+
+
+/* ->->| Happiness Card For U |<-<- */
+#happiness_card-main
+{
+    width: 100%;
+    height: 450px;
+    margin-top: 0;
+    /* background-color: red; */
+}
+#happiness_card-sub
+{
+    width: 94%;
+    height: inherit;
+    margin: 0% 3%;
+    /* background-color: lightcyan; */
+    position: relative;
+    border-bottom: 1px solid silver;
+}
+
+#happiness_card-title
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: lightgray; */
+    display: flex;
+    position: absolute;
+    top: 100px;
+}
+#happiness_card-title-left
+{
+    width: 80%;
+    height: inherit;
+    /* background-color: lightblue; */
+    line-height: 30px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.5px;
+}
+#happiness_card-title-right
+{
+    width: 20%;
+    height: inherit;
+    padding-left: 50px;
+    /* background-color: lightgrey; */
+    /* text-align: right; */
+    line-height: 30px;
+    font-size: 15px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.5px;
+}
+/* #happiness_card-title-right span
+{
+    color: #e74c3c;
+    font-size: 20px;
+    font-weight: 900;
+} */
+#happiness_card-title-right i
+{
+    color: #e74c3c;
+    font-size: 16px;
+
+    display: none;
+}
+#happiness_card-title-right:hover
+{
+    color: #e74c3c;
+}
+#happiness_card-title-right:hover i
+{
+    padding-left: 10px;
+    transition: 0.5s ease;
+}
+
+
+/* ===== Happiness All Card ===== */
+#hapiness-all-cards
+{
+    width: 100%;
+    height: 200px;
+    /* background-color: blue; */
+    display: flex;
+    position: absolute;
+    top: 150px;
+}
+/* ===== Happiness Card-1 ===== */
+#Happiness-card-1
+{
+    width: 33%;
+    height: inherit;
+    background-color: #e74c3c;
+    background: url(img/happiness\ gift\ card_3.png);
+    background-repeat: round;
+    position: relative;
+    border-radius: 10px;
+    
+}
+#happiness-buy_now
+{
+    width: 60%;
+    height: 84%;
+    background-color: white;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+    border-radius: 10px;
+}
+.happiness-para
+{
+    font-size: 16px;
+    font-weight: 900;
+    color: #222;
+    line-height: 22px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+.happiness-price
+{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'DynaPuff', cursive;
+    position: absolute;
+    top: 85px;
+    left: 15px;
+    font-size: 24px;
+}
+.happiness-buy-now-btn a
+{
+    background-color: #ea5607;
+    color: white;
+    position: absolute;
+    top: 130px;
+    left: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 7px 12px;
+    border-radius: 25px;
+}
+.happiness-buy-now-btn a:hover
+{
+    background-color: #e53623;
+}
+
+/* ===== Happiness Card-2 ===== */
+#Happiness-card-2
+{
+    width: 33%;
+    height: inherit;
+    margin-left: 3%;
+    /* background-color: #e74c3c; */
+    background: url(img/happiness\ gift\ card_3.png);
+    background-repeat: round;
+    position: relative;
+    border-radius: 10px;
+    
+}
+/* ===== Happiness Card-3 ===== */
+#Happiness-card-3
+{
+    width: 33%;
+    height: inherit;
+    margin-left: 3%;
+    background-color: #e74c3c;
+    background: url(img/Happiness\ card_\ April\ 2022-01_2.jpg);
+    background-repeat: round;
+    position: relative;
+    border-radius: 10px;
+    
+    display: block;
+}
+
+/* ===== Slider Happiness Card ===== */
+
+#Slider-Happiness-Card
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellow; */
+    position: absolute;
+    bottom: 30px; 
+}
+#Slider-Happiness-Card-main
+{
+    width: 10%;
+    height: inherit;
+    margin-left: 90%;
+    /* background-color: green; */
+    display: flex;
+    gap: 5px;
+}
+#Slider-Happiness-Card-main div
+{
+    width: 7px;
+    height: 7px;
+    background-color: #908E9B;
+    border-radius: 50%;
+}
+#Slider-Happiness-Card-main div:first-child
+{
+    width: 25px;
+    border-radius: 5px;
+    background-color: #e53623;
+}
+
+#Slider-Happiness-Card-main div:nth-child(5)
+{
+    display: none;
+}
+#Slider-Happiness-Card-main div:nth-child(6)
+{
+    display: none;
+}
+
+/* ===== Happiness Card -> END ===== */
+
+
+
+
+
+
+
+
+
+/* ->| What's On BBQN -> START |<- */
+
+#whats_on_BBQN-main
+{
+    width: 100%;
+    height: 500px;
+    /* background-color: red; */
+}
+#whats_on_BBQN-sub
+{
+    width: 94%;
+    height: 500px;
+    margin: 0% 3%;
+    /* background-color: lightcyan; */
+    position: relative;
+}
+
+
+#Whats_on_BBQN-title
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: lightgray; */
+    display: flex;
+    position: absolute;
+    top: 50px;
+}
+#Whats_on_BBQN-title-left
+{
+    width: 80%;
+    height: inherit;
+    /* background-color: lightblue; */
+    line-height: 30px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.5px;
+}
+#Whats_on_BBQN-title-right
+{
+    width: 20%;
+    height: inherit;
+    padding-left: 40px;
+    /* background-color: lightgrey; */
+    /* text-align: right; */
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 900;
+    font-family: 'Rubik', sans-serif;
+    letter-spacing: 0.5px;
+}
+#Whats_on_BBQN-title-right i
+{
+    color: #e74c3c;
+    font-size: 16px;
+
+    display: none;
+}
+#Whats_on_BBQN-title-right:hover
+{
+    color: #e74c3c;
+}
+#Whats_on_BBQN-title-right:hover i
+{
+    padding-left: 10px;
+    transition: 0.5s ease;
+}
+
+/*  --- Whats_on_BBQN-All-Cards --- */
+#Whats_on_BBQN-All-Cards
+{
+    width: 100%;
+    height: 325px;
+    /* background-color: lightblue; */
+    position: absolute;
+    top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+/* --- Whats_on_BBQN-card-1 --- */
+#Whats_on_BBQN-card
+{
+    width: 32%;
+    height: 325px;
+    /* background-color: lightskyblue; */
+    position: relative;
+    overflow: hidden;
+}
+.Whats_on_BBQN-image
+{
+    width: 100%;
+    height: inherit;
+    display: block;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.Whats_on_BBQN-image-On-Hover
+{
+    /* width: 20%; */
+    background-color: whitesmoke;
+    position: absolute;
+    top: 275px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Whats_on_BBQN-image-On-Hover h3
+{
+    margin: 15px 0px 0px 20px ;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+}
+.Whats_on_BBQN-image-On-Hover h4
+{
+    margin: 40px 0px 10px 20px;
+    font-size: 12px;
+    font-family: 'Rubik', sans-serif;
+}
+.Whats_on_BBQN-image-On-Hover h5
+{
+    margin: 60px 0px 10px 20px ;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    font-family: 'Rubik', sans-serif;   
+}
+.Whats_on_BBQN-image-On-Hover 
+#read_more-btn
+{
+    margin: 80px 0px 0px 20px;
+}
+.Whats_on_BBQN-image-On-Hover 
+#read_more-btn a
+{
+    /* color: #e74c3c; */
+    font-size: 16px;
+    font-family: 'Rubik', sans-serif;   
+    font-weight: 900;
+}
+.Whats_on_BBQN-image-On-Hover 
+#read_more-btn i
+{
+    color: #e74c3c;
+}
+.Whats_on_BBQN-image-On-Hover 
+#read_more-btn:hover a
+{
+    color: #e74c3c;
+    
+}
+.Whats_on_BBQN-image-On-Hover 
+#read_more-btn:hover i
+{
+    padding-left: 10px;
+    transition: 0.5s ease;
+}
+
+#Whats_on_BBQN-card:hover .Whats_on_BBQN-image-On-Hover
+{
+    top: 0px;
+    transition: 0.7s ease;
+}
+
+/* ===== Slider What's on BBQN ===== */
+
+#Slider-Whats-On-BBQN
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellow; */
+    position: absolute;
+    bottom: 30px; 
+}
+#Slider-Whats-On-BBQN-main
+{
+    width: 10%;
+    height: inherit;
+    margin-left: 88%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#Slider-Whats-On-BBQN-main div
+{
+    width: 7px;
+    height: 7px;
+    background-color: #908E9B;
+    border-radius: 50%;
+}
+#Slider-Whats-On-BBQN-main div:first-child
+{
+    width: 25px;
+    border-radius: 5px;
+    background-color: #e53623;
+}
+
+/* ===== For 481-768px Media Query For Tablet  ===== */
+#Whats_on_BBQN-card:nth-child(3)
+{
+    display: block;
+}
+#Whats_on_BBQN-card:nth-child(4)
+{
+    display: none;
+}
+
+/* ->| What's On BBQN -> END |<- */
+
+
+
+
+
+
+
+
+
+
+/* ->->->| Explore Nearby Restaurants -> START |<-<-<- */
+
+#explore_nearby-main
+{
+    width: 100%;
+    height: 660px;
+    background: url(img/nearby-outlet-bg.svg);
+    background-size: cover;
+}
+
+#explore_nearby-sub
+{
+    width: 92%;
+    height: inherit;
+    margin: 0px 4%;
+    /* background-color: lightblue; */
+    display: block;
+    position: relative;
+}
+/* -------------------- */
+
+#explore_nearby_restaurants
+{
+    width: 100%;
+    height: 120px;
+    /* background-color: lightskyblue; */
+}
+
+.explore_nearby_restaurants-title
+{
+    padding-top: 40px;
+    /* background-color: red; */
+    font-size: 35px;
+    font-family: 'Rubik', sans-serif;   
+    font-weight: 900;
+    line-height: 50px;
+
+    display: none;
+}
+.explore_nearby_restaurants-title-480
+{
+    padding-top: 40px;
+    /* background-color: red; */
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;   
+    font-weight: 900;
+    
+    display: block;
+}
+.explore_nearby_restaurants-para
+{
+    margin-top: 15px;
+    /* background-color: yellowgreen; */
+    font-size: 18px;
+    line-height: 24px;
+
+    display: none;
+}
+.explore_nearby_restaurants-para-480
+{
+    display: none;
+}
+.explore_nearby_restaurants-para-768
+{
+    padding-top: 25px;
+    font-size: 14.5px;
+    line-height: 25px;
+    color: #888;
+    display: block;
+}
+
+#view_all_locations-btn
+{
+    margin-top: 20px;
+}
+#view_all_locations-btn a
+{
+    /* background-color: yellow; */
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;   
+}
+#view_all_locations-btn a i
+{
+    color: #e74c3c;
+}
+#view_all_locations-btn a:hover
+{
+    color: #e74c3c;
+}
+#view_all_locations-btn a:hover i
+{
+    padding-left: 10px;
+    transition: 0.5s ease;
+    
+}
+/* ------------------------- */
+
+#area_wise_restaurants
+{
+    width: 100%;
+    height: 550px;
+    /* background-color: lightslategray; */
+    display: flex;
+    justify-content: space-between;
+}
+#area_wise_restaurants-card
+{
+    width: 32%;
+    height: 375px;
+    margin: 90px 0%;
+    /* background-color: yellow; */
+    position: relative;
+    overflow: hidden;
+}
+.area_wise_restaurants-images
+{
+    width: 100%;
+    height: inherit;
+    border-radius: 10px;
+    filter: brightness(70%);
+}
+
+.a-w-r-on-hover
+{
+    /* background-color: #ea5607d8; */
+    position: absolute;
+    top: 250px;
+    /* top: 375px; */
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 10px;
+}
+/* ************************* */
+#area_wise_restaurants-card:hover 
+.a-w-r-on-hover
+{
+    top: 0px;
+    transition: 0.5s ease;
+    /* background-color: #ea5607d8; */
+    /* background-color: rgba(255, 68, 0, 0.8); */
+    background-image: linear-gradient(to bottom, #ea5607d8, rgba(255, 68, 0, 0.9));
+}
+/* ************************* */
+.a-w-r-on-hover-title
+{
+    margin-top: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.a-w-r-on-hover-address
+{
+    margin-top: 15px;
+    color: aliceblue;
+    font-size: 13px;
+    text-align: center;
+}
+#a-w-r-on-hover-icons
+{
+    width: 70%;
+    margin: 40px 15% 20px 15%;
+    /* margin-top: 40px; */
+    display: flex;
+    justify-content: space-between;
+}
+#a-w-r-on-hover-icon
+{
+    width: 33%;
+    text-align: center;
+    line-height: 20px;
+}
+#a-w-r-on-hover-icon a
+{
+    margin-top: px;
+    color: #fff;
+    font-size: 16px;
+    font-family: verdana;
+    filter: brightness(80%);
+}
+#a-w-r-on-hover-icon a:hover
+{
+    filter: brightness(200%);
+    transition: 0.5s ease;
+}
+/* -------------------- */
+#a-w-r-on-hover-explore-btn
+{
+    width: 100%;
+    /* background-color: red; */
+    padding-left: 100px;
+    /* text-align: center; */
+}
+#a-w-r-on-hover-explore-btn a
+{
+    color: #fff;
+}
+#a-w-r-on-hover-explore-btn a i
+{
+    color: #e67e22;
+}
+#a-w-r-on-hover-explore-btn a:hover i
+{
+    padding-left: 10px;
+    transition: 1s ease;
+}
+/* -------------------- */
+#a-w-r-on-hover-Reserve_table-btn
+{
+    margin-top: 30px;
+    text-align: center;
+}
+#a-w-r-on-hover-Reserve_table-btn a
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: #ea5607;
+    background-color: #fff;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+
+/* ===== Slider Explore Nearby Restaurants ===== */
+
+.Slider-Explore-Restaurants
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellow; */
+    position: absolute;
+    bottom: 30px;
+    z-index: 10;
+}
+#Slider-Explore-Restaurants-main
+{
+    width: 14%;
+    height: 30px;
+    margin-left: 85%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#Slider-Explore-Restaurants-main div
+{
+    width: 7px;
+    height: 7px;
+    background-color: #908E9B;
+    border-radius: 50%;
+}
+#Slider-Explore-Restaurants-main div:first-child
+{
+    width: 25px;
+    border-radius: 5px;
+    background-color: #e53623;
+}
+
+
+/* ===== For Tablet 481-768px Media Query -> START ===== */
+
+#area_wise_restaurants-card:last-child
+{
+    display: block;
+}
+
+/* ===== For Tablet 481-768px Media Query -> END ===== */
+
+/* ->->->| Explore Nearby Restaurants -> END |<-<-<- */
+
+
+
+
+
+
+
+
+
+
+/* ->| Latest Update -> START |<- */
+
+#latest_updates-main
+{
+    width: 100%;
+    height: 650px;
+    margin-top: 50px;
+    /* background-color: red; */
+}
+#latest_updates-sub
+{
+    width: 94%;
+    height: inherit;
+    margin: 0% 3%;
+    /* background-color: lightblue; */
+}
+/* ----------------------- */
+#latest_updates-title-main
+{
+    width: 100%;
+    height: 40px;
+    /* background-color: lightseagreen; */
+    display: flex;
+}
+#latest_updates-title
+{
+    width: 90%;
+    height: inherit;
+    /* background-color: yellow; */
+    font-size: 20px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    text-align: left;
+}
+#latest_updates-view_all
+{
+    width: 10%;
+    height: inherit;
+    /* background-color: yellowgreen; */
+    font-size: 12px;
+    /* text-shadow: 0px 0px 0.5px #333; */
+    line-height: 40px;
+    letter-spacing: 0.7px;
+    padding-left: 0;
+}
+#latest_updates-view_all i
+{
+    color: #e74c3c;
+    display: none;
+}
+#latest_updates-view_all:hover 
+{
+    color: #e74c3c;
+}
+#latest_updates-view_all:hover i
+{
+    padding-left: 10px;
+    transition: 1s ease;
+}
+/* ----------------------- */
+
+#latest-update-all-cards
+{
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+}
+/* ----------------------- */
+#latest-update-card
+{
+    width: 32%;
+    height: 460px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px 10px whitesmoke;
+}
+#latest-update-card-top
+{
+    width: 100%;
+    height: 200px;
+}
+#latest-update-card-top img
+{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.latest-updates-card-calander
+{
+    margin: 30px 0px 0px 20px;
+    font-size: 12px;
+    color: #999;
+}
+#latest-updates-card-heading
+{
+    margin: 20px 0px 0px 20px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.latest-updates-card-para
+{
+    margin: 10px 15px;
+    font-size: 9.5px;
+    line-height: 16px;
+}
+#latest-updates-card-read_more-btn
+{
+    margin: 50px 0px 0px 20px;
+    font-size: 13px;
+}
+#latest-updates-card-read_more-btn a
+{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900; 
+}
+#latest-updates-card-read_more-btn a i
+{
+    color: #e74c3c;
+}
+#latest-updates-card-read_more-btn a:hover
+{
+    color: #e74c3c;
+}
+#latest-updates-card-read_more-btn a:hover i
+{
+    padding-left: 10px;
+    transition: 1s ease;
+}
+
+
+/* ===== Slider Latest Updates Card ===== */
+
+#Slider-Latest-Updates
+{
+    width: 100%;
+    height: 30px;
+    /* background-color: yellow; */
+    margin-top: -20px;
+    margin-left: -45%;
+}
+#Slider-Latest-Updates-main
+{
+    width: 8%;
+    height: 30px;
+    margin-left: 92%;
+    /* background-color: green; */
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+#Slider-Latest-Updates-main div
+{
+    width: 7px;
+    height: 7px;
+    background-color: #908E9B;
+    border-radius: 50%;
+}
+#Slider-Latest-Updates-main div:first-child
+{
+    width: 25px;
+    border-radius: 5px;
+    background-color: #e53623;
+}
+
+/* ===== For TABLET 481-768px Media Query -> START ==== */
+
+#latest-update-card:last-child
+{
+    display: block;
+}
+
+/* ===== For TABLET 481-768px Media Query -> END ==== */
+
+/* ->| Latest Update -> END |<- */
+
+
+
+
+
+
+
+
+
+
+/* ->->| Footer -> START |<-<- */
+
+footer
+{
+    width: 100%;
+    height: 370px;
+    background-color: #1f1f1f;
+
+    display: none;
+}
+#footer-main
+{
+    width: 80%;
+    height: inherit;
+    margin: 0% 10%;
+    background-color: #1f1f1f;
+    display: flex;
+}
+/* ------------------------- */
+#footer-left
+{
+    width: 50%;
+    height: 370px;
+    /* background-color: darkblue; */
+}
+#footer-menu
+{
+    width: 100%;
+    height: 370px;
+    /* background-color: darkcyan; */
+    display: flex;
+    justify-content: space-between;
+}
+#footer-menu-list
+{
+    width: 30%;
+    height: auto;
+    padding-top: 80px;
+    /* background-color: darkgoldenrod; */
+}
+#footer-menu-list a
+{
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 500;
+    padding-top: 20px;
+}
+#footer-menu-list a:last-child
+{
+    line-height: 20px;
+}
+#footer-menu-list a:hover
+{
+    color: #e74c3c;
+    transition: 0.3s ease;
+}
+
+#footer-menu-contact
+{
+    width: 30%;
+    height: auto;
+    padding-top: 80px;
+    /* background-color: darkgoldenrod; */
+}
+#footer-menu-contact a
+{
+    display: block;
+    color: #fff;
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 500;
+    padding-top: 20px;
+}
+#footer-menu-contact a:first-child
+{
+    font-size: 12px;
+    color: #E1DFE9;
+
+}
+#footer-menu-contact a:nth-child(2)
+{
+    font-size: 12px;
+    color: #908E9B;
+}
+#footer-menu-contact a:last-child
+{
+    padding-top: 5px;
+    font-size: 15px;
+}
+#footer-menu-contact a:last-child:hover
+{
+    color: #e74c3c;
+    transition: 0.3s ease;
+}
+/* ---------------------- */
+#footer-right
+{
+    width: 50%;
+    height: 370px;
+    /* background-color: darkolivegreen; */
+}
+#download-text
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: #908E9B;
+    margin: 100px 0px 0px 220px;
+}
+.download-app-store
+{
+    margin: 15px 0px 0px 220px;
+}
+.download-play-store
+{
+    margin: 0px 0px 0px 5px;
+}
+/* ----------------------- */
+#footer-bottom
+{
+    width: 100%;
+    height: 120px;
+    background-color: #1f1f1f;
+}
+#footer-bottom-main
+{
+    width: 80%;
+    height: inherit;
+    margin: 0% 10%;
+    /* background-color: red; */
+    display: flex;
+}
+
+.footer-logo
+{
+    width: 75px;
+    height: 50px;
+    margin-top: 25px;
+}
+#copyright
+{
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 600;
+    color: #908E9B;
+    margin: 50px 0px 0px 30px;
+}
+#footer-links
+{
+    margin: 50px 0px 0px 200px;
+}
+#footer-links a
+{
+    padding-left: 50px;
+    font-size: 13px;
+    color: #908E9B;
+}
+#footer-links a:hover
+{
+    color: #e53623;
+    transition: 0.3s ease;
+}
+/* --------------------- */
+#footer-icons
+{
+    margin: 50px 0px 0px 175px;
+}
+#footer-icons a
+{
+    margin-right: 25px;
+    font-size: 20px;
+}
+#footer-icons a i
+{
+    color: #908E9B;
+}
+#footer-icons a i:hover
+{
+    color: #e53623;
+    transition: 0.3s ease;
+}
+
+
+/* ->->| Footer -> END |<-<- */
+
+
+
+
+    
+}
