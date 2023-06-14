@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 61 60" width="50" height="49">
+	<title>Screenshot 2021-11-16 at 1</title>
+	<defs>
+		<image  width="61" height="60" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA8CAMAAADi4EJ+AAAAAXNSR0IB2cksfwAAAO1QTFRF//////z8/9jY/7y9/6Ch/5GS/4SG/+rq/6ao/2ls/zA4/yUu/zU8/2xv/6qr/8/P/2xu/ysz/29y/9XV/15h/z5E/2Fk/4CC/4OF/31//2Vo//b2/4eJ/+3t/+fn/7m6/4qM/9vb/09T/1JW/7a3//n5/7O0/1NW/97e/7/A/0JI/7Cx//Pz/8jJ/8LD/9LS/+Tk/1Za/8bG/5CS/6mr/5eY/3Z4/2hr/zpA//Dw/8vM/0NI/+Hh/3N1/9TV/3l8/0tP/zA3/8PD/0JH/52e/87P/6Ol/1pe/42P/4aI/4eI/6Ok/0dM/+Hi/0tQ3jx6GAAAAvdJREFUeJztl9t62jAMgA0JpUOsLKWUAAtQRoC2HEvLoWUbbKzdqbz/40yOQxLbSmCX+77pyrb8R0K2ZMHYf5EklTbMzMnJScY00qm/Q7Onb3IQSv7tWfZotvAONLHOC0exxQsfKF2WbduuXJb8ebV4kK29F76WDSdYqzfKec9+s5YMX7X4tg9tV1l3O56i20uCr3msbhqUKtXhvyB/HQ/fWrjB7sdo+xXufTsWTtTuv056hm6jLp98LgOMnjWkND3U5EeJMGMjvmmsr9cm+NnDN+IOHZzoBzfFn3R7EGbsHvc9qItX+M2KGA7NOkGNm4YYzNBH9djnAIulN3oEeFpp8OoJ4M4bOQuAj7LyE/rTEcM2EDiH4V6MT3F4JWk/A6z9LK51ddyDq36w3JvgRwrp54Ivo2saLsGe8Vw07B2AzZLF4QrMHEu+cRU5EDKuwoxh9ShHpjcRx1Vch7nr63CW1aIY4gTMirgUFg88YlDq5h6nYObiWpgRmJotpojAv1AwY18BwkzeAszVDQIHEmZVgNNkeo8TML/X2yh9rm9hBY9OExqVJmx7ASNTRqOrNGzR+EX0fjSwDJNwdUykDAoWZyOY8PxUYrM/Zz1lUPpSOJY4+0bCVMaJ2xWp+rjjmYZJHOM0iUxtOWzy9dTxF4BmZDpE/TgG1vExTgcR2i1FyqyeGAqOxbskJdV3LKl+HOpEYgjc7z54GZtK6rEVGDepu+3hZmB648hqjJslXEtvqMRwJpAXb0APDf1QtVjjL0THUB9QHZY7EC+M+xK8GxE5A/kY4uQn/d6dg1IaSfmFu2bE+vL3Ea8of0HXZGuyWhy0/sybIiLfufDGAGy12QqlZkNSezHiTdULVYq4FCfcckLDuFp7LaFDqJwmL1OtGLeF9Gd8T66pWhjZXs9cOdBqso5oalsZ41VcmtSr0WyJtjemVZPMTzf7tnq36+52+8lmGtdEyuJs16BKy9RuZ7yMHuaBB7CZbw91gbpkH9tcHo//U/EPyR8t9GImJGll1gAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>
