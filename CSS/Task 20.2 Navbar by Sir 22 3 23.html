@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title> Task-20.2 || Navbar by Sir || 22-3-23 </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            list-style: none;
+        }
+
+        /* ============================================= */
+        #header {
+            width: 100%;
+            height: 100px;
+            background-color: rgb(0, 183, 255);
+            display: flex;
+        }
+
+        /* ---------------------------------- */
+        #logo {
+            width: 25%;
+            height: 100px;
+            /* background-color: red; */
+            color: aliceblue;
+            font-size: 50px;
+            font-family: arial;
+            text-align: center;
+            line-height: 100px;
+            letter-spacing: 1px;
+        }
+
+        /* ---------------------------------- */
+        #navbar {
+            width: 65%;
+            height: 100px;
+            /* background-color: lightblue; */
+        }
+
+        /* ---------------------------- */
+        #navbar ul {
+            width: 100%;
+            height: 100px;
+            /* background-color: lavenderblush; */
+            display: flex;
+        }
+
+        #navbar ul li {
+            /* padding: 0px 35px; */
+            width: 20%;
+            /* height: 100px; */
+            /* background-color: darkcyan; */
+            font-size: 21px;
+            font-family: verdana;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        #navbar ul li a {
+            color: aliceblue;
+        }
+
+        /* -------------------------------------- */
+        #navbar ul li .submenu {
+            width: 100%;
+            height: auto;
+            background-color: transparent;
+            background-color: rgb(0, 183, 255);
+            display: block;
+            visibility: hidden
+        }
+
+        #navbar ul li .submenu .sublist {
+            width: 100%;
+            height: 50px;
+            background: transparent;
+            font-size: 21px;
+            font-family: verdana;
+            line-height: 50px;
+            text-align: left;
+            padding-left: 20px;
+            border-bottom: 1px solid azure;
+        }
+        /* **************************************** */
+        #navbar ul li .submenu .sublist:hover
+        {
+            background-color: rgb(0, 122, 170);
+        }
+        #navbar ul li .submenu .sublist:hover  a
+        {
+            color: gold;
+        }
+        /* **************************************** */
+        /* ++++++++++++++++++++++++++++++++++++++++ */
+        #navbar ul li:hover .submenu
+        {
+            visibility: visible;
+        }
+        /* ++++++++++++++++++++++++++++++++++++++++ */
+        #navbar ul li .submenu .sublist .deepsubmenu
+        {
+            width: 200px;
+            height: auto;
+            background-color: darkgray;
+            display: inline-block;
+            margin: -50px 0px 0px 180px;
+            visibility: hidden;
+        }
+        #navbar ul li .submenu .sublist .deepsubmenu .deepsublist
+        {
+            width: 100%;
+            height: 50px;
+            line-height: 50px;
+            background-color: transparent;
+            background-color: rgb(0, 183, 255);
+            font-size: 20px;
+            text-align: left;
+            padding-left: 20px;
+            border-bottom: 1px solid azure;
+        }
+        #navbar ul li .submenu .sublist .deepsubmenu .deepsublist a
+        {
+            color: azure;
+        }
+        /* ******************************************************************** */
+        #navbar ul li .submenu .sublist .deepsubmenu .deepsublist:hover
+        {
+            background-color: rgb(0, 141, 197);
+        }
+        #navbar ul li .submenu .sublist .deepsubmenu .deepsublist:hover  a
+        {
+            color: orange;
+        }
+        /* ******************************************************************** */
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+        #navbar ul li .submenu .sublist:hover .deepsubmenu
+        {
+            visibility: visible;
+        }
+        /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
+        /* ---------------------------------------------- */
+        #header #searchbox
+        {
+            width: 8%;
+            height: 100px;
+            margin-right: 2%;
+            /* background-color: darkgoldenrod; */
+            text-align: center;
+            line-height: 100px;
+            color: aliceblue;
+            font-size: 30px;
+        }
+        #header #searchbox input
+        {
+            visibility: hidden;
+            position: absolute;
+            width: 300px;
+            height: 40px;
+            top: 125px;
+            right: 2%;
+            font-size: 18px;
+            border: none;
+            border-radius: 1px;
+            outline: 10px solid rgb(0, 183, 255);
+        }
+        #header #searchbox input:focus
+        {
+            background-color: rgb(0, 113, 157);
+            color: aliceblue;
+        }
+        #header #searchbox:hover input
+        {
+            visibility: visible;
+        }
+        /* ----------------------------------------------------- */
+    </style>
+</head>
+
+<body>
+
+    <section id="header">
+
+        <section id="logo">
+            CodingLab
+        </section>
+        <section id="navbar">
+            <ul>
+                <li><a href="#"> HOME </a></li>
+                <li>
+                    <a href="#"> HTML & CSS <i class="fa-sharp fa-solid fa-chevron-down"></i></a>
+
+                    <ul class="submenu">
+                        <li class="sublist"><a href="#"> Web Design </a></li>
+                        <li class="sublist"><a href="#"> Login Form </a></li>
+                        <li class="sublist"><a href="#"> Card Design </a></li>
+                        <li class="sublist">
+                            <a href="#"> More &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                <i class="fa-solid fa-chevron-right"></i></a>
+                                
+                            <ul class="deepsubmenu">
+                                <li class="deepsublist"><a href="#"> Neumorphism</a></li>
+                                <li class="deepsublist"><a href="#"> Pre-loader </a></li>
+                                <li class="deepsublist"><a href="#"> Glassmorphims </a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </li>
+                <li><a href="#"> JAVASCRIPT <i class="fa-sharp fa-solid fa-chevron-down"></i> </a></li>
+                <li><a href="#"> CONTACT US </a></li>
+                <li><a href="#"> ABOUT US </a></li>
+            </ul>
+        </section>
+
+        <section id="searchbox">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <!-- <a href="#"> <i class="fa-solid fa-magnifying-glass"></i> </a> -->
+            <input type="text" placeholder="   Search...">
+        </section> 
+
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Rampart+One&family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <title> Task-9 || HOLI || 6-3-23 </title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            /* background-color: yellowgreen; */
+            background-image: url(img/Holi\ bg\ img\ \(2\)\ Resized.jpg)
+        }
+        .main
+        {
+            width: 80%;
+            height: 600px;
+            margin-left: 10%;
+            margin-right: 10%;
+            margin-top: 75px;
+            background-color: white;
+        }
+        .main header
+        {
+            width: 100%;
+            height: 80px;
+            /* background-color: lightblue; */
+            display: flex;
+        }
+        .main header .logo
+        {
+            width: 20%;
+            height: 80px;
+            /* background-color: teal; */
+            color: red;
+            display: flex;
+        }
+        .main header .logo .logo_pot 
+        {
+            width: 35%;
+            height: 80px;
+            background-color: red;
+            margin-left: 10%;
+        }
+        .main header .logo .logo_pot img
+        {
+            width: 100%;
+            height: 80px;
+            /* margin-left: 20%; */
+            /* background-color: red; */
+        }
+        .main header .logo b
+        {
+            width: 65%;
+            height: 80px;
+            /* background-color: blue; */
+            font-family: arial;
+            line-height: 80px;
+            font-size: 35px;
+            font-weight: 900;
+            text-align: center;
+        }
+        .main header nav
+        {
+            width: 80%;
+            height: 80px;
+            /* background-color: lightgoldenrodyellow; */
+        }
+        nav ul
+        {
+            width: 50%;
+            height: 40px;
+            margin-left: 50%;
+            margin-top: 20px;
+            display: flex;
+            /* background-color: lightgray; */
+        }
+        nav ul li
+        {
+            height: 20px;
+            list-style: none;
+            padding: 0px 15px;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: Arial;
+            line-height: 40px;
+            color: red;
+        }
+        /* nav ul li:hover
+        {
+            background-color: red;
+            color: white;
+        } */
+        section
+        {
+            width: 100%;
+            height: 520px;
+            display: flex;
+            /* margin-top: 70px; */
+            /* background-color: darkcyan; */
+        }
+        section .photo
+        {
+            width: 65%;
+            height: 500px;
+            /* margin-top: 20px; */
+            /* background-color: red; */
+        }
+        section .photo img
+        {
+            width: 100%;
+            height: 520px;
+            /* border: 0px transparent; */
+            /* border-top-right-radius: 20px; */
+            /* border-bottom-right-radius: 20px; */
+        }
+        .content
+        {
+            width: 35%;
+            height: 300px;
+            margin-left: 5%;
+            margin-top: 50px;
+            /* background-color: green; */
+        }
+        .content h1
+        {
+            width: 100%;
+            height: 90px;
+            /* background-color: cyan; */
+            color: rgb(222, 0, 0);
+            font-size: 62px;
+            /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+            font-family: 'Rampart One', cursive;
+            text-align: right;
+            padding-right: 30px;
+        }
+        .content h2
+        {
+            width: 100%;
+            height: 60px;
+            /* background-color: aquamarine; */
+            color: red;
+            line-height: 50px;
+            font-size: 35px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-weight: 500;
+            text-align: right;
+            padding-right: 30px;
+        }
+        .content p
+        {
+            width: 100%;
+            height: 80px;
+            /* background-color: bisque; */
+            font-size: 20px;
+            font-family: arial;
+            text-align: right;
+            padding-right: 30px;
+            color: red;
+        }
+        .content .web
+        {
+            width: 100%;
+            height: 30px;
+            padding-right: 30px;
+            /* background-color: yellow; */
+            font-size: 20px;
+            font-weight: 600;
+            text-align: right;
+            color: red;
+            font-family: cursive;
+        }
+        .content .icons
+        {
+            width: 100%;
+            height: 30px;
+            margin-top: 10px;
+            /* background-color: lightskyblue; */
+            color: red;
+            text-align: right;
+            padding-right: 30px;
+        }
+        .material-symbols-outlined
+        {
+            font-size: 30px;
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+        }
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="main">
+        <header>
+            <div class="logo">
+                <!-- <i class="fa-sharp fa-solid fa-circle"></i> LOGO -->
+                <div class="logo_pot">
+                    <img src="img/Holi of holi header CROPPED.jpg" alt="">
+                </div> 
+                <b> JP </b>
+            </div>
+            <nav>
+                <ul>
+                    <li style="width: 85px; height: 40px; border: 1px solid transparent; border-radius: 25px; background-color: red; color: white;"> HOME </li>
+                    <!-- <li> HOME </li> -->
+                    <li> NEWS </li>
+                    <li> APP </li>
+                    <li> ABOUT US </li>
+                    <li> CONTACT </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="photo">
+                <img src="img/Holi vector img.avif" alt="">
+            </div>
+            <div class="content">
+                <h1> Happy Holi </h1>
+                <h2> --- Festival Of Color --- </h2>
+                <p> Lorem ipsum dolor sit amet, <br>
+                    consceterur adipicing elit,sed do <br>
+                    eiusmod tempor  incididnt ut labore    
+                </p>
+                <div class="web"> www.yourwebsitehere.com </div>
+                <div class="icons">
+                    <!-- <i class="fa-sharp fa-solid fa-circle-play"></i> -->
+                    <!-- <i class="fa-sharp fa-solid fa-circle-bookmark"></i> -->
+                    <span class="material-symbols-outlined"> play_circle </span> &nbsp;
+                    <span class="material-symbols-outlined"> star </span> &nbsp;
+                    <span class="material-symbols-outlined"> download </span> &nbsp;
+                    <span class="material-symbols-outlined"> send </span>
+                </div>
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>

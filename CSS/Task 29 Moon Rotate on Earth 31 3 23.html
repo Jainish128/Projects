@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task-29 || Moon Rotate on Earth || 31-3-23 </title>
+    <style>
+
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-image: url(img/Universe\ img.jpg);
+            background-repeat: inherit;
+            background-size: cover;
+            height: 680px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        /* =============== Container =============== */
+        #container
+        {
+            width: 40%;
+            height: 580px;
+            /* margin-left: 400px; */
+            /* margin-top: 20px; */
+            /* background-color: darkcyan; */
+            border-radius: 50%;
+        }
+        /* =============== Moon =============== */
+        .moon
+        {
+            width: 100%;
+            height: 500px;
+            margin-top: 75px;
+            text-align: left;
+            position: relative;
+            animation-name: moon;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+            transition: 3s linear;
+        }
+        @keyframes moon 
+        {
+            from
+            {
+                transform: rotate(0deg);
+            }    
+            to
+            {
+                transform: rotate(360deg);
+            }
+        }
+        .moon img
+        {
+            width: 25%;
+            height: 175px;
+
+            animation: moon-img 20s infinite;
+
+        }
+        @keyframes moon-img 
+        {
+            from
+            {
+                transform: rotate(0deg);
+            }    
+            to
+            {
+                transform: rotate(360deg);
+            }
+        }
+        /* ===============  Earth =============== */
+        .earth
+        {
+            width: 15%;
+            height: 175px;
+            position: absolute;
+            top: 280px;
+            left: 675px;
+        }
+        .earth img
+        {
+            width: 80%;
+            height: 175px;
+            transform: rotate(0deg);
+            
+            border-radius: 50%;
+            animation: earth;
+            animation-duration: 20s;
+            animation-iteration-count: infinite;
+        }
+        @keyframes earth 
+        {
+            from
+            {
+                transform: rotate(0deg);
+            }    
+            to
+            {
+                transform: rotate(360deg);
+            }
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <div id="container">
+        <div class="moon">
+            <img src="img/Moon Transparent img.png" alt="">
+        </div>
+        <div class="earth">
+            <img src="img/Earth Transparent img.png" alt="">
+        </div>
+    </div>
+    
+</body>
+</html>

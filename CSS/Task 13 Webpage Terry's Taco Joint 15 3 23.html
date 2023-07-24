@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            background-image: linear-gradient(to left, #6c5ce7, #fd79a8);
+        }
+        #header
+        {
+            width: 94%;
+            height: 45px;
+            margin: 2% 3%;
+            /* background-color: darkgoldenrod; */
+            display: flex;
+        }
+        #first
+        {
+            width: 20%;
+            height: 45px;
+            background-image: linear-gradient(to right, yellow, yellowgreen);
+            font-size: 20px;
+            font-weight: bold;
+            font-family: arial; 
+            text-align: center;
+            line-height: 45px;
+        }
+        #first:hover
+        {
+            background-image: linear-gradient(to left, yellow, yellowgreen);
+        }
+        #second
+        {
+            width: 20%;
+            height: 45px;
+            margin-left: 10px;
+            background-image: linear-gradient(to right, yellow, yellowgreen);
+            font-size: 20px;
+            font-weight: bold;
+            font-family: arial;
+            text-align: center;
+            line-height: 45px;
+        }
+        #second:hover
+        {
+            background-image: linear-gradient(to left, yellow, yellowgreen);
+        }
+        #third
+        {
+            width: 20%;
+            height: 45px;
+            margin-left: 10px;
+            background-image: linear-gradient(to right, yellow, yellowgreen);
+            font-size: 20px;
+            font-weight: bold;
+            font-family: arial;
+            text-align: center;
+            line-height: 45px;
+        }
+        #third:hover
+        {
+            background-image: linear-gradient(to left, yellow, yellowgreen);
+        }
+        #fourth
+        {
+            width: 20%;
+            height: 45px;
+            margin-left: 10px;
+            background-image: linear-gradient(to right, yellow, yellowgreen);
+            font-size: 20px;
+            font-weight: bold;
+            font-family: arial;
+            text-align: center;
+            line-height: 45px;
+        }
+        #fourth:hover
+        {
+            background-image: linear-gradient(to left, yellow, yellowgreen);
+        }
+        #fifth
+        {
+            width: 20%;
+            height: 45px;
+            margin-left: 10px;
+            background-image: linear-gradient(to right, yellow, yellowgreen);
+            font-size: 20px;
+            font-weight: bold;
+            font-family: arial;
+            text-align: center;
+            line-height: 45px;
+        }
+        #fifth:hover
+        {
+            background-image: linear-gradient(to left, yellow, yellowgreen);
+        }
+        /* --------------------------------------------- */
+        #center_sec
+        {
+            width: 94%;
+            height: 400px;
+            margin: 0% 3%;
+            /* background-color: lightblue; */
+            display: flex;
+        }
+        #left_sec
+        {
+            width: 60%;
+            height: 400px;
+            display: flex;
+            /* position: relative; */
+        }
+        #left_sec img
+        {
+            width: 100%;
+            height: 400px;
+            position: relative;
+        }
+        h1
+        {
+            width: 260px;
+            height: 40px;
+            margin: 140px 0px 0px 30px;
+            /* top: 200px; */
+            position: absolute;
+            background-color: yellow;
+            text-align: center;
+            line-height: 40px;
+            font-size: 30px;
+            font-family: arial;
+        }
+        h2
+        {
+            width: 200px;
+            height: 30px;
+            margin: 200px 30px;
+            position: absolute;
+            /* margin-top: 20px; */
+            background-color: yellow;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+            font-family: arial;
+        }
+        #right_sec
+        {
+            width: 38%;
+            height: 400px;
+            margin-left: 2%;
+            /* background-color: red; */
+        }
+        #right_top
+        {
+            width: 100%;
+            height: 190px;
+            /* display: flex; */
+            background-color: rgb(238, 238, 0);
+        }
+        #top_price
+        {
+            width: 100%;
+            height: 60px;
+            padding-top: 55px;
+            /* background-color: blue; */
+            font-size: 60px;
+            font-weight: lighter;
+            font-family: arial;
+            text-align: center;
+        }
+        #right_top:hover #top_price
+        {
+            font-size: 70px;
+        }
+        #top_food_name
+        {
+            width: 100%;
+            height: 20px;
+            padding-top: 65px;
+            /* background-color: yellow; */
+            font-size: 15px;
+            text-align: center;
+            font-weight: bold;
+            font-family: arial;
+        }
+        #right_bottom
+        {
+            width: 100%;
+            height: 190px;
+            margin-top: 20px;
+            background-color: rgb(238, 238, 0);
+        }
+        #right_bottom:hover #top_price
+        {
+            font-size: 70px;
+        }
+        /* ------------------------------------ */
+        #footer
+        {
+            width: 94%;
+            height: 200px;
+            margin: 1.5% 3% 0% 3%;
+            display: flex;
+            /* background-color: green; */
+        }
+        #tacos
+        {
+            width: 23.5%;
+            height: 200px;
+            background-color: white;
+        }
+        #tacos:hover #photo img
+        {
+            width: 40%;
+            height: 80px;
+            margin-left: 100px;
+        }
+        #photo
+        {
+            width: 100%;
+            height: 90px;
+            /* background-color: green; */
+        }
+        #photo img
+        {
+            width: 30%;
+            height: 70px;
+            margin: 20px 35%;
+        }
+        #name
+        {
+            width: 100%;
+            height: 40px;
+            /* background-color: lightblue; */
+            font-size: 20px;
+            font-weight: 600;
+            font-family: arial;
+            text-align: center;
+            line-height: 40px;
+        }
+        #para
+        {
+            width: 100%;
+            height: 50px;
+            margin-top: 10px;
+            /* background-color: lightseagreen; */
+            color: rgb(49, 49, 49);
+            text-align: center;
+            font-family: arial;
+        }
+        #beer
+        {
+            width: 23.5%;
+            height: 200px;
+            margin-left: 2%;
+            background-color: white;
+        }
+        #beer:hover #photo img
+        {
+            width: 40%;
+            height: 80px;
+            margin-left: 100px;
+        }
+        #wine
+        {
+            width: 23.5%;
+            height: 200px;
+            margin-left: 2%;
+            background-color: white;
+        }
+        #wine:hover #photo img
+        {
+            width: 40%;
+            height: 80px;
+            margin-left: 100px;
+        }
+        #music
+        {
+            width: 23.5%;
+            height: 200px;
+            margin-left: 2%;
+            background-color: white;
+        }
+        #music:hover #photo img
+        {
+            width: 40%;
+            height: 80px;
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="header">
+        <section id="first"> TACOS </section>
+        <section id="second"> BEERS </section>
+        <section id="third"> WINES </section>
+        <section id="fourth"> DESERTS </section>
+        <section id="fifth"> RESERVATIONS </section>
+    </section>
+
+
+
+    <section id="center_sec">
+        <section id="left_sec">
+            <img src="img/Task-13 center img.jpg" alt="Terry's Taco Joint Image">
+            <h1> Terry's Taco Joint </h1>
+            <h2> Pretty Good Tacos! </h2>
+        </section>
+        <section id="right_sec">
+            <section id="right_top">
+                <section id="top_price">
+                    $1.99
+                </section>
+                <section id="top_food_name">
+                    Tacos
+                </section>
+            </section>
+            <section id="right_bottom">
+                <section id="top_price">
+                    $1.99
+                </section>
+                <section id="top_food_name">
+                    Tacos
+                </section>
+            </section>
+        </section>
+    </section>
+
+
+
+    <section id="footer">
+        <section id="tacos">
+            <section id="photo">
+                <!-- <img src="img/task-13 footer tacos img.png" alt=""> -->
+                <img src="https://jpempire.000webhostapp.com/Projects/Portfolio%20Projects/CSS/img/Task-13%20footer%20Tacos%20img.png" alt="">
+            </section>
+            <section id="name"> Tacos </section>
+            <section id="para">
+                Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. animi, assumends.
+            </section>
+        </section>
+        <section id="beer">
+            <section id="photo">
+                <!-- <img src="img/task-13 footer beer img.png" alt=""> -->
+                <img src="https://jpempire.000webhostapp.com/Projects/Portfolio%20Projects/CSS/img/Task-13%20footer%20Beer%20img.png" alt="">
+            </section>
+            <section id="name"> Beer </section>
+            <section id="para">
+                Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. animi, assumends.
+            </section>
+        </section>
+        <section id="wine">
+            <section id="photo">
+                <!-- <img src="img/task-13 footer wine img.png" alt=""> -->
+                <img src="https://jpempire.000webhostapp.com/Projects/Portfolio%20Projects/CSS/img/Task-13%20footer%20Wine%20img.png" alt="">
+            </section>
+            <section id="name"> Wine </section>
+            <section id="para">
+                Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. animi, assumends.
+            </section>
+        </section>
+        <section id="music">
+            <section id="photo">
+                <!-- <img src="img/task-13 footer music img.png" alt=""> -->
+                <img src="https://jpempire.000webhostapp.com/Projects/Portfolio%20Projects/CSS/img/Task-13%20footer%20Music%20img.png" alt="">
+            </section>
+            <section id="name"> Music </section>
+            <section id="para">
+                Lorem ipsum dolor sit amet consectetur, <br> adipisicing elit. animi, assumends.
+            </section>
+        </section>
+    </section>
+
+
+    
+</body>
+</html>

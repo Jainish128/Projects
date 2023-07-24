@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> Task-12 || PraRoz Web Page || 13-3-23 </title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body
+        {
+            /* background: url(img/Task\ 12\ Bg\ img\ \(2\).jpg); */
+            background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("img/Task\ 12\ Bg\ img\ \(2\).jpg");
+            /* background-repeat: round; */
+            background-size: cover;
+            background-color: transparent;
+        }
+        /* ------------------------------------------- */
+        header
+        {
+            width: 100%;
+            height: 70px;
+            /* background-color: lightblue; */
+            display: flex;
+            
+        }
+        header .logo
+        {
+            width: 15%;
+            height: 70px;
+            /* background-color: lightgray; */
+            color: peru;
+            font-family: arial;
+            font-weight: 600;
+            font-size: 35px;
+            line-height: 70px;
+            text-align: center;
+        }
+        header .nav
+        {
+            width: 50%;
+            height: 70px;
+            /* background-color: lightpink; */
+        }
+        header .nav ul
+        {
+            width: 90%;
+            height: 70px;
+            margin-left: 10%;
+            display: flex;
+            /* background-color: darkslategray; */
+            
+        }
+        header .nav ul li
+        {
+            list-style: none;
+            color: white;
+            font-family: arial;
+            font-size: 18px;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+            padding: 0px 35px;
+            line-height: 70px;
+        }
+        header .nav ul li:hover
+        {
+            color: orange;
+            text-decoration: underline;
+        }
+
+        header .searchbox
+        {
+            width: 35%;
+            height: 70px;
+            /* background-color: red; */
+        }
+        header .searchbox .searchbar
+        {
+            width: 60%;
+            height: 40px;
+            display: flex;
+            margin: 15px 100px 15px 110px;
+            background-color: rgba(135, 206, 250, 0);
+            border: 2px solid orange;
+            border-radius: 10px;
+        }
+        header .searchbox .searchbar input
+        {
+            width: 70%;
+            height: 36px;
+            background: transparent; 
+            border: none;
+            font-size: 15px;
+            color: azure;
+        }
+        header .searchbox .searchbar input:focus
+        {
+            outline: none;
+            font-size: 15px;
+            color: azure;       
+        }
+        header .searchbox .searchbar input::placeholder
+        {
+            color: azure;
+        }
+        header .searchbox .searchbar span
+        {
+            width: 30%;
+            height: 38px;
+            margin-top: 0px;
+            border: none;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: orange;
+            font-size: 16px;
+            font-family: arial;
+            color: azure;
+            text-align: center;
+            line-height: 38px;
+        }
+        header .searchbox .searchbar span:hover
+        {
+            background-image: linear-gradient(to right, darkorange, orangered, darkorange);
+            border-radius: 5px;
+            color: rgb(255, 187, 60);
+            cursor: pointer;
+        }
+        /* --------------------------------------------------------------------- */
+        section
+        {
+            width: 100%;
+            height: 500px;
+            margin-top: 100px;
+            /* background-color: aqua; */
+            display: flex;
+        }
+        section .letf_sec
+        {
+            width: 65%;
+            height: 450px;
+            /* background-color: darkblue; */
+        }
+        section .letf_sec h1
+        {
+            margin-left: 5%;
+            font-size: 40px;
+            color: azure;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        section .letf_sec h1 span
+        {
+            font-size: 50px;
+            color: orange;
+        }
+        section .letf_sec p
+        {
+            width: 95%;
+            margin-left: 5%;
+            margin-top: 5px;
+            /* background-color: red; */
+            font-size: 18px;
+            color: azure;
+            font-family: monospace;
+        }
+        section .letf_sec button
+        {
+            width: 150px;
+            height: 40px;
+            margin-left: 5%;
+            margin-top: 25px;
+            background-color: orange;
+            border: none;
+            border-radius: 10px;
+            font-size: 17px;
+        }
+        section .letf_sec button:hover
+        {
+            background-color: black;
+            color: orange;
+            /* border: 1px solid orange; */
+            box-shadow: 0px 0px 3px 3px orange;
+        }
+
+        section .right_sec
+        {
+            width: 35%;
+            height: 420px;
+            /* background-color: red; */
+        }
+        section .right_sec .container
+        {
+            width: 60%;
+            height: 420px;
+            border: none;
+            border-radius: 10px;
+            margin-left: 120px;
+            padding-top: 25px;
+            background-color: rgba(0, 0, 0, 0.7);
+            
+        }
+        section .right_sec .container .login_here
+        {
+            width: 80%;
+            height: 40px;
+            margin-left: 10%;
+            margin-right: 10%;
+            background-color: whitesmoke;
+            color: orange;
+            font-size: 20px;
+            font-family: arial;
+            font-weight: 600;
+            text-align: center;
+            line-height: 40px;
+            border: none;
+            border-radius: 10px;
+        }
+        section .right_sec .container .email
+        {
+            width: 100%;
+            height: 60px;
+            margin-top: 20px;
+            /* background-color: lightblue; */
+        }
+        section .right_sec .container .email input
+        {
+            width: 80%;
+            height: 40px;
+            margin: 10px 10%;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid orange;
+            color: whitesmoke;
+            font-size: 17px;
+        }
+        section .right_sec .container .email input:focus
+        {
+            outline: none;
+            border-bottom: 2px solid orange;
+            /* border-left: 3px solid orange; */
+            /* border-right: 3px solid orange; */
+            /* border-radius: 10px; */
+        }
+        section .right_sec .container .email input::placeholder
+        {
+            color: whitesmoke;
+        }
+        section .right_sec .container .pwd
+        {
+            width: 100%;
+            height: 60px;
+            margin-top: 10px;
+            /* background-color: lightblue; */
+        }
+        section .right_sec .container .pwd input
+        {
+            width: 80%;
+            height: 40px;
+            margin: 10px 10%;
+            border: none;
+            background-color: transparent;
+            border-bottom: 1px solid orange;
+            color: whitesmoke;
+            font-size: 17px;
+        }
+        section .right_sec .container .pwd input:focus
+        {
+            outline: none;
+            border-bottom: 2px solid orange;
+            /* border-left: 3px solid orange; */
+            /* border-right: 3px solid orange; */
+            /* border-radius: 10px; */
+        }
+        section .right_sec .container .pwd input::placeholder
+        {
+            color: whitesmoke;
+        }
+        section .right_sec .container button
+        {
+            width: 80%;
+            height: 40px;
+            margin: 10px 10%;
+            background-color: orange;
+            color: black;
+            font-size: 20px;
+            font-family: arial;
+            font-weight: 600;
+            text-align: center;
+            line-height: 40px;
+            border: none;
+            border-radius: 10px;
+        }
+        section .right_sec .container button:hover
+        {
+            background-color: black;
+            color: orange;
+            box-shadow: 0px 0px 10px 2px orange;
+            transition: 1s;
+        }
+        section .right_sec .container p
+        {
+            width: 100%;
+            height: 90px;
+            /* background-color: darkgreen; */
+            color: azure;
+            text-align: center;
+            font-size: 17px;
+            font-family: arial;
+        }
+        section .right_sec .container p span
+        {
+            color: orange;
+            cursor: pointer;
+        }
+        section .right_sec .container p span:hover
+        {
+            text-decoration: underline orangered;
+        }
+        section .right_sec .container .icons
+        {
+            width: 80%;
+            height: 50px;
+            margin: 0px 10%;
+            display: flex;
+            /* background-color: darkslategray; */
+            color: whitesmoke;
+            font-size: 26px;
+        }
+        section .right_sec .container .icons i
+        {
+            padding: 12px 15px;
+        }
+        .fa-facebook:hover
+        {
+            color: rgb(0, 0, 255);
+        }
+        .fa-instagram:hover
+        {
+            color: mediumvioletred;
+        }
+        .fa-twitter:hover
+        {
+            color: rgb(71, 194, 243);
+        }
+        .fa-google:hover
+        {
+            color: yellowgreen;
+        }
+        .fa-skype:hover
+        {
+            color: lightskyblue;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>
+        <div class="logo"> PraRoz </div>
+        <div class="nav">
+            <ul>
+                <li> HOME </li>
+                <li> ABOUT </li>
+                <li> SERVICE </li>
+                <li> DESIGN </li>
+                <li> CONTACT </li>
+            </ul>
+        </div>
+        <div class="searchbox">
+            <div class="searchbar">
+                <input type="text" placeholder="   Type to Search">
+                <span> Search </span>
+            </div>
+        </div>
+    </header>
+    <section>
+        <div class="letf_sec">
+            <h1> Web Design & <br> <span>Development</span><br> Course </h1>
+            <p>
+                Web Design is a specialisation of the design stream. They also use HTML. <br> CSS.WYSIWYG editing software, mark up validations etc. <br> to create design elements.  
+            </p>
+            <button> JOIN US </button>
+        </div>
+        <div class="right_sec">
+            <div class="container">
+                <div class="login_here"> Login Here </div>
+                <div class="email">
+                    <input type="email" placeholder="Enter Email Here">
+                </div>
+                <div class="pwd">
+                    <input type="password" placeholder="Enter Password Here">
+                </div>
+                <button> Login </button>
+                <p>
+                    Don't have a account? <br>
+                    <span>Sign up</span> here <br><br>
+                    Log in with
+                </p>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-google"></i>
+                    <i class="fa-brands fa-skype"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>

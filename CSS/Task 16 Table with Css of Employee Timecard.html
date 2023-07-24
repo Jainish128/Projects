@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        table, tr, th, td
+        {
+            border: 1px groove orange;
+        }
+        table
+        {
+            width: 70%;
+            border-collapse: collapse;
+            font-family: arial;
+        }
+        th
+        {
+            height: 50px;
+        }
+        td
+        {
+            text-align: right;
+        }
+        .day
+        {
+            text-align: left;
+            font-size: 25px;
+            padding: 5px 0px;
+        }
+        caption
+        {
+            height: 60px;
+            background-color: goldenrod;
+            color: aliceblue;
+            letter-spacing: 10px;
+            font-size: 45px;
+            font-weight: bold;
+            line-height: 60px;
+        }
+        tr:nth-child(odd)
+        {
+            background-color: honeydew;
+            font-size: 25px;
+            border-bottom: 2px solid orange ;
+        }
+        tr:nth-child(even)
+        {
+            font-size: 25px;
+            border-bottom: 2px solid orange;
+            background-color: aliceblue;
+        }
+        tr:last-child
+        {
+            background-color: rgb(70, 70, 70);
+            color: aliceblue;
+            font-weight: bold;
+            border: none;
+        }
+        tr:last-child td:first-child
+        {
+            text-align: center;
+        }
+        
+        tr:hover
+        {
+            background-color: lightyellow;
+        }
+        tr:first-child:hover 
+        {
+            color: azure;
+            background-color: rgb(70, 70, 70);
+        }
+        tr:last-child:hover 
+        {
+            background-color: azure;
+            color: rgb(70, 70, 70);
+        }
+
+    </style>
+</head>
+<body>
+
+    <table>
+        <!-- <tr class="heading">
+            <th colspan="4"> Employee  Timecard </th>
+        </tr> -->
+
+        <caption> Employee Timecard </caption>
+        <tr>
+            <th width="40%"> Day </th>
+            <th width="20%"> Regular </th>
+            <th width="20%"> Overtime </th>
+            <th width="20%"> Total </th>
+        </tr>
+        <tr>
+            <td class="day"> Monday </td>
+            <td> 8 </td>
+            <td> 0 </td>
+            <td> 8 </td>
+        </tr>
+        <tr>
+            <td class="day"> Tuesday </td>
+            <td> 8 </td>
+            <td> 2.5 </td>
+            <td> 10.5 </td>
+        </tr>
+        <tr>
+            <td class="day"> Wednesday </td>
+            <td> 8 </td>
+            <td> 0 </td>
+            <td> 8 </td>
+        </tr>
+        <tr>
+            <td class="day"> Thursday </td>
+            <td> 8 </td>
+            <td> 0 </td>
+            <td> 8 </td>
+        </tr>
+        <tr>
+            <td class="day"> Friday </td>
+            <td> 8 </td>
+            <td> 0 </td>
+            <td> 8 </td>
+        </tr>
+        <tr>
+            <td class="day"> Saturday </td>
+            <td> 0 </td>
+            <td> 5 </td>
+            <td> 5 </td>
+        </tr>
+        <tr>
+            <td class="day"> Sunday </td>
+            <td> 0 </td>
+            <td> 1 </td>
+            <td> 1 </td>
+        </tr>
+        <tr class="total">
+            <td class="day"> Total weekly hours : </td>
+            <td> 40 </td>
+            <td> 8.5 </td>
+            <td> 48.5 </td>
+        </tr>
+    </table>
+    
+
+</body>
+</html>
