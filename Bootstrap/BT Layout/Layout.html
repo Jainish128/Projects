@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+
+    <title> Layout using Bootstrap || Assignment </title>
+</head>
+
+<body>
+
+
+
+    <!-- ----------------------------------- Navbar ----------------------------------- -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="javascript:void(0)"> Carousel </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript:void(0)"> Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript:void(0)">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="javascript:void(0)"> Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+    <!-- ----------------------------------- Slider ----------------------------------- -->
+    <div id="carouselExample" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-bs-target="#carouselExample" data-bs-slide-to="0" class="active bg-light"></li>
+            <li data-bs-target="#carouselExample" data-bs-slide-to="1" class="bg-light"></li>
+            <li data-bs-target="#carouselExample" data-bs-slide-to="2" class="bg-light"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/background for Task-2.jpg" class="d-block w-100 bg-secondary" style="height:500px;"
+                    alt="photo 1">
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h5 class="float-end"> One morefor good measure </h5>
+                    <p class="float-end"> Cras justo odio, dapibus ac facilisis in, egeasts eget quam. Donec id elit non mi porta gravida
+                        at egete metuss Nullum id. <span class="float-end"> id dolor id nibh ultricies vehicula ut id elit. </span></p>
+                    <button type="button" class="btn btn-primary float-end"> Browse Gallery </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/For Any BG.jpg" class="d-block w-100 bg-secondary" style="height:500px;" alt="photo 2">
+                <div class="carousel-caption d-none d-md-block text-light">
+                    <h5 class="float-end"> One morefor good measure </h5>
+                    <p class="float-end"> Cras justo odio, dapibus ac facilisis in, egeasts eget quam. Donec id elit non mi porta gravida
+                        at egete metuss Nullum id. <span class="float-end"> id dolor id nibh ultricies vehicula ut id elit. </span></p>
+                    <button type="button" class="btn btn-primary float-end"> Browse Gallery </button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="img/background for Task - 2.jpg"
+                    class="d-block w-100 bg-secondary" style="height:500px;" alt="photo 3">
+                    <div class="carousel-caption d-none d-md-block text-light">
+                        <h5 class="float-end"> One morefor good measure </h5>
+                        <p class="float-end"> Cras justo odio, dapibus ac facilisis in, egeasts eget quam. Donec id elit non mi porta gravida
+                            at egete metuss Nullum id. <span class="float-end"> id dolor id nibh ultricies vehicula ut id elit. </span></p>
+                        <button type="button" class="btn btn-primary float-end"> Browse Gallery </button>
+                    </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ----------------------------------- Cards ----------------------------------- -->
+
+
+    <div class="container d-flex  pt-5 ps-5 pb-5 border-bottom">
+        <div class="card text-center ms-5 me-5 " style="width: 18rem;">
+            <img src="img/JP logo (4).png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Heading </h5>
+                <p class="card-text">Some quick example text to build on the card
+                    title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary"> View Details </a>
+            </div>
+        </div>
+        <div class="card text-center ms-5 me-5" style="width: 18rem;">
+            <img src="img/JP logo (4).png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Heading </h5>
+                <p class="card-text">Some quick example text to build on the card
+                    title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary"> View Details </a>
+            </div>
+        </div>
+        <div class="card text-center me-5 ms-5" style="width: 18rem;">
+            <img src="img/JP logo (4).png" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title"> Heading </h5>
+                <p class="card-text">Some quick example text to build on the card
+                    title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary"> View Details </a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ----------------------------------- Left Content & Right Image ----------------------------------- -->
+    <div class="container border-bottom">
+        <div class="d-flex ms-5 mt-5 align-items-center ">
+            <div class="flex-grow-1 ms-5 ">
+                <h1 class="display-6"> First features heading. it'll <br> blow your
+                    mind. </h1>
+                This is some content from a media component. You can replace this
+                <br>
+                with any content and adjust it as needed. Lorem ipsum dolor sit amet
+                <br>
+                consectetur, adipisicing elit. Numquam animi maxime Reprehenderit.
+            </div>
+            <div class="flex-shrink-0 me-5">
+                <img src="img/Holi vector img.avif" class="me-5" width="500px" height="500px" alt="...">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ----------------------------------- Left Image & Right Content ----------------------------------- -->
+    <div class="container border-bottom">
+        <div class="d-flex ms-5 mt-5 align-items-center">
+            <div class="flex-shrink-0 me-5">
+                <img src="img/Holi vector img.avif" class="me-5" width="500px" height="500px" alt="...">
+            </div>
+            <div class="flex-grow-1 ms-5">
+                <h1 class="display-6"> First features heading. it'll <br> blow your
+                    mind. </h1>
+                This is some content from a media component. You can replace this
+                <br>
+                with any content and adjust it as needed. Lorem ipsum dolor sit amet
+                <br>
+                consectetur, adipisicing elit. Numquam animi maxime Reprehenderit.
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ----------------------------------- Left Content & Right Image ----------------------------------- -->
+    <div class="container border-bottom">
+        <div class="d-flex ms-5 mt-5 align-items-center">
+            <div class="flex-grow-1 ms-5">
+                <h1 class="display-6"> First features heading. it'll <br> blow your
+                    mind. </h1>
+                This is some content from a media component. You can replace this
+                <br>
+                with any content and adjust it as needed. Lorem ipsum dolor sit amet
+                <br>
+                consectetur, adipisicing elit. Numquam animi maxime Reprehenderit.
+            </div>
+            <div class="flex-shrink-0 me-5">
+                <img src="img/Holi vector img.avif" class="me-5" width="500px" height="500px" alt="...">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- ----------------------------------- Footer ----------------------------------- -->
+    <div class="container">
+        <div class="d-flex ms-5">
+            <div class="pt-2 ps-5">
+                &copy; 2017-2018 Company, Inc -
+            </div>
+            <a class="nav-link" href="#"> Privacy </a>
+            <a class="nav-link" href="#"> Terms </a>
+
+            <div class="d-flex justify-content-end ms-5 ps-5">
+                <a class="nav-link ms-5 ps-5" href="#"> Back to Top </a>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
