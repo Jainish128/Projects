@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <title> Slider with Animation using JQuery </title>
+
+    <style>
+        body
+        {
+            background-color: #00cec9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+        }
+
+        .slider-container {
+            width: 800px;
+            height: 500px;
+            overflow: hidden;
+            position: relative;
+            /* background-color: red; */
+            border-radius: 10px;
+        }
+
+        .slider {
+            display: flex;
+            width: 100%;
+            transition: 1s ease;
+        }
+
+        .slide {
+            flex: 1 0 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* background-color: lightblue; */
+        }
+        .slide img
+        {
+            width: 100%;
+            height: 100%;
+        }
+
+        .prev-btn, .next-btn 
+        {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 7px 15px;
+            border: none;
+            background-color: rgba(0,0,0,0.3);
+            color: #fff;
+            font-size: 25px;
+            border-radius: 50px;
+            cursor: pointer;
+        }
+
+        .prev-btn 
+        {
+            left: 10px;
+        }
+        .prev-btn:hover 
+        {
+            color: lightcyan;
+        }
+
+        .next-btn 
+        {
+            right: 10px;
+        }
+        .next-btn:hover 
+        {
+            color: lightcyan;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="slider-container">
+        <div class="slider">
+            <!-- <div class="slide"><img src="img/img - 1.jpg" alt=""></div> -->
+            <div class="slide"><img src="https://poerfolioofjainishpatel.000webhostapp.com/img%20-%201.jpg" alt=""></div>
+            <!-- <div class="slide"><img src="img/Img - 2..jpg" alt=""></div> -->
+            <div class="slide"><img src="https://poerfolioofjainishpatel.000webhostapp.com/img/Img%20-%202..jpg" alt=""></div>
+            <!-- <div class="slide"><img src="img/img - 3.jpg" alt=""></div> -->
+            <div class="slide"><img src="https://poerfolioofjainishpatel.000webhostapp.com/img/img%20-%203.jpg" alt=""></div>
+            <!-- <div class="slide"><img src="img/img - 4.jpg" alt=""></div> -->
+            <div class="slide"><img src="https://poerfolioofjainishpatel.000webhostapp.com/img/img%20-%204.jpg" alt=""></div>
+            <!-- <div class="slide"><img src="img/img - 5.jpg" alt=""></div> -->
+            <div class="slide"><img src="https://poerfolioofjainishpatel.000webhostapp.com/img/img%20-%205.jpg" alt=""></div>
+        </div>
+        <!-- <button class="prev-btn"> Previous </button> -->
+        <button class="prev-btn"> <i class="fa-solid fa-left-long"></i> </button>
+        <button class="next-btn"> <i class="fa-solid fa-right-long"></i> </button>
+        <!-- <button class="next-btn"> Next </button> -->
+    </div>
+
+
+
+    <script>
+
+        $(document).ready(function () {
+
+            var slider = $('.slider');
+            var slideWidth = $('.slide').width();
+            var slideCount = $('.slide').length;
+            var currentIndex = 0;
+
+            function showSlide(index) {
+                var newPosition = -index * slideWidth;
+                slider.css('transform', 'translateX(' + newPosition + 'px)');
+                currentIndex = index;
+            }
+
+            $('.prev-btn').click(function () {
+                var newIndex = currentIndex - 1;
+                if (newIndex < 0) {
+                    newIndex = slideCount - 1;
+                }
+                showSlide(newIndex);
+            })
+
+            $('.next-btn').click(function () {
+                var newIndex = currentIndex + 1;
+                if (newIndex > 4) {
+                    newIndex = slideCount - 5;
+                }
+                showSlide(newIndex);
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
