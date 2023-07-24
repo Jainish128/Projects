@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Full Form made using Bootstrap </title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="Form Using Bootstrap and JS.js"></script>
+
+</head>
+
+<body>
+
+
+    <div class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12">
+                    <div class="jumbotron">
+                        <div class="agileits-title">
+                            <h2 class="pl-3"> Registration Form </h2>
+                        </div>
+
+                        <div class="agile-contact-form">
+
+                            <h4 id="msg" align="center" style="color: #FF0000; text-transform: capitalize;"></h4>
+                            <br><br>
+
+                            <form class="form-horizontale" onsubmit="return Reg_form(this)">
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> User Name <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="Enter User Name Here" name="username" id="uname">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Password <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <input type="password" class="form-control" placeholder="Enter Your Password" name="password" id="pwd">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Email <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" placeholder="Enter your Email Id" name="email1" id="email">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Gender <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <div class="col-sm-10">
+                                            <input type="radio" name="gender" value="m"> Male <br>
+                                            <input type="radio" name="gender" value="f"> Female <br>
+                                            <input type="radio" name="gender" value="o"> Other
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Hobby <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <input type="checkbox" name="chk" value="Reading"> Reading <br>
+                                        <input type="checkbox" name="chk" value="music"> Music <br>
+                                        <input type="checkbox" name="chk" value="outing"> Outing <br>
+                                        <input type="checkbox" name="chk" value="cricket"> BGMI <br>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Country <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <select name="country" class="form-control" id="country">
+                                            <option value=""> Select Country : </option>
+                                            <option value="india"> India </option>
+                                            <option value="usa"> USA </option>
+                                            <option value="canada"> Canada </option>
+                                            <option value="switerzland"> Switerzland </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Education <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <!-- <select name="education" class="form-control" multiple min="1" max="3">  -->
+                                        <select name="education" class="form-control"> 
+                                            <option> Select Education </option>
+                                            <option value="10th"> 10th </option>
+                                            <option value="12th"> 12th </option>
+                                            <option value="b.com"> B.Com </option>
+                                            <option value="m.com"> M.Com </option>
+                                            <option value="bca"> BCA </option>
+                                            <option value="mca"> MCA </option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Address <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <textarea name="address" id="add" class="form-control" rows="3" placeholder="Enter your Address Here"></textarea>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Profile Picture <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <input type="file" id="profile" class="form-control" onchange="return image_check(this)">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Resume PDF <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <input type="file" id="resume" class="form-control" onchange="return resume_check(this)">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Date of Birth <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-10">
+                                        <input type="date" class="form-control" id="dob">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Rating <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-4">
+                                        <input type="range" class="form-control" name="rating" min="0" max="10" value="0">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <label class="control-label col-sm-2"> Eye Colour <span style="color: red;">*</span> </label>
+                                    <div class="col-sm-4">
+                                        <input type="color" class="form-control" name="color">
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="col-sm-8 col-sm-offset-2">
+                                        <input type="submit" value="Register" id="submit" class="btn btn-primary btn-lg">
+                                    </div>
+                                </div>
+                                
+                                <h4 align="center"><span id="msg" style="color: #ff0000; text-transform: capitalize;"></span></h4>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

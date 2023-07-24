@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cash Counting </title>
+
+    <style>
+
+        body
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+            font-family: arial;
+            background-color: lavender;
+        }
+        table
+        {
+            border: 1px solid rgb(0, 183, 255);
+            transform: scale(1.4);
+        }
+        table tr:first-child th
+        {
+            background-color: lightblue;
+            color: rgb(0, 106, 148);
+            border-bottom: 1px solid rgb(0, 183, 255);
+        }
+        table tr td
+        {
+            background-color: lightcyan;
+            /* width: 100px; */
+        }
+        table tr td:first-child
+        {
+            text-align: right;
+        }
+        
+
+       
+        table tr td:nth-child(3) input
+        {
+            width: 50px;
+            height: 20px;
+            font-size: 16px;
+            border: none;
+            border-bottom: 1px solid rgb(0, 183, 255);
+            background-color: transparent;
+            text-align: center;
+        }
+        table tr td:nth-child(3) input:focus
+        {
+            outline: none;
+        }
+
+        table tr td:last-child
+        {
+            width: 100px;
+        }
+        table tr td:last-child b
+        {
+            font-size: 20px;
+            color: green;
+        }
+        table tr:last-child th,
+        table tr:last-child td
+        {
+            background-color: lightblue;
+            color: rgb(0, 106, 148);
+            border-top: 1px solid rgb(0, 183, 255);
+        }
+        #total
+        {
+            font-size: 25px;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <table cellspacing="0" cellpadding="5px">
+        <tr>
+            <th colspan="5"> Cash Counting </th>
+        </tr>
+        <tr>
+            <td> 2000 </td>
+            <td> X </td>
+            <td><input type="number" id="note2000" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result2000"></b></td>
+        </tr>
+        <tr>
+            <td> 500 </td>
+            <td> X </td>
+            <td><input type="number" id="note500" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result500"></b></td>
+        </tr>
+        <tr>
+            <td> 200 </td>
+            <td> X </td>
+            <td><input type="number" id="note200" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result200"></b></td>
+        </tr>
+        <tr>
+            <td> 100 </td>
+            <td> X </td>
+            <td><input type="number" id="note100" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result100"></b></td>
+        </tr>
+        <tr>
+            <td> 50 </td>
+            <td> X </td>
+            <td><input type="number" id="note50" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result50"></b></td>
+        </tr>
+        <tr>
+            <td> 20 </td>
+            <td> X </td>
+            <td><input type="number" id="note20" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result20"></b></td>
+        </tr>
+        <tr>
+            <td> 10 </td>
+            <td> X </td>
+            <td><input type="number" id="note10" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result10"></b></td>
+        </tr>
+        <tr>
+            <td> 5 </td>
+            <td> X </td>
+            <td><input type="number" id="note5" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result5"></b></td>
+        </tr>
+        <tr>
+            <td> 2 </td>
+            <td> X </td>
+            <td><input type="number" id="note2" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result2"></b></td>
+        </tr>
+        <tr>
+            <td> 1 </td>
+            <td> X </td>
+            <td><input type="number" id="note1" onkeyup="counting()"></td>
+            <td> = </td>
+            <td><b id="result1"></b></td>
+        </tr>
+        <tr>
+            <th colspan="3"> Total Amount </th>
+            <td> = </td>
+            <td><b id="total"></b></td>
+        </tr>
+        <!-- <tr>
+            <th colspan="3"> Total Notes </th>
+            <td> = </td>
+            <td><div id="total_notes0"></div></td>
+        </tr> -->
+    </table>
+
+
+
+
+    <script>
+
+        function counting() 
+        {
+            // Counting for 2000 Notes
+            var count2000 = document.getElementById("note2000").value;
+            var result2000 = 2000 * count2000;
+            document.getElementById("result2000").innerHTML = result2000; 
+            
+
+            // Counting for 500 Notes
+            var count500 = document.getElementById("note500").value;
+            var result500 = 500 * count500;
+            document.getElementById("result500").innerHTML = result500; 
+
+
+            // Counting for 200 Notes
+            var count200 = document.getElementById("note200").value;
+            var result200 = 200 * count200;
+            document.getElementById("result200").innerHTML = result200;
+
+            
+            // Counting for 100 Notes
+            var count100 = document.getElementById("note100").value;
+            var result100 = 100 * count100;
+            document.getElementById("result100").innerHTML = result100;
+
+
+            // Counting for 50 Notes
+            var count50 = document.getElementById("note50").value;
+            var result50 = 50 * count50;
+            document.getElementById("result50").innerHTML = result50;
+
+            // Counting for 20 Notes
+            var count20 = document.getElementById("note20").value;
+            var result20 = 20 * count20;
+            document.getElementById("result20").innerHTML = result20;
+
+
+            // Counting for 10 Notes
+            var count10 = document.getElementById("note10").value;
+            var result10 = 10 * count10;
+            document.getElementById("result10").innerHTML = result10;
+
+            // Counting for 5 Notes
+            var count5 = document.getElementById("note5").value;
+            var result5 = 5 * count5;
+            document.getElementById("result5").innerHTML = result5;
+        
+            
+            // Counting for 2 Notes
+            var count2 = document.getElementById("note2").value;
+            var result2 = 2 * count2;
+            document.getElementById("result2").innerHTML = result2;
+
+            // Counting for 1 Notes
+            var count1 = document.getElementById("note1").value;
+            var result1 = 1 * count1;
+            document.getElementById("result1").innerHTML = result1;
+
+            // Get Total Amount
+            var total = document.getElementById("total").innerHTML = (result2000 + result500 + result200 + result100 + result50 + result20 + result10 + result5 + result2 + result1);
+
+            // var total_notes = document.getElementById("total_notes0").innerText=count2000 * count500 + count200 + count100 + count50 + count20 + count10 + count5 + count2 + count1;
+
+            // var total_notes_counting = ((count2000) + (count500) + (count200) + (count100) + (count50) + (count20) + (count10) + (count5) + (count2) + (count1));
+            // document.getElementById("total_notes0").innerHTML = total_notes_counting;
+
+        }
+
+        // function note_counting() 
+        // {
+        //     var total_notes = document.getElementById("total_notes0").innerText = (count2000 + count500 + count200 + count100 + count50 + count20 + count10 + count5 + count2 + count1);
+        // }
+
+
+
+    </script>
+    
+</body>
+</html>

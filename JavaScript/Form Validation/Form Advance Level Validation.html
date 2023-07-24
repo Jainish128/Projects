@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Advance Validation Form </title>
+    <style>
+        *
+        {
+            font-family: sans-serif;
+        }
+        input
+        {
+            border: none;
+            background-color: lightcyan;
+        }
+        input[type=submit]
+        {
+            border: 1px solid black;
+        }
+        input:focus
+        {
+            outline: none;
+        }
+
+        table
+        {
+            background-color: lightcyan;
+            border: 2px solid darkcyan;
+        }
+        .heading
+        {
+            background-color: lightblue;
+        }
+        .submit_option
+        {
+            background-color: azure;
+        }
+
+
+    </style>
+    
+    <script>
+
+        // First Make one Function
+
+       function validate() 
+       {
+        // Take varibale now if we take <form name=""> than use document.forms["MyForm"]["fname"].value;
+        // if we use <form id="" than we use var img = document.getElementById("img");> 
+            
+    // ------------------------------ First Name ------------------------------
+            // Alert message
+            var fname = document.forms["MyForm"]["fname"].value;
+            if (fname=="" || fname==null)   // For null condition
+            {
+                alert("Please Fill out the User First Name.");  // Alert Message
+                return false;   // return false means message show and again on same page with value not refresh page.
+            }
+
+                    //      For Pattern
+                    //        /^[]$/
+            // for Alphabet = /^[A-Za-z]+$/     or   /^[a-zA-Z]{3,8}$/
+            // for Numbers  = /^[0-9]+$/        or   /^[0-9]{10}$/
+            // for email    = /^[a-zA-Z0-9_] +@ [a-zA-Z] +\.[a-zA-Z]{2,4} $/
+            
+            var alpha = /^[a-zA-Z]+$/
+            if (!alpha.test(fname)) 
+            {
+                alert("Please Fill your First Name with only Alphabets.");
+                return false;
+            }
+
+    // ------------------------------ Last Name ------------------------------
+            var lname = document.forms['MyForm']['lname'].value;
+            if (lname=="" || lname==null)       // For Null & Black Condition.
+            {
+                document.getElementById("lname_error").innerHTML = "Please Fill your Last Name.";
+                return false;
+            } 
+            else 
+            {
+                document.getElementById("lname_error").innerHTML = "";
+            }
+
+    // ------------------------------ Password ------------------------------
+            var pass = document.forms['MyForm']['pwd'].value;
+            if (pass=="" || pass==null)
+            {
+                alert("Please fill out the Password.");
+                return false;    
+            }
+            if (!(pass.length >= 3 && pass.length <= 8)) 
+            {
+                alert("Please, Provide your Password berween 3 to 8 Charcters.");
+                return false;    
+            }
+
+    // ------------------------------ Confirm Password ------------------------------
+            var cpass = document.forms["MyForm"]['cpwd'].value;
+            if (cpass=="" || cpass==null) 
+            {
+                alert("Please, Fill out the Confirm Password.");
+                return false;    
+            }
+            if (cpass == pass) 
+            {
+                
+            } 
+            else 
+            {
+                alert("Please, Enter the Same Password.");
+                return false;    
+            }
+
+    // ------------------------------ E-Mail ------------------------------
+            var email = document.forms["MyForm"]['email'].value;
+            if (email=="" || email==null) 
+            {
+                alert("Please, Fill out the E-mail.");
+                return false;    
+            }
+            var mail = /^[a-zA-Z0-9_]+@[a-zA-Z]+\.[a-z]{2,4}$/;
+            if (!mail.test(email)) 
+            {
+                alert("Please, Fill Your Email Id Properly.");
+                return false;
+            }
+
+    // ------------------------------ Phone Number ------------------------------
+            var phone = document.forms["MyForm"]['phone'].value;
+            if (phone=="" || phone==null) 
+            {
+                alert("Please, Fill youe Phone Number.");
+                return false;    
+            }
+            var phoneNumber = /^[0-9]{10}$/
+            if (!phoneNumber.test(phone)) 
+            {
+                alert("Please, Fill your Phone Number Correctly.");
+                return false;   
+            }
+    // ------------------------------ Gender ------------------------------
+            var gender_arr = document.getElementsByName("gender");
+            if (gender_arr[0].checked == true) 
+            {
+
+            }
+                else if (gender_arr[1].checked == true) 
+                {
+                    
+                }
+            else
+            {
+                alert("Please, Select your Gender.");
+                return false;
+            }
+    // ------------------------------ Hobby ------------------------------
+            var hobby_arr = document.getElementsByName("chk");
+            if (hobby_arr[0].checked == true) 
+            {
+                
+            }   
+            else if (hobby_arr[1].checked == true) 
+            {
+                
+            }
+            else if (hobby_arr[2].checked == true) 
+            {
+                
+            }
+            else if (hobby_arr[3].checked == true) 
+            {
+                
+            }
+        else
+        {
+            alert("Please, Select your Hobby.");
+            return false;
+        }
+
+       }
+
+    </script>
+
+</head>
+<body>
+
+    <form name="MyForm" onsubmit="return validate()">
+        <table border="2px" align="center" cellpadding="5px" cellspacing="0">
+            <tr>
+                <th colspan="2" class="heading"> Registration Form </th>
+            </tr>
+            <tr>
+                <th> First Name : </th>
+                <td> <input type="text" id="fname"> </td>
+            </tr>
+            <tr>
+                <th> Last Name :  </th>
+                <td>
+                    <input type="text" name="lname">
+                    <span id="lname_error" style="color: red;"></span>
+                </td>
+            </tr>
+            <tr>
+                <th> Password : </th>
+                <td> <input type="password" name="pwd"> </td>
+            </tr>
+            <tr>
+                <th> Confirm Password : </th>
+                <td> <input type="password" name="cpwd"> </td>
+            </tr>
+            <tr>
+                <th> Email :  </th>
+                <td> <input type="text" name="email"> </td>
+            </tr>
+            <tr>
+                <th> Phone No. : </th>
+                <td> <input type="text" name="phone"> </td>
+            </tr>
+            <tr>
+                <th> Gender :  </th>
+                <td>
+                    <input type="radio" name="gender" value="m"> Male <br>
+                    <input type="radio" name="gender" value="f"> Female
+                </td>
+            </tr>
+            <tr>
+                <th> Hobby </th>
+                <td>
+                    <input type="checkbox" name="chk" value="reading"> Reading <br>
+                    <input type="checkbox" name="chk" value="music"> Music <br>
+                    <input type="checkbox" name="chk" value="outing"> Outing <br>
+                    <input type="checkbox" name="chk" value="criket"> Cricket <br>
+                </td>
+            </tr>
+            <tr align="center" class="submit_option">
+                <td colspan="2"> <input type="submit" name="submit"> </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
