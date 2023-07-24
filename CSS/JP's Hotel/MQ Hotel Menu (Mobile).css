@@ -1,0 +1,1234 @@
+@media screen and (max-width: 480px)
+{
+
+    
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    /* Font-color White */
+    color: #ffffff;
+    font-family: verdana;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+/* ->->->| Main Header-START |<-<-<- */
+#header
+{
+    width: 100%;
+    height: 620px;
+    background: url(img/Full\ width\ Dark\ Bg.png);
+    /* Horizontal Div Lavva */
+    display: flex;
+    position: relative;
+
+}
+/* ========== left-header ========== */
+#left-header
+{
+    width: 100%;
+    height: auto;
+    background: url(img/Header\ -\ Food\ Item.png);
+    background-repeat: no-repeat;
+    /* Width & Height Ma Set Karva */
+    background-size: contain;
+    
+    /* display: none; */
+}
+/* ===== Center Shape Header ===== */
+#center-shape-header
+{
+    width: 100%;
+    height: 100px;
+    /* Img ne Left-Top Move Karva */
+    margin-left: 0;
+    margin-top: 0;
+    background: url(img/Header\ Left\ Designer\ Shape.png);
+    display: none;
+}
+/* ======= Right-header ======= */
+#right-header
+{
+    width: 60%;
+    height: inherit;
+    /* Image ne Add Karva */
+    background: url(img/Vector\ Smart\ Object\ \(Double\ Click\ to\ Edit\).png);
+
+    display: none;
+}
+/* ========== Navigation ========== */
+#navigation
+{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(0,0,0,0.6);
+    /* position: absolute;
+    top: 0; */
+    /* div ne Horizontal Lavva Mate */
+    display: flex;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+}
+/* ========== Logo ========== */
+#logo
+{
+    width: 40%;
+    height: 70px;
+    /* left thi Move Karva */
+    margin-left: 0;
+    /* background-color: red; */
+}
+#logo img
+{
+    width: 80%;
+    height: 40px;
+    /* T.R.B.L Set Karva */
+    margin: 15px 10% 20px 10%;
+}
+/* ========== Navbar ========== */
+nav
+{
+    width: 20%;
+    height: 90px;
+    /* left-right set karva */
+    margin-left: 20%;
+    margin-right: 2%;
+    /* background-color: blue; */
+
+    display: none;
+}
+nav ul
+{
+    width: 100%;
+    height: 90px;
+    /* list ne Horizontal lavva mate */
+    display: flex;
+}
+nav ul li
+{
+    width: 19%;
+    height: 90px;
+    font-size: 25px;
+    /* height ma Center Lavva */
+    line-height: 90px;
+    text-align: center;
+}
+nav ul li a
+{
+    cursor: pointer;
+}
+nav ul li:hover a
+{
+    color: #ffc220;
+}
+#search-btn
+{
+    width: 10%;
+    height: 90px;
+    font-size: 30px;
+    margin-right: 10px;    
+}
+
+/* ===== For Mobile 480px Media Query -> START ===== */
+#For-Mobile-MQ-Nav
+{
+    width: 40%;
+    height: 70px;
+    margin-left: 10%;
+    /* left-right set karva */
+    margin-left: 0;
+    /* background-color: green; */
+    display: block;
+    z-index: 1;
+}
+#Toggle-Menu
+{
+    width: 100%;
+    height: 70px;
+    margin-left: 50%;
+    /* background-color: red; */
+    text-align: center;
+    line-height: 70px;
+    display: flex;
+}
+#Toggle-Menu i
+{
+    width: 50%;
+    font-size: 25px;
+    line-height: 70px;
+}
+.Search-Box
+{
+    width: 250px;
+    height: 30px;
+    margin-left: -50%;
+    margin-top: 10px;
+    /* background-color: bisque; 
+    */
+    display: none;
+}
+.Search-Box input
+{
+    width: 100%;
+    height: inherit;
+    border: none;
+    background-color: #303030;
+    color: #ffc220;
+    font-size: 14px;
+    padding-left: 10px;
+    border-bottom: 2px solid #ffc220;
+    border-left: 2px solid #ffc220;
+    border-right: 2px solid #ffc220;
+    border-radius: 50px;
+}
+.Search-Box input:focus
+{
+    outline: none;
+}
+#For-Mobile-MQ-Nav ul
+{
+    width: 100%;
+    height: auto;
+    /* list ne Horizontal lavva mate */
+    /* background-color: #ffc220; */
+    display: none;
+}
+#For-Mobile-MQ-Nav ul li
+{
+    width: 100%;
+    height: 40px;
+    margin-left: 50%;
+    font-size: 20px;
+    background-color: #303030;
+    /* height ma Center Lavva */
+    line-height: 40px;
+    text-align: center;
+    border-bottom: 1px solid #ffc220;
+}
+#For-Mobile-MQ-Nav ul li:last-child
+{
+    border: none;
+}
+#For-Mobile-MQ-Nav ul li a
+{
+    cursor: pointer;
+}
+#For-Mobile-MQ-Nav ul li:hover a
+{
+    color: #ffc220;
+}
+#search-btn
+{
+    width: 10%;
+    height: 90px;
+    font-size: 30px;
+    margin-right: 10px;    
+}
+
+
+/* ===== For Mobile 480px Media Query -> END ===== */
+
+
+/* ======= Header Content ======= */
+#header-content
+{
+    width: 100%;
+    height: 200px;
+    /* left thi move karavva */
+    margin-left: 0;
+    /* background-color: rgba(0,0,0,0.6); */
+    position: absolute;
+
+    /* display: none; */
+}
+/* ===== On-Header-Content =====  */
+#on-header-content
+{
+    width: 100%;
+    height: inherit;
+    /* top thi move karavva */
+    margin-top: 90px;
+    /* background-color: green; */
+    position: relative;
+}
+/* ========== Title ========== */
+#title
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(0,0,0,0.5);
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    top: 300px;
+    left: 0;
+}
+#title img
+{
+    width: 70%;
+    height: 80px;
+    margin: 10px 15%;
+}
+/* ========== Para ========== */
+#para
+{
+    width: 100%;
+    height: auto;
+    /* background-color: #ffc3202f; */
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    top: 400px;
+    left: 0;
+}
+/* ===== Order Now Button ===== */
+#order-now-btn
+{
+    width: 40%;
+    height: 35px;
+    /* background-color: #ffc220; */
+    box-shadow: 0px 0px 5px #303030;
+    /* radius aapva */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    top: 475px;
+    left: 30%;
+}
+#order-now-btn a
+{
+    color: #303030;
+    font-size: 16px;
+}
+/* +++++ Hover -> Order-now +++++ */
+#order-now-btn:hover
+{
+    background-color: #303030;
+    border: 2px solid #ffc220;
+    line-height: 33px;
+    transition: 0.3s ease;
+}
+#order-now-btn:hover a
+{
+    color: #ffc220;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+/* ===== All Vector Img START ===== */
+.fudino
+{
+    width: 40px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    top: 310px;
+    left: 5px;
+    opacity: 0.7;
+}
+.capsicum
+{
+    /* Screen ma T.R.b.L. Set karva */
+    width: 40px;
+    position: absolute;
+    right: 5px;
+    top: 310px;
+    opacity: 0.7;
+}
+.cutted-vegetable
+{
+    width: 50px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 470px;
+    opacity: 0.7;
+}
+.garlik
+{
+    width: 40px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+    top: 465px;
+    opacity: 0.7;
+}
+.small-veg
+{
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    bottom: 0;
+    right: 190px;
+    top: 370px;
+}
+.small-round-1
+{
+    width: 30px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    left: 65px;
+    top: 450px;
+    opacity: 0.7;
+}
+.small-round-2
+{
+    width: 25px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    top: 180px;
+    right: 70px;
+    top: 450px;
+    opacity: 0.7;
+}
+.small-round-3
+{
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    bottom: 80px;
+    left: 200px;
+    display: none;
+}
+.small-round-4
+{
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    bottom: 50px;
+    right: 420px;
+    display: none;
+}
+/* ===== All Vector Img END ===== */
+/* ->->->| Main Header-END |<-<-<- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ->->| Best-Seller -> START |<-<- */
+#main-best-seller
+{
+    width: 100%;
+    height: 1220px;
+    /* background-color: lightblue; */
+    position: relative;
+
+    /* display: none; */
+}
+
+#Best-seller-title
+{
+    width: 100%;
+    height: 70px;
+    /* background-color: lightcyan; */
+    text-align: center;
+    position: absolute;
+    top: 50px;
+}
+#Best-seller-title img
+{
+    width: 50%;
+    height: 50px;
+    /* background-color: red; */
+}
+
+#content-BS
+{
+    width: 100%;
+    height: auto;
+    /* background-color: lightgrey; */
+    color: #303030;
+    font-size: 16px;
+    text-align: center;
+    position: absolute;
+    top: 120px;
+}
+
+#three-food-item
+{
+    width: 100%;
+    height: auto;
+    /* background-color: lightcyan; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 200px;
+    /* display: none; */
+}
+
+.left-food-dish
+{
+    width: 100%;
+    height: 330px;
+    /* background-color: red; */
+}
+.center-food-dish
+{
+    width: 100%;
+    height: 330px;
+    /* background-color: red; */
+}
+.right-food-dish
+{
+    width: 100%;
+    height: 330px;
+    /* background-color: red; */
+}
+
+.food-dish-photo
+{
+    width: 60%;
+    height: 200px;
+    margin: 0 20%;
+    /* background-color: blue; */
+    /* border-radius: 50%; */
+}
+.food-dish-photo img
+{
+    width: 100%;
+    height: inherit;
+    border-radius: 50%;
+}
+.food-dish-title
+{
+    height: 50px;
+    /* background-color: red; */
+    text-align: center;
+    margin-top: 15px;
+}
+.food-dish-para
+{
+    text-align: center;
+    margin-top: 0;
+    color: #303030;
+}
+/* ->->| Best-Seller -> END |<-<- */
+
+
+
+
+
+
+
+
+
+
+
+
+/*->->| Oriental Taste -> START |<-<-*/
+#oriental-top-shape
+{
+    width: 100%;
+    height: 310px;
+    background: url(img/Top\ Designer\ Shape.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* background-color: red; */
+    /* background-size: 150%; */
+    left: 0;
+    position: relative;
+    z-index: 1;
+    /* display: none; */
+}
+
+.left-oriental
+{
+    width: 45%;
+    height: 175px;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    
+}
+.oriental-taste
+{
+    
+    width: 45%;
+    position: absolute;
+    top: 50px;
+    right: 15%;
+}
+.oriental-para
+{
+    width: 40%;
+    height: auto;
+    /* background-color: green; */
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    top: 110px;
+    left: 8%;
+    right: 60%;
+}
+
+#oriental-order-btn
+{
+    width: 30%;
+    height: 30px;
+    background-color: #ffc220;
+    box-shadow: 0px 0px 5px #303030;
+    /* radius aapva */  
+    border-radius: 5px;
+    text-align: center;
+    line-height: 30px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    top: 240px;
+    right: 57%;
+}
+#oriental-order-btn a
+{
+    color: #303030;
+    font-size: 15px;
+}
+/* +++++ Hover -> Order-now +++++ */
+#oriental-order-btn:hover
+{
+    background-color: #303030;
+    border: 2px solid #ffc220;
+    line-height: 43px;
+}
+#oriental-order-btn:hover a
+{
+    color: #ffc220;
+    /* font-size: 18px; */
+}
+/*->->| Oriental Taste -> END |<-<-*/
+
+
+
+
+
+
+
+
+
+
+
+/*->->| Statistics -> START |<-<-*/
+#main-statistics
+{
+    width: 100%;
+    height: 750px;
+    margin-top: -200px;
+    background: url(img/Full\ width\ Dark\ Bg.png);
+    /* background-color: darkgreen; */
+    position: relative;
+    /* display: none; */
+}
+
+#statistics-title
+{
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+    position: absolute;
+    top: 250px;
+    text-align: center;
+}
+#statistics-title img
+{
+    width: 50%;
+    height: 40px;
+    margin: 0 20%;
+}
+#statistics-para
+{
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+    text-align: center;
+    font-size: 16px;
+    line-height: 20px;
+    position: absolute;
+    top: 310px;
+}
+
+#O-C-M-C
+{
+    width: 90%;
+    height: auto;
+    /* background-color: blue; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: absolute;
+    row-gap: 20px;
+    top: 400px;
+    left: 5%;
+    right: 5%;
+    z-index: 1;
+}
+.outlets
+{
+    width: 47%;
+    height: 150px;
+    background-color: #303030;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.outlets span
+{
+    
+    font-size: 28px;
+    font-weight: 900;
+    color: #ffc220;
+}
+
+.fudino-2
+{
+    width: 50px;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+.small-veg-2-1
+{
+    position: absolute;
+    top: 380px;
+    left: 190px;
+}
+.small-veg-2-2
+{
+    width: 25px;
+    position: absolute;
+    top: 170px;
+    right: 190px;
+}
+.capsicum-2
+{
+    width: 50px;
+    position: absolute;
+    right: 10px;
+    top: 200px;
+}
+.garlik-2
+{
+    width: 40px;
+    position: absolute;
+    right: 45%;
+    bottom: 165px;
+}
+/*->->| Statistics -> END |<-<-*/
+
+
+
+
+
+
+
+
+
+
+/*->->| Chicken Grill -> START |<-<-*/
+#temporary-dark-box
+{
+    width: 100%;
+    height: 300px;
+    background: url(img/Full\ width\ Dark\ Bg.png);
+    /* background-color: red; */
+    position: absolute;
+    /* z-index: 0; */
+    
+
+    /* display: none; */
+}
+#main-chicken-grill
+{
+    width: 105%;
+    height: 550px;
+    background: url(img/Bottom\ Designer\ Shape.png);
+    background-size: contain;
+    background-repeat: round;
+    position: absolute;
+    top: 2540px;
+    left: -5%;
+    z-index: 0;
+
+    /* display: none; */
+}    
+#sub-chicken-grill
+{
+    width: 100%;
+    height: 300px;
+    margin-left: 0;
+    /* background-color: red; */
+    position: relative;
+    top: 150px;
+    /* display: none; */
+}
+.chicken-grill-title
+{
+    width: 50%;
+    position: absolute;
+    top: 60px;
+    left: 25%;
+}
+.chicken-grill-para
+{
+    width: 85%;
+    font-size: 16px;
+    line-height: 20px;
+    /* background-color: red; */
+    text-align: center;
+    position: absolute;
+    top: 130px;
+    left: 10%;
+}
+
+#Chicken-grill-order-btn
+{
+    width: 35%;
+    height: 35px;
+    background-color: #ffc220;
+    box-shadow: 0px 0px 5px #303030;
+    /* radius aapva */
+    border-radius: 5px;
+    text-align: center;
+    line-height: 35px;
+    /* Screen ma T.R.b.L. Set karva */
+    position: absolute;
+    top: 210px;
+    left: 10%;
+}
+#Chicken-grill-order-btn a
+{
+    color: #303030;
+    font-size: 16px;
+}
+/* +++++ Hover -> Order-now +++++ */
+#Chicken-grill-order-btn:hover
+{
+    background-color: #303030;
+    border: 2px solid #ffc220;
+    line-height: 43px;
+}
+#Chicken-grill-order-btn:hover a
+{
+    color: #ffc220;
+    /* font-size: 18px; */
+}
+
+.chicken-grill-photo
+{
+    width: 50%;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 230px;
+    right: 30px;
+}
+
+/*->->| Chicken Grill -> END |<-<-*/
+
+
+
+
+
+
+
+
+
+
+/*->->| Lenora Fields -> START |<-<-*/
+#lenora-fields
+{
+    width: 100%;
+    height: 270px;
+    margin-top: 500px;
+    /* background-color: red; */
+    background: url(img/Header\ type\ Food\ Dish\ Large.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+
+    /* display: none; */
+}
+.yellow-over-bg
+{
+    width: 100%;
+    height: inherit;
+    opacity: 0.7;
+    
+}
+.lenora-fields-para
+{
+    width: 90%;
+    height: auto;
+    /* background-color: red; */
+    color: #303030;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 5%;
+    right: 5%;
+}
+.text-lenova-fields
+{
+    width: 60%;
+    position: absolute;
+    top: 170px;
+    left: 20%;
+    right: 20%;
+    
+}
+/*->->| Lenora Fields -> END |<-<-*/
+
+
+
+
+
+
+
+
+
+
+
+/*->->| Subscribe -> START |<-<-*/
+#main-subscribe
+{
+    width: 100%;
+    height: 370px;
+    /* background-color: lightblue; */
+    position: relative;
+
+    /* display: none; */
+}
+.subscribe-text
+{
+    width: 60%;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 20%;
+    right: 20%;
+}
+.subscribe-para
+{
+    width: 80%;
+    height: auto ;
+    /* background-color: red; */
+    color: #303030;
+    text-align: center;
+    font-size: 16px;
+    position: absolute;
+    top: 130px;
+    left: 10%;
+    right: 10%;
+}
+#sub-subscribe
+{
+    width: 90%;
+    height: 40px;
+    /* background-color: yellowgreen; */
+    box-shadow: 0px 0px 3px black;
+    position: absolute;
+    top: 250px;
+    left: 5%;
+    right: 5%;
+
+    /* display: none; */
+}
+#sub-subscribe form
+{
+    width: 100%;
+    height: inherit;
+    display: flex;
+}
+#email
+{
+    width: 70%;
+    height: inherit;
+    font-size: 16px;
+    padding: 0px 10px;
+    border: none;
+    /* background-color: white; */
+    color: #303030;
+}
+#email:focus
+{
+    outline: none;
+    color: #303030;
+}
+
+#subscribe
+{
+    width: 30%;
+    height: inherit;
+    background-color: #ffc220;
+    color: #303030;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+#subscribe:hover
+{
+    background-color: #303030;
+    color: #ffc220;
+}
+
+.fudino-3
+{
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+.capsicum-3-1
+{
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.capsicum-3-2
+{
+    width: 50px;
+    position: absolute;
+    bottom: 10px;
+    left: 70px;
+    transform: rotate(70deg);
+}
+.cutted-veg-3
+{
+    width: 50px;
+    position: absolute;
+    bottom: 15px;
+    right: 50px;
+}
+.garlik-3
+{
+    width: 35px;
+    position: absolute;
+    right: 15px;
+    bottom: 130px;
+}
+.small-veg-3-1
+{
+    width: 30px;
+    position: absolute;
+    top: 30%;
+    left: 85%;
+}
+.small-veg-3-2
+{
+    width: 30px;
+    position: absolute;
+    top: 200px;
+    right: 300px;
+}
+.small-veg-3-3
+{
+    position: absolute;
+    bottom: 5%;
+    left: 48%;
+}
+.small-veg-triangle
+{
+    position: absolute;
+    bottom: 88%;
+    right: 45%;
+}
+/*->->| Subscribe -> END |<-<-*/
+
+
+  
+
+
+
+
+
+
+
+
+/*->->| Footer -> START |<-<-*/
+#main-footer
+{
+    width: 100%;
+    height: 1000px;
+    background-color: #303030;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* display: none; */
+}
+
+#left-footer
+{
+    width: 100%;
+    height: 300px;
+    /* background-color: yellowgreen; */
+    position: relative;
+}
+.footer-title
+{
+    width: 80%;
+    height: 60px;
+    /* background-color: yellow; */
+    position: absolute;
+    top: 50px;
+    left: 10%;
+    right: 10%;
+}
+.footer-title img
+{
+    width: 80%;
+    height: 70px;
+    margin: 0 10%;
+}
+
+.footer-para
+{
+    /* width: 80%; */
+    /* height: auto; */
+    /* background-color: red; */
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 10%;
+}
+#icons
+{
+    width: 70%;
+    height: 35px;
+    /* background-color: blue; */
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    top: 260px;
+    left: 15%;
+    right: 15%;
+}
+#icons i
+{
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 30px;
+    background-color: white;
+    color: #303030;
+    border-radius: 50%;
+    font-size: 20px;
+}
+#icons i:hover
+{
+    width: 35px;
+    height: 35px;
+    margin-left: 5px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #ffc220;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 23px;
+}
+
+
+#right-footer
+{
+    width: 90%;
+    height: auto;
+    /* background-color: darkblue; */
+    position: relative;
+    left: 5%;
+    right: 5%;
+    top: -300px;
+    display: flex;
+    flex-wrap: wrap;
+
+    /* display: none; */
+}
+#about-footer
+{
+    width: 100%;
+    height: auto;
+    /* background-color: darkcyan; */
+    text-align: center;
+    /* border-bottom: 1px solid #ffc220; */
+    position: absolute;
+    top: 0;
+}
+#services-footer
+{
+    width: 100%;
+    height: auto;
+    /* background-color: darkcyan; */
+    text-align: center;
+    /* border-bottom: 1px solid #ffc220; */
+    position: absolute;
+    top: 210px;
+    left: 0;
+}
+#other-footer
+{
+    width: 100%;
+    height: auto;
+    /* background-color: darkcyan; */
+    text-align: center;
+    position: absolute;
+    top: 420px;
+    left: 0;
+}
+
+
+h2
+{
+    width: 100%;
+    height: 40px;
+    color: #ffc220;
+    font-size: 25px;
+    margin-bottom: 5px;
+    /* text-decoration: underline 2px wavy #ffc220; */
+}
+span
+{
+    display: block;
+    height: 30px;
+    font-size: 20px;
+}
+span:hover a
+{
+    color: #ffc220;
+}
+
+
+/*->->| Footer -> END |<-<-*/
+
+
+
+
+
+
+
+
+
+
+}
