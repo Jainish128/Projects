@@ -1,0 +1,48 @@
+
+/* table
+{
+    font-size: 16px;
+}
+
+table tr th:first-child
+{
+    width: 125px;
+}
+
+table tr th:nth-child(2)
+{
+    width: 25px;
+    text-align: center;
+}
+table tr .td
+{
+    width: 200px;
+    padding-left: 10px;
+} */
+
+
+
+.profile_input:focus
+{
+    box-shadow: none;
+    border: 1px solid #3c6382;
+    outline: 3.5px solid #82ccdd;
+    border-radius: 25px;
+}
+
+.show_pwd
+{
+    position: relative;
+    /* background-color: red; */
+    padding: 7px 20px 0 40px;
+}
+.pwd_check
+{
+    accent-color: green;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 5px;
+    left: 10px; 
+    
+}
