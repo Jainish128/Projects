@@ -1,0 +1,30 @@
+
+.blog_box
+{
+    margin: 0;
+    padding: 0;
+    border: 2px solid #2f3542;
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .blog_box:hover 
+{
+    box-shadow: 0 0 5px #747d8c;
+} */
+
+.blog_heading
+{
+    background-color: #ced6e0;
+    color: #2f3542;
+    padding: 5px 25px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px dashed #2f3542;
+}
+.blog_para
+{
+    background-color: #dfe4ea;
+    color: #2f3542;
+    padding: 10px 25px;
+}

@@ -1,0 +1,72 @@
+
+
+.card-main
+{
+    width: 300px;
+    height: 465px;
+    border-top: 5px solid #30336b;
+    border-bottom: 5px solid #30336b;
+    /* border-left: 2px solid #30336b; */
+    /* border-right: 2px solid #30336b; */
+    box-shadow: 0 0 5px silver;
+    transition: all 0.4s linear;
+
+    margin: 100px;
+}
+.card-body
+{
+    /* background-color: lightblue; */
+    position: relative;
+}
+
+.card-main:hover
+{
+    transform: scale(1.1);
+    /* border-left: 2px solid #30336b; */
+    /* border-right: 2px solid #30336b; */
+}
+
+.product-img
+{
+    width: 100%;
+    height: 250px;
+    padding: 15px 30px;
+}
+
+.card-btn i
+{
+    transform: scale(1.2);
+}
+.card-btn.cart
+{
+    color: #30336b;
+    /* color: orangered; */
+    font-weight: 500;
+}
+.card-btn.cart:hover 
+{
+    background-color: #30336b;
+    color: white;
+}
+
+.card-btn.wishlist
+{
+    color: rgb(0, 183, 255); 
+}
+.card-btn.wishlist:hover i
+{
+    font-weight: 900;
+}
+
+.formbg
+{
+    background: radial-gradient(red, blue, yellow, green );
+}
+
+
+
+
+
+
+
+
