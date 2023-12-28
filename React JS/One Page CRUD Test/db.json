@@ -1,0 +1,48 @@
+{
+  "users": [
+    {
+      "name": "Jainish ",
+      "email": "jainish@gmail.com",
+      "mobile": "1122334455",
+      "password": "Jainish123",
+      "id": "1703751745705",
+      "created_at": " \n    📅28/11/2023 ⌚13:52 ",
+      "updated_at": "📅28/11/2023 ⌚14:19 "
+    },
+    {
+      "name": "mukesh",
+      "email": "mukesh@gmail.com",
+      "mobile": "1234567890",
+      "password": "mukesh123",
+      "id": "1703751757762",
+      "created_at": " \n    📅28/11/2023 ⌚13:52 ",
+      "updated_at": "📅28/11/2023 ⌚14:22 "
+    },
+    {
+      "name": "Shivam Kuhikar",
+      "email": "shivam00@gmail.com",
+      "mobile": "1122445588",
+      "password": "dbcbcsh",
+      "id": "1703753412538",
+      "created_at": " \n    📅28/11/2023 ⌚14:20 ",
+      "updated_at": "📅28/11/2023 ⌚14:21 "
+    },
+    {
+      "name": "Deepak Solanki",
+      "email": "deepak123@gmail.com",
+      "mobile": "1223334444",
+      "password": "deepak123***",
+      "id": "1703753449054",
+      "created_at": " \n    📅28/11/2023 ⌚14:20 ",
+      "updated_at": "📅28/11/2023 ⌚14:21 "
+    },
+    {
+      "name": "Sachin",
+      "email": "sachin@gmail.com",
+      "mobile": "09876543210",
+      "password": "Sachin123*",
+      "id": "1703753992298",
+      "created_at": " \n    📅28/11/2023 ⌚14:29 "
+    }
+  ]
+}
