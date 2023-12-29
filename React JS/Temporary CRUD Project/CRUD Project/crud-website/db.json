@@ -1,0 +1,485 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Jainish Patel",
+      "email": "jainish@gmail.com",
+      "mobile": "1234567890",
+      "password": "jainish123",
+      "profile_img": "https://images.unsplash.com/photo-1628563694622-5a76957fd09c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "gender": "Male",
+      "country": "India",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "name": "Jainish Patel",
+      "email": "jainish@gmail.com",
+      "mobile": "1223334444",
+      "password": "Jainish123",
+      "profile_img": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png",
+      "gender": "Male",
+      "country": "India",
+      "id": "1703273007347",
+      "created_at": "📅23/12/2023 ⌚0:53:27 "
+    },
+    {
+      "name": "Divy Patel",
+      "email": "divy@gmail.com",
+      "mobile": "4444333221",
+      "password": "Divy123$",
+      "profile_img": "https://cdn3.vectorstock.com/i/1000x1000/30/97/flat-business-man-user-profile-avatar-icon-vector-4333097.jpg",
+      "gender": "Male",
+      "country": "Canada",
+      "id": "1703273287062",
+      "created_at": "📅23/12/2023 ⌚0:58:7 "
+    },
+    {
+      "name": "Akshar Patel",
+      "email": "akshar@gmail.com",
+      "mobile": "1111122222",
+      "password": "Akshar123+",
+      "profile_img": "https://cdn-icons-png.flaticon.com/512/21/21104.png",
+      "gender": "Male",
+      "country": "India",
+      "id": "1703273394635",
+      "created_at": "📅23/12/2023 ⌚0:59:54 "
+    },
+    {
+      "name": "Nikhar ",
+      "email": "nikhar@gmail.com",
+      "mobile": "1234554321",
+      "password": "Nikhar123*",
+      "profile_img": "https://cdn.pixabay.com/photo/2020/07/01/12/58/icon-5359553_640.png",
+      "gender": "Male",
+      "country": "US",
+      "id": "1703273611954",
+      "created_at": "📅23/12/2023 ⌚1:3:31 ",
+      "updated_at": "📅26/11/2023 ⌚21:48:10"
+    }
+  ],
+  "adminuser": [
+    {
+      "id": 128,
+      "name": "Jainish Patel",
+      "email": "admin@gmail.com",
+      "mobile": "1122334455",
+      "password": "admin123",
+      "admin_photo": "https://images.unsplash.com/photo-1628563694622-5a76957fd09c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8aW5zdGFncmFtJTIwcHJvZmlsZXxlbnwwfHwwfHx8MA%3D%3D",
+      "gender": "Male",
+      "country": "India"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "cate_name": "Category Name",
+      "cate_img": "https://t4.ftcdn.net/jpg/00/81/38/59/360_F_81385977_wNaDMtgrIj5uU5QEQLcC9UNzkJc57xbu.jpg",
+      "cate_desc": "Category Description",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 2,
+      "cate_name": "Category Name",
+      "cate_img": "https://t4.ftcdn.net/jpg/00/81/38/59/360_F_81385977_wNaDMtgrIj5uU5QEQLcC9UNzkJc57xbu.jpg",
+      "cate_desc": "Category Description",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 3,
+      "cate_name": "Category Name",
+      "cate_img": "https://t4.ftcdn.net/jpg/00/81/38/59/360_F_81385977_wNaDMtgrIj5uU5QEQLcC9UNzkJc57xbu.jpg",
+      "cate_desc": "Category Description",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "cate_name": "cate 3 name",
+      "cate_img": "cate 3 img url",
+      "cate_desc": "cate 3 desc",
+      "id": "1703238501562",
+      "created_at": "📅 22/12/2023 ⌚ 15:18:21"
+    },
+    {
+      "cate_name": "cate 4 name",
+      "cate_img": "cate 4 img url",
+      "cate_desc": "cate 4 desc",
+      "id": "1703238527337",
+      "created_at": "📅22/12/2023 ⌚15:18:46"
+    }
+  ],
+  "shirts": [
+    {
+      "id": 1,
+      "cat_name": "Shirts",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/51Js-8owaUL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 1,
+      "cat_name": "Shirts",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/51Js-8owaUL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 1,
+      "cat_name": "Shirts",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/51Js-8owaUL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    }
+  ],
+  "t_shirts": [
+    {
+      "id": 1,
+      "cat_name": "T-Shirts",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/71AEwEupFuL._SY879_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 2,
+      "cat_name": "T-Shirts",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/71AEwEupFuL._SY879_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 3,
+      "cat_name": "T-Shirts",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/71AEwEupFuL._SY879_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "cat_name": "T-Shirt",
+      "product_title": "T-Shirt 0",
+      "product_name": "T-Shirt 0",
+      "product_img": "T-Shirt 0",
+      "product_desc": "T-Shirt 0",
+      "product_mrp": "300",
+      "product_sell_price": "199",
+      "product_stock_level": "In Stock",
+      "id": "1703254138584"
+    }
+  ],
+  "pants": [
+    {
+      "id": 1,
+      "cat_name": "Pants",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/41xLvBm35sL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 2,
+      "cat_name": "Pants",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/41xLvBm35sL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 3,
+      "cat_name": "Pants",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/41xLvBm35sL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "cat_name": "Pant",
+      "product_title": "Pant 0",
+      "product_name": "Pant 0",
+      "product_img": "Pant 0",
+      "product_desc": "Pant 0",
+      "product_mrp": "1200",
+      "product_sell_price": "999",
+      "product_stock_level": "In Stock",
+      "id": "1703254647088",
+      "created_at": "📅 22/12/2023 ⌚19:47:25"
+    }
+  ],
+  "ethnic": [
+    {
+      "id": 1,
+      "cat_name": "Ethnic Wears",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/61Xtvy4tPWL._SY741_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 2,
+      "cat_name": "Ethnic Wears",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/61Xtvy4tPWL._SY741_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 3,
+      "cat_name": "Ethnic Wears",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/61Xtvy4tPWL._SY741_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "cat_name": "Ethnic Wear",
+      "product_title": "Ethnic Wear 0",
+      "product_name": "Ethnic Wear 0",
+      "product_img": "Ethnic Wear 0",
+      "product_desc": "Ethnic Wear 0",
+      "product_mrp": "2500",
+      "product_sell_price": "2345",
+      "product_stock_level": "Available Soon",
+      "id": "1703254672849",
+      "created_at": "📅 22/12/2023 ⌚19:47:52"
+    }
+  ],
+  "suits": [
+    {
+      "id": 1,
+      "cat_name": "Suit",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/61-kFZQpqkL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 2,
+      "cat_name": "Suit",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/61-kFZQpqkL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 3,
+      "cat_name": "Suit",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/61-kFZQpqkL._SX679_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "cat_name": "Suit",
+      "product_title": "Suit 0",
+      "product_name": "Suit 0",
+      "product_img": "Suit 0",
+      "product_desc": "Suit 0",
+      "product_mrp": "5500",
+      "product_sell_price": "4999",
+      "product_stock_level": "Coming Soon",
+      "id": "1703254690026",
+      "created_at": "📅 22/12/2023 ⌚19:48:8"
+    }
+  ],
+  "shoes": [
+    {
+      "id": 1,
+      "cat_name": "Shoes",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/71SYJf8QxpL._SY695_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 2,
+      "cat_name": "Shoes",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/71SYJf8QxpL._SY695_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 3,
+      "cat_name": "Shoes",
+      "product_title": "Product Title",
+      "product_name": "Product Name",
+      "product_img": "https://m.media-amazon.com/images/I/71SYJf8QxpL._SY695_.jpg",
+      "product_desc": "Category Description",
+      "product_mrp": "1000",
+      "product_sell_price": "749",
+      "product_stock_level": "In Stock",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "cat_name": "Shoes",
+      "product_title": "Shoes 0",
+      "product_name": "Shoes 0",
+      "product_img": "Shoes 0",
+      "product_desc": "Shoes 0",
+      "product_mrp": "18000",
+      "product_sell_price": "15500",
+      "product_stock_level": "In Stock",
+      "id": "1703254716870",
+      "created_at": "📅 22/12/2023 ⌚19:48:36"
+    }
+  ],
+  "blogs": [
+    {
+      "id": 1,
+      "blog_name": "Blog Name",
+      "blog_img": "https://www.ryrob.com/wp-content/uploads/2021/11/iStock-496848472-1024x1024.jpg",
+      "blog_desc": "Blog Description",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 1,
+      "blog_name": "Blog Name",
+      "blog_img": "https://www.ryrob.com/wp-content/uploads/2021/11/iStock-496848472-1024x1024.jpg",
+      "blog_desc": "Blog Description",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 1,
+      "blog_name": "Blog Name",
+      "blog_img": "https://www.ryrob.com/wp-content/uploads/2021/11/iStock-496848472-1024x1024.jpg",
+      "blog_desc": "Blog Description",
+      "created_at": "28-11-2023 || 22:07",
+      "updated_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "blog_name": "blog 1 name",
+      "blog_img": "blog 1 image url",
+      "blog_desc": "blog 1 desciption",
+      "id": "1703238151877"
+    },
+    {
+      "blog_name": "blog 2 name",
+      "blog_img": "blog 2 img url",
+      "blog_desc": "blog 2 desc",
+      "id": "1703238589388",
+      "created_at": "📅22/12/2023 ⌚15:19:48"
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "messanger_name": "Messanger Name",
+      "messanger_email": "Messanger Email",
+      "messange_subject": "Messange Subject",
+      "messange": "Messange",
+      "sended_at": "28-11-2023 || 22:07",
+      "replied_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "id": 1,
+      "messanger_name": "Messanger Name",
+      "messanger_email": "Messanger Email",
+      "messange_subject": "Messange Subject",
+      "messange": "Messange",
+      "sended_at": "28-11-2023 || 22:07",
+      "replied_at": "DD-MM-YYYY || HH:MM"
+    },
+    {
+      "messanger_name": "Jainish Patel",
+      "messanger_email": "jainish@gmail.com",
+      "messange_subject": "I have get Cashback",
+      "messange": "thank you for cashback",
+      "id": "1703271420708",
+      "sended_at": "📅 23/12/2023 ⌚0:27:0"
+    }
+  ]
+}

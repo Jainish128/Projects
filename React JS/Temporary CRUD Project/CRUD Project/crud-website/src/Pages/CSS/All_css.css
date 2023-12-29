@@ -1,0 +1,49 @@
+
+
+
+/* -------------------- Home page -> START ------------------- */
+/* ----- Instagram Feeds -> START ----- */
+.insta_feed
+{
+    width: 200px;
+    height: 200px;
+}
+.main-instagram
+{
+    row-gap: 30px;   
+}
+/* ----- Instagram Feeds -> END ----- */
+/* -------------------- Home page -> END -------------------- */
+
+
+
+
+
+
+
+
+
+
+/* -------------------- Profile page -> START ------------------- */
+/* ----- Instagram Feeds -> START ----- */
+
+.profile-info h3
+{
+    color: silver;
+}
+.profile-info span
+{
+    font-weight: bold;
+    color: white;
+}
+.btn
+{
+    color: white;
+}
+/* .profile-info > h2
+{
+    margin-bottom: 10px;
+} */
+
+/* ----- Instagram Feeds -> END ----- */
+/* -------------------- Profile page -> END -------------------- */

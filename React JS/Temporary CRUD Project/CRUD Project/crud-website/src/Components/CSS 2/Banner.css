@@ -1,0 +1,95 @@
+
+
+
+.main
+{
+    width: 100%;
+    height: 600px;
+    /* background-color: red; */
+    /* border: 5px solid red; */
+    position: relative;
+}
+
+.main img
+{
+    width: 100%;
+    height: inherit;
+    filter: brightness(50%);
+}
+
+
+
+
+
+.content
+{
+    width: 80%;
+    height: inherit;
+    margin: 0 10%;
+    position: absolute;
+    top: 0;
+    /* background-color: rgba(0,0,0,0.7);
+    border: 5px solid red; */
+    padding-top: 150px;
+}
+.content h1
+{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: Verdana;
+}
+.content p
+{
+    color: white;
+    font-size: 18px;
+}
+.content button
+{
+    border: none;
+    background-color: orangered;
+    color: white;
+    padding: 8px 20px 5px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.main .buttons button
+{
+    padding: 3px 20px 0px 20px;
+    font-size: 25px;
+    border: none;
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
+.main .buttons button:hover
+{
+    background-color: black;
+    transition: 0.5s ease;
+}
+
+
+.main .buttons .prev
+{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0 10px 10px 0;
+}
+.main .buttons .next
+{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 10px 0 0 10px;
+}
