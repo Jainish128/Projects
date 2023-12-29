@@ -1,0 +1,21 @@
+
+select option
+{
+    background-color: black;
+    color: silver;
+}
+select option:first-child
+{
+    background-color: silver;
+    color: black;
+}
+
+
+.hover-effect:hover
+{
+    transition: all 0.5s linear;
+}
+.hover-effect:hover
+{
+    transform: scale(1.07);
+}
