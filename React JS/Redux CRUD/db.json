@@ -1,0 +1,24 @@
+{
+  "user": [
+    {
+      "id": "1698741938429",
+      "name": "Jainish Patel",
+      "email": "jainish@gmail.com",
+      "mobile": "1234567890",
+      "password": "123456"
+    },
+    {
+      "id": "1698917342640",
+      "name": "Jainish",
+      "email": "jainish@gmail.com",
+      "message": "Hi i am Jainish"
+    }
+  ],
+  "contact": [
+    {
+      "name": "Jainish",
+      "email": "jainish@gmail.com",
+      "password": "Hi Demo Message"
+    }
+  ]
+}
