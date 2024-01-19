@@ -1,0 +1,107 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Jainish",
+      "email": "jainish0@gmail.com",
+      "mobile": "1234567890",
+      "password": "jainish123",
+      "house_flat_no": "A / 30",
+      "society_flat_name": "Shreeji Bunglows",
+      "area": "Narol",
+      "city": "Ahmedabad",
+      "state": "gujarat",
+      "pincode": "382405",
+      "gender": "Male",
+      "languages": [
+        "english",
+        "hindi",
+        "gujarati"
+      ]
+    },
+    {
+      "id": "1705595183531",
+      "name": "Jainish",
+      "email": "jainish@gmail.com",
+      "mobile": "0000011111",
+      "house_flat_no": "30",
+      "society_flat_name": "shreeji",
+      "area": "narol",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "382405",
+      "gender": "Male",
+      "password": "Jainish123"
+    },
+    {
+      "id": "1705595327371",
+      "name": "Mukesh",
+      "email": "mukesh@gmail.com",
+      "mobile": "8000637071",
+      "house_flat_no": "63",
+      "society_flat_name": "Shanti nagar",
+      "area": "Narol",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "pincode": "382405",
+      "gender": "Male",
+      "password": "Mukesh-123"
+    },
+    {
+      "id": "5550",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "house_flat_no": "",
+      "society_flat_name": "",
+      "area": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "gender": "",
+      "password": ""
+    },
+    {
+      "id": "5438",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "house_flat_no": "",
+      "society_flat_name": "",
+      "area": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "gender": "",
+      "password": ""
+    },
+    {
+      "id": "d8a7",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "house_flat_no": "",
+      "society_flat_name": "",
+      "area": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "gender": "",
+      "password": ""
+    },
+    {
+      "id": "d591",
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "house_flat_no": "",
+      "society_flat_name": "",
+      "area": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "gender": "",
+      "password": ""
+    }
+  ]
+}
