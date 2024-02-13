@@ -1,0 +1,11 @@
+  ======
+	SDLC
+  ======
+SDLC :- Software Development Life Cycle
+The Software Development Cycle (Steps) :-
+1. Palnning
+2. Analysis
+3. Design
+4. Implementation
+5. Tetting & Intrigation
+6. Maintenence
